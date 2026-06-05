@@ -1,0 +1,14 @@
+{
+  "packageName": "com.bruce.rokidmanager",
+  "versionCode": 11,
+  "versionName": "2.5.7",
+  "apkUrl": "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.5.7/AI-Glasses-Manager-2.5.7.apk",
+  "mirrors": [
+    "https://gitee.com/futurear_app/ai-glasses-manager-releases/raw/main/AI-Glasses-Manager-2.5.7.apk"
+  ],
+  "sha256": "7aa6c15e8af6ad37962835af1f9721afa270d57d330ae2fd974cbcf46f55fc5f",
+  "releaseNotes": {
+    "en": "Improved update wording and official mirror checks.",
+    "zh": "优化更新说明并改进官方镜像检查。"
+  }
+}
