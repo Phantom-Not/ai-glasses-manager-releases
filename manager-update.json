@@ -2,11 +2,11 @@
   "packageName": "com.bruce.rokidmanager",
   "versionCode": 11,
   "versionName": "2.5.7",
-"apkUrl": "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.5.7/AI-Glasses-Manager-2.5.7.apk",
-"mirrors": [
-  "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.5.7/AI-Glasses-Manager-2.5.7.apk",
-  "https://ghproxy.net/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.5.7/AI-Glasses-Manager-2.5.7.apk"
-]
+  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.5.7.apk",
+  "mirrors": [
+    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.5.7/AI-Glasses-Manager-2.5.7.apk",
+    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.5.7/AI-Glasses-Manager-2.5.7.apk"
+  ],
   "sha256": "7aa6c15e8af6ad37962835af1f9721afa270d57d330ae2fd974cbcf46f55fc5f",
   "releaseNotes": {
     "en": "Improved update wording and official mirror checks.",
