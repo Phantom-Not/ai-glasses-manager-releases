@@ -1,12 +1,15 @@
 {
   "packageName": "com.bruce.rokidmanager",
-  "versionCode": 12,
-  "versionName": "2.5.8-test",
-  "apkUrl": "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v.2.5.8/AI-Glasses-Manager-2.5.8-test.apk",
-  "mirrors": [],
-  "sha256": "f1093922014c1f4b22255ee98fc116cd4277a4d808b1ba86a5b7cd08a1ae451a",
+  "versionCode": 11,
+  "versionName": "2.5.7",
+  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.5.7.apk",
+  "mirrors": [
+    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.5.7/AI-Glasses-Manager-2.5.7.apk",
+    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.5.7/AI-Glasses-Manager-2.5.7.apk"
+  ],
+  "sha256": "7aa6c15e8af6ad37962835af1f9721afa270d57d330ae2fd974cbcf46f55fc5f",
   "releaseNotes": {
-    "en": "Temporary updater test build.",
-    "zh": "临时更新测试版本。"
+    "en": "Improved update wording and official mirror checks.",
+    "zh": "优化更新说明并改进官方镜像检查。"
   }
 }
