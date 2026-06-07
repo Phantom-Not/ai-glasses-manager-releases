@@ -4,7 +4,7 @@
   "versionName": "2.5.8-test",
   "apkUrl": "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.5.8-test/AI-Glasses-Manager-2.5.8-test.apk",
   "mirrors": [],
-  "sha256": "3CC9839711FF27FFA534805957A3CFA5EDFE7D15BE41B19E0652A8B635DFE9C4",
+  "sha256": "f1093922014c1f4b22255ee98fc116cd4277a4d808b1ba86a5b7cd08a1ae451a",
   "releaseNotes": {
     "en": "Temporary updater test build.",
     "zh": "临时更新测试版本。"
