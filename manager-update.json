@@ -1,15 +1,15 @@
 {
   "packageName": "com.bruce.rokidmanager",
-  "versionCode": 13,
-  "versionName": "2.5.9",
-  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.5.9.apk",
+  "versionCode": 14,
+  "versionName": "2.6.0",
+  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.6.0.apk",
   "mirrors": [
-    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.5.9/AI-Glasses-Manager-2.5.9.apk",
-    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.5.9/AI-Glasses-Manager-2.5.9.apk"
+    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.0/AI-Glasses-Manager-2.6.0.apk",
+    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.0/AI-Glasses-Manager-2.6.0.apk"
   ],
-  "sha256": "9D1EFF98B038F1949363B44F3DDC5904359F9D45A2B9F203AB3FFE93FB7F0567",
+  "sha256": "0662D864FC9A26353630FFFDA5CAEBF5591875AB1CA9D62F4FBD17A5E84AB138",
   "releaseNotes": {
-    "en": "Added independent glasses volume controls, volume locking, a navigation sound toggle, a refreshed App Store experience with better icons and browsing, and improved translations across supported languages.",
-    "zh": "新增眼镜独立音量控制、音量锁定和导航提示音开关；升级应用商店体验，改善图标显示和浏览操作，并优化受支持语言的翻译。"
+    "en": "Improved activation recovery after reinstall, added clearer localized activation guidance, automatically refreshes Gallery media indexing, added pause and cancel controls for App Store downloads, renamed navigation sound to swipe feedback, revamped the App Store settings UI, and refined translations.",
+    "zh": "优化重装后的激活恢复流程，新增更清晰的本地化激活提示；打开图库时自动刷新媒体库索引；新增应用商店下载暂停和取消控制；将“导航提示音”调整为“滑动提示音”；重做应用商店设置界面，并优化翻译。"
   }
 }
