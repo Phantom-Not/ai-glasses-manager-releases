@@ -1,15 +1,15 @@
 {
   "packageName": "com.bruce.rokidmanager",
-  "versionCode": 14,
-  "versionName": "2.6.0",
-  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.6.0.apk",
+  "versionCode": 15,
+  "versionName": "2.6.1",
+  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.6.1.apk",
   "mirrors": [
-    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.0/AI-Glasses-Manager-2.6.0.apk",
-    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.0/AI-Glasses-Manager-2.6.0.apk"
+    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.1/AI-Glasses-Manager-2.6.1.apk",
+    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.1/AI-Glasses-Manager-2.6.1.apk"
   ],
-  "sha256": "0662D864FC9A26353630FFFDA5CAEBF5591875AB1CA9D62F4FBD17A5E84AB138",
+  "sha256": "B9533A280B5481DE447577A6299715C04551CFACFEAB606AB689B3F3EA4BF0AD",
   "releaseNotes": {
-    "en": "Improved activation recovery after reinstall, added clearer localized activation guidance, automatically refreshes Gallery media indexing, added pause and cancel controls for App Store downloads, renamed navigation sound to swipe feedback, revamped the App Store settings UI, and refined translations.",
-    "zh": "优化重装后的激活恢复流程，新增更清晰的本地化激活提示；打开图库时自动刷新媒体库索引；新增应用商店下载暂停和取消控制；将“导航提示音”调整为“滑动提示音”；重做应用商店设置界面，并优化翻译。"
+    "en": "Added Manager shortcuts for Camera, Gallery, App Store, and File Explorer. Expanded the App Store with more developer, global, and China-friendly apps. Installed Apps now detects available updates, App Store loading is faster and smoother, and Manager icons have been revamped throughout.",
+    "zh": "新增相机、图库、应用商店和文件管理器快捷方式；扩充应用商店，加入更多开发者、全球及中国区友好应用；“已安装应用”现可检测可用更新，应用商店加载更快速流畅，并全面升级管理器图标。"
   }
 }
