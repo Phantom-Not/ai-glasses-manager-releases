@@ -47,6 +47,19 @@ AI Glasses Manager is a practical attempt to build that missing layer. Features 
 - Get immediate visual confirmation when a capture succeeds or fails.
 - Browse photos and videos in Album, with media viewing and video playback designed for the glasses display.
 
+<table>
+  <tr>
+    <td width="33%" align="center"><img src="docs/images/gallery.png" alt="Album picture and video categories" width="260"></td>
+    <td width="33%" align="center"><img src="docs/images/camera-photo.png" alt="Camera photo controls and viewfinder" width="260"></td>
+    <td width="33%" align="center"><img src="docs/images/camera-modes.png" alt="Camera photo and video mode chooser" width="260"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Pictures and videos kept separate</strong></td>
+    <td align="center"><strong>Controls stay close to the viewfinder</strong></td>
+    <td align="center"><strong>Photo and video modes one step away</strong></td>
+  </tr>
+</table>
+
 ### Files and wireless transfer
 
 - Browse local storage with navigation tuned for the Rokid touchpad and directional input.
@@ -61,6 +74,17 @@ AI Glasses Manager is a practical attempt to build that missing layer. Features 
 - Use Cleaner for one-tap maintenance or to review running apps.
 - View live compass, accelerometer, gyroscope, pitch, and roll information in Live IMU.
 - Calibrate or zero sensor readings when working with motion and orientation.
+
+<table>
+  <tr>
+    <td width="50%" align="center"><img src="docs/images/device-settings-connectivity.png" alt="Connectivity, sound, keyboard, and app settings" width="260"></td>
+    <td width="50%" align="center"><img src="docs/images/device-settings-system.png" alt="Sound, keyboard, apps, files, storage, and battery settings" width="260"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Connectivity and input</strong></td>
+    <td align="center"><strong>Apps, files, storage, and battery</strong></td>
+  </tr>
+</table>
 
 ### AI and hands-free access
 
