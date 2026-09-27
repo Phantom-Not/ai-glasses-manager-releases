@@ -10,7 +10,7 @@
 
 AI Glasses Manager brings tools that are usually scattered across Android into one interface designed for Rokid Glasses. It is built for quick navigation on a compact display, with readable focus states, restrained AR-friendly visuals, and direct access to useful controls.
 
-The project began as **Rokid Manager**. As it grew beyond settings and device shortcuts, it became AI Glasses Manager. The goal is to explore what a useful, dependable software ecosystem for Rokid Glasses can look like.
+The project began as **Rokid Manager**. As it grew beyond basic settings and device shortcuts, it became AI Glasses Manager. The goal is to explore what a genuinely useful, dependable software ecosystem for Rokid Glasses can look like.
 
 <p align="center">
   <img src="docs/images/home.png" alt="AI Glasses Manager Home screen" width="30%">
@@ -21,7 +21,7 @@ The project began as **Rokid Manager**. As it grew beyond settings and device sh
 
 ## Why it exists
 
-Smart-glasses software is still young. A good ecosystem needs more than a launcher: people need a reliable way to discover software, manage updates, move files, work with photos and video, understand the hardware, and reach system controls without fighting a phone-shaped interface.
+I wanted a simple and intuitive way to tap into the glasses' features for daily use. Glasses like these need a good ecosystem more than a launcher: people need a reliable way to discover software, manage updates, move files, work with photos and video, understand the hardware, and reach system controls without fighting a phone-shaped interface.
 
 AI Glasses Manager is a practical attempt to build that missing layer. Features are shaped by real use on the glasses, with an emphasis on predictable navigation, useful offline behavior, and tools that feel at home on a wearable display.
 
@@ -98,10 +98,10 @@ Camera, Album, App Store, and File Explorer can be added as optional Manager Sho
 ## Designed for the glasses
 
 - Clear focus states keep the selected action visible without depending on color alone.
-- True black backgrounds and restrained surfaces remain readable on the glasses display.
-- Cached information and local tools remain useful when Wi-Fi is unavailable.
+- AR Mode for obstructive and better viewing on the glasses display.
+- Local tools remain useful when Wi-Fi is unavailable.
 - Consistent interaction patterns carry across apps, settings, and utilities.
-- The interface supports English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German, and Spanish.
+- The interface supports English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German, and Spanish. 
 
 ## Install
 
