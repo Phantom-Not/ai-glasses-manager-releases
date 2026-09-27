@@ -4,9 +4,9 @@
 
 [Download the latest release](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest) · [Report an issue](https://github.com/Phantom-Not/ai-glasses-manager-releases/issues)
 
-AI Glasses Manager brings the tools that are usually scattered across Android into one interface designed around the way Rokid Glasses are actually used: left, right, and tap. It is built for quick navigation on a compact display, with readable focus states, restrained AR-friendly visuals, and direct access to the features that matter most on the glasses.
+AI Glasses Manager brings tools that are usually scattered across Android into one interface designed for Rokid Glasses. It is built for quick navigation on a compact display, with readable focus states, restrained AR-friendly visuals, and direct access to useful controls.
 
-The project began as **Rokid Manager**. As it grew beyond settings and device shortcuts, it became AI Glasses Manager—a broader effort to explore what a useful, dependable software ecosystem for Rokid Glasses can look like.
+The project began as **Rokid Manager**. As it grew beyond settings and device shortcuts, it became AI Glasses Manager. The goal is to explore what a useful, dependable software ecosystem for Rokid Glasses can look like.
 
 <table>
   <tr>
@@ -46,6 +46,7 @@ AI Glasses Manager is a practical attempt to build that missing layer. Features 
 - Choose whether Camera shutter and recording sounds are used.
 - Get immediate visual confirmation when a capture succeeds or fails.
 - Browse photos and videos in Album, with media viewing and video playback designed for the glasses display.
+- Delete photos and videos directly from Album when cleaning up local storage.
 
 <table>
   <tr>
@@ -55,16 +56,16 @@ AI Glasses Manager is a practical attempt to build that missing layer. Features 
   </tr>
   <tr>
     <td align="center"><strong>Pictures and videos kept separate</strong></td>
-    <td align="center"><strong>Controls stay close to the viewfinder</strong></td>
-    <td align="center"><strong>Photo and video modes one step away</strong></td>
+    <td align="center"><strong>Zoom controls in the viewfinder</strong></td>
+    <td align="center"><strong>Photo and video mode selector</strong></td>
   </tr>
 </table>
 
 ### Files and wireless transfer
 
-- Browse local storage with navigation tuned for the Rokid touchpad and directional input.
-- Open common files and move through folders without relying on a phone-style touch interface.
-- Use Wi-Fi Drop for convenient wireless file transfer between supported devices.
+- Browse local storage and open common files directly on the glasses.
+- Move through folders without relying on a separate phone interface.
+- Use Wi-Fi Drop to transfer files between the glasses and supported phones or computers without connecting through ADB each time.
 - Reach storage information and Android's related system tools from the same Manager.
 
 ### Device controls and diagnostics
@@ -90,6 +91,7 @@ AI Glasses Manager is a practical attempt to build that missing layer. Features 
 
 - Enable an optional AI microphone control from Manager Settings.
 - Use supported voice actions when hands-free operation is more practical than the touchpad.
+- Check the built-in AI command guide for supported English and Chinese examples.
 - Keep AI access hidden from Home when it is not needed.
 
 ### Manager Shortcuts
@@ -111,12 +113,11 @@ Camera, Album, App Store, and File Explorer can be added as optional Manager Sho
 
 ## Designed for the glasses
 
-- **Simple input:** primary flows work with left, right, and tap/enter.
-- **Visible focus:** the selected action stays obvious without depending on color alone.
-- **AR-aware presentation:** high-contrast content and restrained surfaces remain readable against the real world.
-- **Offline consideration:** cached information and local tools remain useful when Wi-Fi is unavailable.
-- **Consistent language:** the same interaction patterns carry across apps, settings, and utilities.
-- **Localized interface:** English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German, and Spanish are supported.
+- Clear focus states keep the selected action visible without depending on color alone.
+- True black backgrounds and restrained surfaces remain readable on the glasses display.
+- Cached information and local tools remain useful when Wi-Fi is unavailable.
+- Consistent interaction patterns carry across apps, settings, and utilities.
+- The interface supports English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German, and Spanish.
 
 ## Install
 
