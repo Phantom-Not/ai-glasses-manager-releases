@@ -1,25 +1,23 @@
-# AI Glasses Manager
-
-**A glasses-first home for apps, media, files, device tools, and everyday controls on Rokid Glasses.**
-
-[Download the latest release](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest) · [Report an issue](https://github.com/Phantom-Not/ai-glasses-manager-releases/issues)
+<div align="center">
+  <h1>AI Glasses Manager</h1>
+  <p><strong>A glasses-first home for apps, media, files, device tools, and everyday controls on Rokid Glasses.</strong></p>
+  <p>
+    <a href="https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest">Download the latest release</a>
+    &nbsp;&nbsp;•&nbsp;&nbsp;
+    <a href="https://github.com/Phantom-Not/ai-glasses-manager-releases/issues">Report an issue</a>
+  </p>
+</div>
 
 AI Glasses Manager brings tools that are usually scattered across Android into one interface designed for Rokid Glasses. It is built for quick navigation on a compact display, with readable focus states, restrained AR-friendly visuals, and direct access to useful controls.
 
 The project began as **Rokid Manager**. As it grew beyond settings and device shortcuts, it became AI Glasses Manager. The goal is to explore what a useful, dependable software ecosystem for Rokid Glasses can look like.
 
-<table>
-  <tr>
-    <td width="33%" align="center"><img src="docs/images/home.png" alt="AI Glasses Manager Home screen" width="260"></td>
-    <td width="33%" align="center"><img src="docs/images/app-store.png" alt="AI Glasses Manager App Store" width="260"></td>
-    <td width="33%" align="center"><img src="docs/images/manager-settings.png" alt="AI Glasses Manager settings" width="260"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>One place for everyday tools</strong></td>
-    <td align="center"><strong>App discovery built for glasses</strong></td>
-    <td align="center"><strong>Clear, focused controls</strong></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="docs/images/home.png" alt="AI Glasses Manager Home screen" width="30%">
+  <img src="docs/images/app-store.png" alt="AI Glasses Manager App Store" width="30%">
+  <img src="docs/images/manager-settings.png" alt="AI Glasses Manager settings" width="30%">
+</p>
+<p align="center"><sub>Home&nbsp;&nbsp;•&nbsp;&nbsp;App Store&nbsp;&nbsp;•&nbsp;&nbsp;Manager Settings</sub></p>
 
 ## Why it exists
 
@@ -48,18 +46,12 @@ AI Glasses Manager is a practical attempt to build that missing layer. Features 
 - Browse photos and videos in Album, with media viewing and video playback designed for the glasses display.
 - Delete photos and videos directly from Album when cleaning up local storage.
 
-<table>
-  <tr>
-    <td width="33%" align="center"><img src="docs/images/gallery.png" alt="Album picture and video categories" width="260"></td>
-    <td width="33%" align="center"><img src="docs/images/camera-photo.png" alt="Camera photo controls and viewfinder" width="260"></td>
-    <td width="33%" align="center"><img src="docs/images/camera-modes.png" alt="Camera photo and video mode chooser" width="260"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Pictures and videos kept separate</strong></td>
-    <td align="center"><strong>Zoom controls in the viewfinder</strong></td>
-    <td align="center"><strong>Photo and video mode selector</strong></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="docs/images/gallery.png" alt="Album picture and video categories" width="30%">
+  <img src="docs/images/camera-photo.png" alt="Camera photo controls and viewfinder" width="30%">
+  <img src="docs/images/camera-modes.png" alt="Camera photo and video mode chooser" width="30%">
+</p>
+<p align="center"><sub>Gallery&nbsp;&nbsp;•&nbsp;&nbsp;Zoom controls in the viewfinder&nbsp;&nbsp;•&nbsp;&nbsp;Photo and video mode selector</sub></p>
 
 ### Files and wireless transfer
 
@@ -72,20 +64,18 @@ AI Glasses Manager is a practical attempt to build that missing layer. Features 
 
 - Open Rokid and Android settings from a consistent glasses-first menu.
 - Reach Wi-Fi, Bluetooth, sound, keyboard, installed apps, storage, and battery tools.
+- Adjust system volume and glasses volume separately, or lock the glasses volume at a fixed level.
+- Configure swipe feedback from the Manager.
 - Use Cleaner for one-tap maintenance or to review running apps.
 - View live compass, accelerometer, gyroscope, pitch, and roll information in Live IMU.
 - Calibrate or zero sensor readings when working with motion and orientation.
 
-<table>
-  <tr>
-    <td width="50%" align="center"><img src="docs/images/device-settings-connectivity.png" alt="Connectivity, sound, keyboard, and app settings" width="260"></td>
-    <td width="50%" align="center"><img src="docs/images/device-settings-system.png" alt="Sound, keyboard, apps, files, storage, and battery settings" width="260"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Connectivity and input</strong></td>
-    <td align="center"><strong>Apps, files, storage, and battery</strong></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="docs/images/device-settings-connectivity.png" alt="Connectivity, sound, keyboard, and app settings" width="30%">
+  <img src="docs/images/device-settings-system.png" alt="Sound, keyboard, apps, files, storage, and battery settings" width="30%">
+  <img src="docs/images/sound-controls.png" alt="Separate system and glasses volume controls" width="30%">
+</p>
+<p align="center"><sub>Connectivity and input&nbsp;&nbsp;•&nbsp;&nbsp;System tools&nbsp;&nbsp;•&nbsp;&nbsp;Sound controls</sub></p>
 
 ### AI and hands-free access
 
@@ -98,18 +88,12 @@ AI Glasses Manager is a practical attempt to build that missing layer. Features 
 
 Camera, Album, App Store, and File Explorer can be added as optional Manager Shortcuts in the Rokid launcher. Each shortcut opens the matching Manager feature directly, while the Manager remains the single place to enable or remove them.
 
-<table>
-  <tr>
-    <td width="33%" align="center"><img src="docs/images/manager-shortcuts.png" alt="Optional Manager Shortcuts" width="260"></td>
-    <td width="33%" align="center"><img src="docs/images/cleaner.png" alt="Cleaner tools" width="260"></td>
-    <td width="33%" align="center"><img src="docs/images/live-imu.png" alt="Live IMU compass and motion readings" width="260"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Optional launcher shortcuts</strong></td>
-    <td align="center"><strong>Simple maintenance tools</strong></td>
-    <td align="center"><strong>Live motion and orientation data</strong></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="docs/images/manager-shortcuts.png" alt="Optional Manager Shortcuts" width="30%">
+  <img src="docs/images/cleaner.png" alt="Cleaner tools" width="30%">
+  <img src="docs/images/live-imu.png" alt="Live IMU compass and motion readings" width="30%">
+</p>
+<p align="center"><sub>Manager Shortcuts&nbsp;&nbsp;•&nbsp;&nbsp;Cleaner&nbsp;&nbsp;•&nbsp;&nbsp;Live IMU</sub></p>
 
 ## Designed for the glasses
 
@@ -138,6 +122,10 @@ For safety, download Manager builds only from this repository or from an officia
 AI Glasses Manager is designed and tested for Rokid Glasses. Available system actions can vary with glasses firmware and Android version because some controls are provided by the underlying system.
 
 The Manager requires Android 8.0 (API 26) or later. Features that use the camera, microphone, storage, nearby devices, or network request the corresponding Android permission when needed.
+
+## More to come
+
+AI Glasses Manager is actively developed, and more features will be added as they are ready for daily use on the glasses. New work will continue to focus on useful controls, stronger standalone use, and a broader software ecosystem for Rokid Glasses.
 
 ## Feedback and issue reports
 
