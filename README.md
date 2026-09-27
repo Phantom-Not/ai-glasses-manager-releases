@@ -10,7 +10,7 @@
 
 AI Glasses Manager brings tools that are usually scattered across Android into one interface designed for Rokid Glasses. It is built for quick navigation on a compact display, with readable focus states, restrained AR-friendly visuals, and direct access to useful controls.
 
-The project began as **Rokid Manager**. As it grew beyond basic settings and device shortcuts, it became AI Glasses Manager. The goal is to explore what a genuinely useful, dependable software ecosystem for Rokid Glasses can look like.
+The project began as **Rokid Manager**. As it grew beyond basic settings and device shortcuts, it became **AI Glasses Manager**. The goal is to explore what a genuinely useful, dependable software ecosystem for Rokid Glasses can look like.
 
 <p align="center">
   <img src="docs/images/home.png" alt="AI Glasses Manager Home screen" width="30%">
