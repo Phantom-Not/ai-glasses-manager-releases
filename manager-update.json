@@ -1,15 +1,15 @@
 {
   "packageName": "com.bruce.rokidmanager",
-  "versionCode": 15,
-  "versionName": "2.6.1",
-  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.6.1.apk",
+  "versionCode": 16,
+  "versionName": "2.6.2",
+  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.6.2.apk",
   "mirrors": [
-    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.1/AI-Glasses-Manager-2.6.1.apk",
-    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.1/AI-Glasses-Manager-2.6.1.apk"
+    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.2/AI-Glasses-Manager-2.6.2.apk",
+    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.2/AI-Glasses-Manager-2.6.2.apk"
   ],
-  "sha256": "B9533A280B5481DE447577A6299715C04551CFACFEAB606AB689B3F3EA4BF0AD",
+  "sha256": "C4A9E82ED171F319521C42C8F5F41A634561DF1CE03AD6D95D27E2BB45812B8A",
   "releaseNotes": {
-    "en": "Added Manager shortcuts for Camera, Gallery, App Store, and File Explorer. Expanded the App Store with more developer, global, and China-friendly apps. Installed Apps now detects available updates, App Store loading is faster and smoother, and Manager icons have been revamped throughout.",
-    "zh": "新增相机、图库、应用商店和文件管理器快捷方式；扩充应用商店，加入更多开发者、全球及中国区友好应用；“已安装应用”现可检测可用更新，应用商店加载更快速流畅，并全面升级管理器图标。"
+    "en": "Improved App Store reliability, offline recovery, and network guidance. Added new Camera settings with shutter sounds and clearer capture feedback. File browsing is smoother, Gallery QoL fixes,Gallery information is less intrusive, Manager updates are easier to notice, and Home icons are now more visually balanced.",
+    "zh": "提升应用商店的稳定性、离线恢复和网络提示；新增相机设置、快门音效及更清晰的拍摄反馈；文件浏览更加流畅，图库QOL提升一些，图库信息显示更简洁，管理器更新更醒目，主页图标也更加协调统一。"
   }
 }
