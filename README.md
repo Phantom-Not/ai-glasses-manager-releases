@@ -21,7 +21,7 @@ The project began as **Rokid Manager**. As it grew beyond basic settings and dev
 
 ## Why it exists
 
-I wanted a simple and intuitive way to tap into the glasses' features for daily use. Glasses like these need a good ecosystem more than a launcher: people need a reliable way to discover software, manage updates, move files, work with photos and video, understand the hardware, and reach system controls without fighting a phone-shaped interface.
+I wanted a simple and intuitive way to tap into the glasses' features for daily use. Glasses like these need a good ecosystem more than a launcher, and people need a reliable way to discover software, manage updates, move files, work with photos and video, understand the hardware, and reach system controls without always relying on the phone APP.
 
 AI Glasses Manager is a practical attempt to build that missing layer. Features are shaped by real use on the glasses, with an emphasis on predictable navigation, useful offline behavior, and tools that feel at home on a wearable display.
 
