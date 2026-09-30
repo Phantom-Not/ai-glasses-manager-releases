@@ -1,7 +1,7 @@
 <div align="center">
   <h1>AI Glasses Manager</h1>
-  <p><strong>Formerly Rokid Manager</strong> — maintained by the original developer.</p>
-  <p><strong>A glasses-first home for apps, media, files, device tools, and everyday controls on Rokid Glasses.</strong></p>
+  <p><strong>Formerly Rokid Manager</strong></p>
+  <p><strong>Apps, photos, files, and settings, all on your Rokid Glasses.</strong></p>
   <p>
     <a href="https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest">Download the latest release</a>
     &nbsp;&nbsp;•&nbsp;&nbsp;
@@ -9,11 +9,11 @@
   </p>
 </div>
 
-AI Glasses Manager brings tools that are usually scattered across Android into one interface designed for Rokid Glasses. It is built for quick navigation on a compact display, with readable focus states, restrained AR-friendly visuals, and direct access to useful controls.
+Hi, I'm Bruce. You might know this app as **Rokid Manager**, especially the old 1.5 version shared around the community.
 
-Know the app as **Rokid Manager 1.5**? This is its maintained successor, **AI Glasses Manager**, from the original developer. Development continued beyond the version shared in older community guides, with new tools and improvements to reliability, media browsing, app downloads, and updates.
+It's now called **AI Glasses Manager**, and I've kept working on it since then, fixing bugs and adding features like camera tools, wireless file transfers, and app updates.
 
-**$1.99 one-time — about the price of a cup of coffee.** International payments are supported through Stripe. See [Pricing](#pricing) below.
+It costs **$1.99 per device, paid once**, about the price of a coffee. Payments go through Stripe, with support for international payments. See [Pricing and activation](#pricing-and-activation) for the activation terms.
 
 <p align="center">
   <img src="docs/images/home.png" alt="AI Glasses Manager Home screen" width="30%">
@@ -22,23 +22,19 @@ Know the app as **Rokid Manager 1.5**? This is its maintained successor, **AI Gl
 </p>
 <p align="center"><sub>Home&nbsp;&nbsp;•&nbsp;&nbsp;App Store&nbsp;&nbsp;•&nbsp;&nbsp;Manager Settings</sub></p>
 
-## Recent improvements
+## What's changed lately
 
-Recent releases include:
+- The App Store handles connection problems better, and you can pause or cancel downloads.
+- Camera settings now include shutter sounds and clearer feedback when taking photos or recording video.
+- File browsing is smoother, Gallery menus take up less space, and you can add shortcuts to your most-used tools.
 
-- Improved App Store reliability, offline recovery, and network guidance.
-- New Camera settings, shutter sounds, and clearer capture feedback.
-- Smoother file browsing and less intrusive Gallery menus.
-- Shortcuts for Camera, Album, App Store, and File Explorer, plus update detection for supported Manager-installed apps.
-- Improved activation recovery after reinstall and pause/cancel controls for App Store downloads.
+You can find the full changes in the [release notes](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases).
 
-See the [release history](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases) for version-by-version changes.
+## Why I built it
 
-## Why it exists
+I wanted to do more directly on the glasses without reaching for my phone every time. That started with opening settings, then grew into managing apps, moving files, viewing photos and videos, and adding other tools I found useful.
 
-I wanted a simple and intuitive way to tap into the glasses' features for daily use. Glasses like these need a good ecosystem more than a launcher, and people need a reliable way to discover software, manage updates, move files, work with photos and video, understand the hardware, and reach system controls without always relying on the phone APP.
-
-AI Glasses Manager is a practical attempt to build that missing layer. Features are shaped by real use on the glasses, with an emphasis on predictable navigation, useful offline behavior, and tools that feel at home on a wearable display.
+I'm still working on it, and feedback from people using it helps me decide what to fix or add next.
 
 ## Features
 
@@ -118,11 +114,14 @@ Camera, Album, App Store, and File Explorer can be added as optional Manager Sho
 - Consistent interaction patterns carry across apps, settings, and utilities.
 - The interface supports English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German, and Spanish. 
 
-## Pricing
+## Pricing and activation
 
-AI Glasses Manager is a **$1.99 one-time purchase**, with international payments through **Stripe**. There is no recurring subscription charge.
+This is a one-time purchase for one device, with no recurring subscription.
 
-The current version is paid; older Rokid Manager 1.5 downloads shared in community guides are the legacy release.
+- Uninstalling and reinstalling the app preserves activation.
+- A factory reset changes the device information used for activation and requires a new activation.
+
+If you're coming from Rokid Manager 1.5, the current version requires paid activation.
 
 ## Install
 
@@ -146,7 +145,7 @@ The Manager requires Android 8.0 (API 26) or later. Features that use the camera
 
 ## More to come
 
-AI Glasses Manager is actively developed, and more features will be added as they are ready for daily use on the glasses. New work will continue to focus on useful controls, stronger standalone use, and a broader software ecosystem for Rokid Glasses.
+I'll keep fixing bugs and adding features as they're ready. Check the release notes to see what's new.
 
 ## Feedback and issue reports
 
@@ -165,4 +164,5 @@ Please remove device identifiers, network names, activation details, and persona
 This repository hosts official AI Glasses Manager release metadata, APK downloads, screenshots, and public documentation. It is not the application source repository.
 
 AI Glasses Manager is an independent project and is not affiliated with or endorsed by Rokid.
+
 
