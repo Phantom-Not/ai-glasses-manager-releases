@@ -118,8 +118,10 @@ Camera, Album, App Store, and File Explorer can be added as optional Manager Sho
 
 This is a one-time purchase for one device, with no recurring subscription.
 
-- Uninstalling and reinstalling the app preserves activation.
-- A factory reset changes the device information used for activation and requires a new activation.
+- Activation is normally restored automatically after uninstalling and reinstalling on the same device.
+- A factory reset may prevent automatic restoration. If that happens, contact me privately with your purchase record and current activation code so I can review restoring your access. A factory reset does not automatically mean you need to buy the app again.
+
+Please don't post purchase records or activation codes in public issues.
 
 If you're coming from Rokid Manager 1.5, the current version requires paid activation.
 
@@ -164,5 +166,6 @@ Please remove device identifiers, network names, activation details, and persona
 This repository hosts official AI Glasses Manager release metadata, APK downloads, screenshots, and public documentation. It is not the application source repository.
 
 AI Glasses Manager is an independent project and is not affiliated with or endorsed by Rokid.
+
 
 
