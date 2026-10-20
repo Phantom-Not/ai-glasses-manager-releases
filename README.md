@@ -26,7 +26,7 @@ It costs **$1.99 per device, paid once**, about the price of a coffee. Payments 
 
 **Camera filters are here!** Give your captures a new look with three filter styles, including **Matrix**, right on your glasses. This is just the start, with more filters on the way.
 
-- **Install APKs directly:** Transfer and install apps through File Explorer or Wi-Fi Drop.
+- **APK uploads and installation:** Upload APKs to your glasses with Wi-Fi Drop, then open them in File Explorer to install. You can also install apps from the Manager App Store.
 - **A refreshed Wi-Fi Drop:** A redesigned browser interface and transfer fixes make moving files more reliable.
 - **Clearer Camera controls:** Improved interface readability makes the Camera easier to use.
 
@@ -168,7 +168,4 @@ Please remove device identifiers, network names, activation details, and persona
 This repository hosts official AI Glasses Manager release metadata, APK downloads, screenshots, and public documentation. It is not the application source repository.
 
 AI Glasses Manager is an independent project and is not affiliated with or endorsed by Rokid.
-
-
-
 
