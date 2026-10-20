@@ -22,13 +22,15 @@ It costs **$1.99 per device, paid once**, about the price of a coffee. Payments 
 </p>
 <p align="center"><sub>Home&nbsp;&nbsp;•&nbsp;&nbsp;App Store&nbsp;&nbsp;•&nbsp;&nbsp;Manager Settings</sub></p>
 
-## What's changed lately
+## What's new in 2.6.3
 
-- The App Store handles connection problems better, and you can pause or cancel downloads.
-- Camera settings now include shutter sounds and clearer feedback when taking photos or recording video.
-- File browsing is smoother, Gallery menus take up less space, and you can add shortcuts to your most-used tools.
+**Camera filters are here!** Give your captures a new look with three filter styles, including **Matrix**, right on your glasses. This is just the start, with more filters on the way.
 
-You can find the full changes in the [release notes](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases).
+- **Install APKs directly:** Transfer and install apps through File Explorer or Wi-Fi Drop.
+- **A refreshed Wi-Fi Drop:** A redesigned browser interface and transfer fixes make moving files more reliable.
+- **Clearer Camera controls:** Improved interface readability makes the Camera easier to use.
+
+See the full [2.6.3 release notes](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/tag/v2.6.3) for details.
 
 ## Why I built it
 
@@ -166,6 +168,7 @@ Please remove device identifiers, network names, activation details, and persona
 This repository hosts official AI Glasses Manager release metadata, APK downloads, screenshots, and public documentation. It is not the application source repository.
 
 AI Glasses Manager is an independent project and is not affiliated with or endorsed by Rokid.
+
 
 
 
