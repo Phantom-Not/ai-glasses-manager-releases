@@ -1,15 +1,15 @@
 {
   "packageName": "com.bruce.rokidmanager",
-  "versionCode": 16,
-  "versionName": "2.6.2",
-  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.6.2.apk",
+  "versionCode": 18,
+  "versionName": "2.6.3",
+  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.6.3.apk",
   "mirrors": [
-    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.2/AI-Glasses-Manager-2.6.2.apk",
-    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.2/AI-Glasses-Manager-2.6.2.apk"
+    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.3/AI-Glasses-Manager-2.6.3.apk",
+    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.3/AI-Glasses-Manager-2.6.3.apk"
   ],
-  "sha256": "C4A9E82ED171F319521C42C8F5F41A634561DF1CE03AD6D95D27E2BB45812B8A",
+  "sha256": "72786CC06951109AB3777E08176E4CD0A369B222B91B68BFF77EF082B2F4A0E7",
   "releaseNotes": {
-    "en": "Improved App Store reliability, offline recovery, and network guidance. Added new Camera settings with shutter sounds and clearer capture feedback. File browsing is smoother, Gallery QoL fixes,Gallery information is less intrusive, Manager updates are easier to notice, and Home icons are now more visually balanced.",
-    "zh": "提升应用商店的稳定性、离线恢复和网络提示；新增相机设置、快门音效及更清晰的拍摄反馈；文件浏览更加流畅，图库QOL提升一些，图库信息显示更简洁，管理器更新更醒目，主页图标也更加协调统一。"
+    "en": "Camera Filters are here! Choose between three unique styles to customize your captures. Both File Explorer and Wi-Fi Drop now support direct APK transfers and on-device installation. The Wi-Fi Drop browser interface has been completely revamped with transfer reliability fixes, and Camera UI readability is improved.",
+    "zh": "收紧照片和视频中的 Matrix 效果覆盖范围，加快识别更新。提升 Wi-Fi Drop 文件传输的可靠性，重新设计网页界面，优化手机浏览体验，并支持全部核心语言。点击 APK 文件时会先显示操作菜单，安装完成或失败的结果也会保留显示。"
   }
 }
