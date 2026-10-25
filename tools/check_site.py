@@ -9,7 +9,7 @@ DATA=json.loads((ROOT/'content/site.json').read_text(encoding='utf-8'))
 BASE=DATA['base_url'].rstrip('/');PREFIX=urlsplit(BASE).path
 class Page(HTMLParser):
     def __init__(self,text):
-        super().__init__(convert_charrefs=True);self.lang=None;self.h1=0;self.ids=set();self.links=[];self.images=[];self.meta={};self.alternates={};self.canonical=[];self.feed_links=[];self.title='';self.in_title=False;self.json_scripts=[];self.in_json=False;self.script='';self.feed(text)
+        super().__init__(convert_charrefs=True);self.lang=None;self.h1=0;self.ids=set();self.links=[];self.images=[];self.meta={};self.alternates={};self.canonical=[];self.feed_links=[];self.title='';self.in_title=False;self.json_scripts=[];self.executable_scripts=[];self.in_json=False;self.script='';self.feed(text)
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
         if tag=='html':self.lang=a.get('lang')
@@ -26,8 +26,11 @@ class Page(HTMLParser):
             if a.get('href'):self.links.append(a['href'])
         if tag=='title':self.in_title=True
         if tag=='script':
-            assert a.get('type')=='application/ld+json','Unexpected executable script'
-            self.in_json=True;self.script=''
+            if a.get('type')=='application/ld+json':
+                self.in_json=True;self.script=''
+            else:
+                assert a.get('src')==PREFIX+'/assets/photo-viewer.js' and set(a)=={'src','defer'},'Only the local deferred photo viewer is allowed'
+                self.links.append(a['src']);self.executable_scripts.append(a['src'])
         assert tag!='form','No checkout, login or tracking forms are expected'
     def handle_endtag(self,tag):
         if tag=='title':self.in_title=False
@@ -106,6 +109,11 @@ def check():
                 source,descriptor=candidate.strip().split()
                 assert re.fullmatch(r'[1-9][0-9]*w',descriptor),('Invalid responsive image width',file,candidate)
                 target,_=local_target(source,file);assert target and target.is_file(),('Missing responsive image',file,source)
+        viewer_pages={('' if key=='en' else key+'/')+suffix for key in DATA['locales'] for suffix in ['index.html','camera-filters/index.html']}
+        expects_viewer=file.relative_to(DOCS.resolve()).as_posix() in viewer_pages
+        assert page.executable_scripts==([PREFIX+'/assets/photo-viewer.js'] if expects_viewer else []),('Photo viewer script missing or unexpected',file)
+        if expects_viewer:assert {'photo-viewer-title','photo-viewer-caption','photo-viewer-image'}.issubset(page.ids),('Photo viewer markup missing',file)
+        else:assert 'photo-viewer-title' not in page.ids,('Photo viewer on an unexpected page',file)
         assert len(page.json_scripts)==1,file
         graph=page.json_scripts[0]['@graph'];assert graph[0]['url']==page.canonical[0],file
         for item in graph:

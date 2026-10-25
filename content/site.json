@@ -53,7 +53,16 @@
         "release_source": "Based on the published release notes. The linked GitHub release is the official download source.",
         "original_release": "Original release notes & download",
         "feed_title": "updates",
-        "social_alt": "AI Glasses Manager on Rokid Glasses"
+        "social_alt": "AI Glasses Manager on Rokid Glasses",
+        "feed_heading": "Get updates in your feed reader",
+        "feed_intro": "Use an app that supports Atom feeds. Copy the address below into its Add feed or Subscribe option.",
+        "feed_address": "Feed address",
+        "feed_note": "Opening a feed directly in a browser can show XML. If you do not use a feed reader, you can read all release notes on this page.",
+        "viewer_label": "PHOTO VIEWER",
+        "viewer_close": "Close photo",
+        "viewer_hint": "Tap outside the viewer or use the close button to return.",
+        "viewer_loading": "Loading photo…",
+        "viewer_error": "The photo could not be loaded. Close the viewer and try again."
       },
       "short_label": "EN",
       "og_locale": "en_US"
@@ -106,7 +115,16 @@
         "release_source": "根据已发布的更新说明整理。下方 GitHub 发布页面提供官方下载。",
         "original_release": "原始更新说明与下载",
         "feed_title": "版本更新",
-        "social_alt": "Rokid 眼镜上的 AI Glasses Manager"
+        "social_alt": "Rokid 眼镜上的 AI Glasses Manager",
+        "feed_heading": "用订阅阅读器接收更新",
+        "feed_intro": "使用支持 Atom 的阅读器，将下面的地址添加为订阅源。通常可以在阅读器的“添加订阅”中设置。",
+        "feed_address": "订阅源地址",
+        "feed_note": "直接在浏览器中打开订阅源，可能会看到 XML 内容。不使用订阅阅读器的话，也可以在本页查看所有更新说明。",
+        "viewer_label": "照片查看",
+        "viewer_close": "关闭照片",
+        "viewer_hint": "点击查看器外部或关闭按钮，即可返回。",
+        "viewer_loading": "正在加载照片…",
+        "viewer_error": "照片加载失败，请关闭后重试。"
       },
       "short_label": "中文",
       "og_locale": "zh_CN"
@@ -161,7 +179,16 @@
         "release_source": "公開済みのリリースノートをもとにまとめています。公式ダウンロードは、下の GitHub リリースページをご利用ください。",
         "original_release": "元のリリースノートとダウンロード",
         "feed_title": "更新情報",
-        "social_alt": "Rokid Glasses で動作する AI Glasses Manager"
+        "social_alt": "Rokid Glasses で動作する AI Glasses Manager",
+        "feed_heading": "フィードリーダーで更新をチェック",
+        "feed_intro": "Atom に対応したフィードリーダーに、下のアドレスを登録してください。リーダーの「フィードを追加」や「購読」から設定できます。",
+        "feed_address": "フィードのアドレス",
+        "feed_note": "ブラウザーでフィードを直接開くと XML が表示されることがあります。フィードリーダーを使わない方は、このページで更新内容をご覧いただけます。",
+        "viewer_label": "写真プレビュー",
+        "viewer_close": "写真を閉じる",
+        "viewer_hint": "表示枠の外か、閉じるボタンを押すと戻れます。",
+        "viewer_loading": "写真を読み込んでいます…",
+        "viewer_error": "写真を読み込めませんでした。いったん閉じて、もう一度お試しください。"
       }
     }
   },
@@ -511,7 +538,7 @@
         "how_to": {
           "title": "How to use the filters",
           "steps": [
-            "Open Camera in Manager.",
+            "Open Camera in Manager, or use the Manager Camera shortcut.",
             "Open the filter picker and choose the look you want.",
             "Close the filter picker to return to the camera preview.",
             "Press Manager’s shutter button to take your photo."
@@ -590,7 +617,7 @@
         "how_to": {
           "title": "如何使用滤镜",
           "steps": [
-            "打开管理器的相机。",
+            "在管理器中打开相机，或使用管理器相机快捷方式。",
             "打开滤镜选择面板，选择喜欢的风格。",
             "关闭滤镜选择面板，回到相机取景画面。",
             "点击管理器的快门按钮拍照。"
@@ -639,7 +666,7 @@
         "how_to": {
           "title": "フィルターの使い方",
           "steps": [
-            "Manager からカメラを開きます。",
+            "Manager からカメラを開くか、Manager Camera のショートカットを使います。",
             "フィルター選択画面を開き、好きなフィルターを選びます。",
             "フィルター選択画面を閉じて、カメラのプレビューに戻ります。",
             "Manager のシャッターボタンを押して撮影します。"

@@ -45,3 +45,9 @@ Use the HTML verification file Google provides, publish it inside `docs/`, compl
 Use plain, human wording with no em or en dashes. Identify AI Glasses Manager as Bruce's independent app for Rokid Glasses, formerly Rokid Manager. Explain the broad Android App Store separately from curated Rokid developer apps. Do not call the proprietary application open source, an official Rokid phone app or a fork of a community list.
 
 Keep titles and descriptions useful to readers. Do not invent reviews, ratings, compatibility, search rankings or a Google rich-result guarantee. Search and AI tools can take time to reflect corrections.
+
+## Photo viewer and update feeds
+
+Filter examples on Home and Camera use a small local script with a native dialog. Keep full-image links as the fallback and verify close-button, Escape, backdrop, focus restoration and mobile sizing when changing it. The checker allows only this deferred local script on those six localized pages.
+
+The footer Atom link opens the readable Updates page at `#feed`, which provides a copyable feed address. Preserve the actual `updates/feed.xml` addresses and timestamps for feed-reader subscriptions.
