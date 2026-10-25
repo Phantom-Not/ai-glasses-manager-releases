@@ -28,7 +28,11 @@ def section_html(section,index):
     visual=image(section['image'],section['alt'],'section-image') if section.get('image') else ''
     return '<section class="content-section '+('has-image' if visual else '')+'" id="'+e(section['id'])+'"><div class="section-number">'+str(index).zfill(2)+'</div><div class="section-copy"><h2>'+e(section['title'])+'</h2>'+body+'</div>'+visual+'</section>'
 def filter_cards(page):
-    return '<div class="filter-list">'+''.join('<article class="filter-card filter-'+str(i)+'"><span class="filter-dot" aria-hidden="true"></span><h3>'+e(name)+'</h3><p>'+e(description)+'</p></article>' for i,(name,description) in enumerate(page['filters']))+'</div>'
+    cards=[]
+    for index,row in enumerate(page['filters']):
+        photo='<figure class="filter-photo"><a href="'+asset(row['image'])+'"><img src="'+asset(row['preview'])+'" srcset="'+asset(row['preview'])+' '+str(row['preview_width'])+'w, '+asset(row['image'])+' '+str(row['width'])+'w" sizes="(max-width:680px) calc(100vw - 44px), 360px" alt="'+e(row['alt'])+'" width="'+str(row['width'])+'" height="'+str(row['height'])+'" loading="lazy" decoding="async"></a></figure>'
+        cards.append('<article class="filter-card filter-'+str(index)+'"><div class="filter-heading"><span class="filter-dot" aria-hidden="true"></span><h3>'+e(row['name'])+'</h3></div>'+photo+'<p>'+e(row['description'])+'</p></article>')
+    return '<div class="filter-list" id="filter-examples">'+''.join(cards)+'</div><p class="filter-examples-note">'+e(page['examples_note'])+'</p>'
 def teaser(lang):
     loc=DATA['locales'][lang]
     return '<aside class="preview-note" id="next"><span class="eyebrow">'+e(loc['preview_badge'])+'</span><h2>'+e(loc['preview_title'])+'</h2><p>'+e(loc['preview'])+'</p></aside>'

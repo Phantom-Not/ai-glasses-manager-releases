@@ -78,8 +78,8 @@
         "secondary": "See all features",
         "store_head": "Android apps and Rokid projects, together.",
         "store_body": "The built-in App Store has a broad Android catalogue as well as a curated collection of apps made for Rokid Glasses. Browse thousands of listings, search by name, manage downloads and check for supported app updates.",
-        "camera_head": "Three camera filters in 2.6.3.",
-        "camera_body": "Capture photos and video, and choose from Matrix, Cyber Glitch and Prism camera filters. The Camera sits alongside Gallery, so you can view your captures on the glasses.",
+        "camera_head": "See the everyday differently.",
+        "camera_body": "Turn a familiar street, a quiet field or a beach view into something unexpected. Explore Matrix, Cyber Glitch and Prism, right in Manager’s Camera.",
         "daily_head": "The everyday things matter, too.",
         "daily_body": "Move files over Wi-Fi, open local folders, adjust sound, reach device settings and add shortcuts to your most-used Manager tools.",
         "updates_head": "What changed in each update?",
@@ -110,8 +110,8 @@
         "secondary": "查看全部功能",
         "store_head": "Android 应用和 Rokid 社区项目，都能找到。",
         "store_body": "内置商店既有广泛的 Android 应用目录，也有专为 Rokid 眼镜整理的开发者应用。你可以浏览数千条应用信息、按名称搜索、管理下载，并检查受支持应用的更新。",
-        "camera_head": "2.6.3 新增三种相机滤镜。",
-        "camera_body": "使用相机拍照或录像，并选择 Matrix、Cyber Glitch 和 Prism 滤镜。拍摄后，还能直接在眼镜的图库中查看照片和视频。",
+        "camera_head": "熟悉的风景，也能拍出新感觉。",
+        "camera_body": "街角、田野或海边，都可以换一种方式记录。在管理器相机中选择 Matrix、Cyber Glitch 或 Prism，拍出属于自己的画面。",
         "daily_head": "日常操作，也值得更顺手。",
         "daily_body": "通过 Wi-Fi 传文件、打开本地文件夹、调整音量、进入设备设置，还可以为常用工具添加管理器快捷方式。",
         "updates_head": "每次更新，具体变了什么？",
@@ -247,20 +247,38 @@
         "description": "Meet the three camera filters introduced in AI Glasses Manager 2.6.3: Matrix, Cyber Glitch and Prism. Explore photo, video, zoom, framing and Gallery tools.",
         "eyebrow": "Camera filters · Added in 2.6.3",
         "h1": "Give your captures a different look.",
-        "lede": "Capture photos and video, and choose from Matrix, Cyber Glitch and Prism camera filters.",
+        "lede": "Capture familiar places in a more personal way. Try Matrix, Cyber Glitch or Prism in Manager’s Camera, and explore the photo examples below.",
         "filters": [
-          [
-            "Matrix",
-            "Green code over the camera image for a Matrix-inspired look."
-          ],
-          [
-            "Cyber Glitch",
-            "A digital glitch style with image distortion and colour separation."
-          ],
-          [
-            "Prism",
-            "One of the three camera styles introduced in Manager 2.6.3."
-          ]
+          {
+            "name": "Matrix",
+            "description": "Give the scene a Matrix-inspired look with green code across your view.",
+            "alt": "Matrix camera filter example: green code over a tree, rocks and a beach beneath a blue sky.",
+            "image": "filters/matrix.webp",
+            "preview": "filters/matrix-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          },
+          {
+            "name": "Cyber Glitch",
+            "description": "Break familiar shapes into colourful blocks and digital distortion.",
+            "alt": "Cyber Glitch camera filter example: colourful digital blocks and colour separation over a curved white building.",
+            "image": "filters/cyber-glitch.webp",
+            "preview": "filters/cyber-glitch-480.webp",
+            "width": 855,
+            "height": 1502,
+            "preview_width": 480
+          },
+          {
+            "name": "Prism",
+            "description": "Bend and swirl the scene for a more surreal view.",
+            "alt": "Prism camera filter example: a field and village framed by swirling, stretched sky and scenery.",
+            "image": "filters/prism.webp",
+            "preview": "filters/prism-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          }
         ],
         "sections": [
           {
@@ -291,27 +309,46 @@
             "image": "gallery.png",
             "alt": "AI Glasses Manager Album with photo and video categories"
           }
-        ]
+        ],
+        "examples_note": "Open any photo to see the full image."
       },
       "zh": {
         "title": "Rokid 眼镜 Matrix、Cyber Glitch 与 Prism 滤镜 | AI Glasses Manager",
         "description": "认识 AI Glasses Manager 2.6.3 新增的 Matrix、Cyber Glitch 和 Prism 相机滤镜，并了解拍照、录像、变焦、取景和图库功能。",
         "eyebrow": "相机滤镜 · 2.6.3 新增",
         "h1": "给拍摄画面换一种风格。",
-        "lede": "使用相机拍照或录像，并从 Matrix、Cyber Glitch 和 Prism 三种相机滤镜中选择。",
+        "lede": "用自己的方式记录熟悉的风景。在管理器相机中试试 Matrix、Cyber Glitch 或 Prism，并看看下面的拍摄示例。",
         "filters": [
-          [
-            "Matrix",
-            "在相机画面上叠加绿色代码，呈现 Matrix 风格。"
-          ],
-          [
-            "Cyber Glitch",
-            "通过画面扭曲和色彩分离呈现数字故障风格。"
-          ],
-          [
-            "Prism",
-            "管理器 2.6.3 新增的三种相机风格之一。"
-          ]
+          {
+            "name": "Matrix",
+            "description": "在眼前的风景中叠加绿色代码，拍出 Matrix 风格。",
+            "alt": "Matrix 相机滤镜示例：绿色代码叠加在海边的树木、岩石与蓝天上。",
+            "image": "filters/matrix.webp",
+            "preview": "filters/matrix-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          },
+          {
+            "name": "Cyber Glitch",
+            "description": "让熟悉的画面出现彩色方块与数字故障效果。",
+            "alt": "Cyber Glitch 相机滤镜示例：弧形白色建筑上出现彩色数字方块与色彩分离。",
+            "image": "filters/cyber-glitch.webp",
+            "preview": "filters/cyber-glitch-480.webp",
+            "width": 855,
+            "height": 1502,
+            "preview_width": 480
+          },
+          {
+            "name": "Prism",
+            "description": "让风景弯曲、旋转，呈现更超现实的视角。",
+            "alt": "Prism 相机滤镜示例：田野和村庄周围的天空与风景呈现旋转、拉伸效果。",
+            "image": "filters/prism.webp",
+            "preview": "filters/prism-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          }
         ],
         "sections": [
           {
@@ -342,7 +379,8 @@
             "image": "gallery.png",
             "alt": "AI Glasses Manager 图库中的照片和视频分类"
           }
-        ]
+        ],
+        "examples_note": "点击任意照片，即可查看完整图片。"
       }
     },
     "files": {

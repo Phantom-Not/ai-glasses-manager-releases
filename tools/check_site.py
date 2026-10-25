@@ -99,6 +99,11 @@ def check():
         for img in page.images:
             assert 'alt' in img and 'width' in img and 'height' in img,('Image dimensions/alt',file,img)
             target,_=local_target(img.get('src',''),file);assert target and target.is_file(),('Missing image',file,img)
+            for candidate in img.get('srcset','').split(','):
+                if not candidate.strip():continue
+                source,descriptor=candidate.strip().split()
+                assert re.fullmatch(r'[1-9][0-9]*w',descriptor),('Invalid responsive image width',file,candidate)
+                target,_=local_target(source,file);assert target and target.is_file(),('Missing responsive image',file,source)
         assert len(page.json_scripts)==1,file
         graph=page.json_scripts[0]['@graph'];assert graph[0]['url']==page.canonical[0],file
         for item in graph:
