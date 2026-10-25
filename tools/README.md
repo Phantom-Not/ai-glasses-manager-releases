@@ -17,7 +17,7 @@ Preview at <http://127.0.0.1:4173/ai-glasses-manager-releases/>. The checker det
 ## Publish a release update
 
 1. Verify the released APK version and published notes. Describe available features, not private development work.
-2. Update `content/site.json` in English and Simplified Chinese. Set `current_version` only when that release is public. Update page copy, feature lists, language counts and the README together.
+2. Update `content/site.json` in English, Simplified Chinese and Japanese. Set `current_version` only when that release is public. Update page copy, feature lists, language counts and the README together. Shared navigation and interface labels live in each locale’s `ui` section.
 3. Add the release to `releases`, newest first. Preserve its original `published` timestamp. Set a separate ISO 8601 `updated` timestamp only if that release entry changes. Editing the overall site date must not mark every old release as newly updated.
 4. Keep upcoming features in the explicitly labelled preview. Remove or revise the teaser when they ship. Avoid precise catalogue counts that change with sources.
 5. Update the bilingual Markdown in `release-notes/` and the matching GitHub release body. Do not change APK assets or `manager-update.json` as part of a documentation update.

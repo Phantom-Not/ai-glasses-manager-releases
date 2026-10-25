@@ -8,7 +8,6 @@
     "en": {
       "lang": "en",
       "label": "English",
-      "other_label": "简体中文",
       "nav": {
         "home": "Overview",
         "app-store": "App Store",
@@ -33,12 +32,35 @@
       "preview_title": "A look ahead at 2.6.4",
       "preview": "I’m working on easier language switching, more camera features and further stability improvements. These changes are still in development. I’ll share the full details when 2.6.4 is released.",
       "preview_badge": "In development",
-      "screen_note": "Real Manager screens. These English screenshots show the interface; appearance can vary with your glasses and version."
+      "screen_note": "Real Manager screens. These English screenshots show the interface; appearance can vary with your glasses and version.",
+      "ui": {
+        "main_navigation": "Main navigation",
+        "mobile_navigation": "Mobile navigation",
+        "open_navigation": "Open navigation",
+        "choose_language": "Choose site language",
+        "price_note": "Three-day free trial. $1.99 per device, paid once.",
+        "home_alt": "AI Glasses Manager Home on Rokid Glasses",
+        "store_alt": "The Android App Store inside AI Glasses Manager",
+        "actual_screens": "ACTUAL APP SCREENS",
+        "android_apps": "ANDROID APPS",
+        "catalogue_title": "A broad catalogue",
+        "catalogue_body": "Global and China-friendly apps, categories, search, downloads and supported app updates.",
+        "rokid_projects": "ROKID PROJECTS",
+        "developer_title": "Curated developer apps",
+        "developer_body": "A dedicated collection of community apps made for the glasses.",
+        "sound_tools": "Sound & device controls",
+        "shortcuts": "Manager Shortcuts",
+        "release_source": "Based on the published release notes. The linked GitHub release is the official download source.",
+        "original_release": "Original release notes & download",
+        "feed_title": "updates",
+        "social_alt": "AI Glasses Manager on Rokid Glasses"
+      },
+      "short_label": "EN",
+      "og_locale": "en_US"
     },
     "zh": {
       "lang": "zh-Hans",
       "label": "简体中文",
-      "other_label": "English",
       "nav": {
         "home": "首页",
         "app-store": "应用商店",
@@ -63,7 +85,84 @@
       "preview_title": "正在准备的 2.6.4",
       "preview": "我正在改进语言切换、增加相机功能，并继续改善稳定性。这些内容仍在开发中，完整说明会在 2.6.4 发布时公布。",
       "preview_badge": "开发中",
-      "screen_note": "图片为管理器的真实英文界面。显示效果可能随眼镜和应用版本而有所不同。"
+      "screen_note": "图片为管理器的真实英文界面。显示效果可能随眼镜和应用版本而有所不同。",
+      "ui": {
+        "main_navigation": "主导航",
+        "mobile_navigation": "移动导航",
+        "open_navigation": "打开导航",
+        "choose_language": "选择网站语言",
+        "price_note": "三天免费试用。之后每台设备一次性支付 1.99 美元。",
+        "home_alt": "Rokid 眼镜上的管理器主页",
+        "store_alt": "AI Glasses Manager 内置 Android 应用商店",
+        "actual_screens": "真实应用界面",
+        "android_apps": "ANDROID 应用",
+        "catalogue_title": "广泛的应用目录",
+        "catalogue_body": "全球及中国区友好应用、分类、搜索、下载和受支持应用的更新。",
+        "rokid_projects": "ROKID 项目",
+        "developer_title": "精选开发者应用",
+        "developer_body": "为眼镜制作的社区应用，有专门的精选分类。",
+        "sound_tools": "声音与设备控制",
+        "shortcuts": "管理器快捷方式",
+        "release_source": "根据已发布的更新说明整理。下方 GitHub 发布页面提供官方下载。",
+        "original_release": "原始更新说明与下载",
+        "feed_title": "版本更新",
+        "social_alt": "Rokid 眼镜上的 AI Glasses Manager"
+      },
+      "short_label": "中文",
+      "og_locale": "zh_CN"
+    },
+    "ja": {
+      "lang": "ja",
+      "label": "日本語",
+      "short_label": "日本語",
+      "og_locale": "ja_JP",
+      "nav": {
+        "home": "ホーム",
+        "app-store": "アプリストア",
+        "camera-filters": "カメラフィルター",
+        "files": "ファイル転送",
+        "features": "すべての機能",
+        "updates": "更新情報",
+        "help": "導入とサポート"
+      },
+      "download": "2.6.3 をダウンロード",
+      "release_label": "公開中のバージョン",
+      "skip": "本文へ移動",
+      "on_this_page": "このページの内容",
+      "more": "詳しく見る",
+      "read_update": "更新内容を見る",
+      "all_updates": "すべての更新情報",
+      "footer": "Bruce が個人で開発している Rokid Glasses 用アプリです。旧名称は Rokid Manager です。",
+      "support": "サポート",
+      "source": "公式配布リポジトリ",
+      "feed": "更新情報を購読",
+      "privacy": "このサイトではアクセス解析、広告 Cookie、ログインフォームを使用していません。ダウンロードや不具合の報告には GitHub を利用します。",
+      "preview_title": "次のバージョン、2.6.4 に向けて",
+      "preview": "言語の切り替えを使いやすくし、カメラ機能の追加や安定性の改善を進めています。現在開発中のため、詳しい内容は 2.6.4 の公開時にお知らせします。",
+      "preview_badge": "開発中",
+      "screen_note": "掲載画像は実際のアプリ画面です。スクリーンショットは英語表示のため、お使いの言語やバージョンによって見た目が異なる場合があります。",
+      "ui": {
+        "main_navigation": "メインナビゲーション",
+        "mobile_navigation": "モバイルナビゲーション",
+        "open_navigation": "メニューを開く",
+        "choose_language": "サイトの言語を選択",
+        "price_note": "3 日間無料でお試し。その後は端末 1 台につき 1.99 米ドルの買い切りです。",
+        "home_alt": "Rokid Glasses に表示された AI Glasses Manager のホーム画面",
+        "store_alt": "AI Glasses Manager に内蔵された Android アプリストア",
+        "actual_screens": "実際のアプリ画面",
+        "android_apps": "ANDROID アプリ",
+        "catalogue_title": "幅広いアプリを探せます",
+        "catalogue_body": "グローバル向けや中国で利用しやすいアプリの閲覧、カテゴリー別の検索、ダウンロード管理、対応アプリの更新確認ができます。",
+        "rokid_projects": "ROKID 向けプロジェクト",
+        "developer_title": "開発者アプリのコレクション",
+        "developer_body": "眼鏡向けに作られたコミュニティのアプリを、ひとつのコレクションで紹介しています。",
+        "sound_tools": "音量と端末の設定",
+        "shortcuts": "Manager ショートカット",
+        "release_source": "公開済みのリリースノートをもとにまとめています。公式ダウンロードは、下の GitHub リリースページをご利用ください。",
+        "original_release": "元のリリースノートとダウンロード",
+        "feed_title": "更新情報",
+        "social_alt": "Rokid Glasses で動作する AI Glasses Manager"
+      }
     }
   },
   "pages": {
@@ -98,7 +197,11 @@
             "Android app listings"
           ]
         ],
-        "identity": "Independent app by Bruce. Installed on the glasses. Separate from Rokid’s official phone companion."
+        "identity": "Independent app by Bruce. Installed on the glasses. Separate from Rokid’s official phone companion.",
+        "camera_link": "Filters & how to use them",
+        "h1_lines": [
+          "More from your Rokid Glasses."
+        ]
       },
       "zh": {
         "title": "AI Glasses Manager 管理器 | Rokid 眼镜应用商店、相机滤镜与工具",
@@ -130,7 +233,48 @@
             "条 Android 应用信息"
           ]
         ],
-        "identity": "Bruce 独立开发的眼镜端应用，与 Rokid 官方手机配套应用是不同的软件。"
+        "identity": "Bruce 独立开发的眼镜端应用，与 Rokid 官方手机配套应用是不同的软件。",
+        "camera_link": "查看滤镜与使用方法",
+        "h1_lines": [
+          "让 Rokid 眼镜做更多事。"
+        ]
+      },
+      "ja": {
+        "title": "AI Glasses Manager | Rokid Glasses のアプリストア・カメラ・便利機能",
+        "description": "旧 Rokid Manager。Android アプリストア、Matrix などのカメラフィルター、アルバム、ファイル転送、各種設定を Rokid Glasses 上で使えるアプリです。",
+        "eyebrow": "AI Glasses Manager・旧 Rokid Manager",
+        "h1": "Rokid Glasses で、できることをもっと。",
+        "lede": "アプリも、カメラも、写真も、ファイルも。よく使う機能を、眼鏡の中にひとまとめ。",
+        "intro": "開発者の Bruce です。スマートフォンを取り出さなくても、眼鏡でもっといろいろなことができたら。そんな思いで Manager を作りました。このサイトでは、アプリの機能や各バージョンの更新内容をご紹介します。",
+        "secondary": "すべての機能を見る",
+        "store_head": "Android アプリも、Rokid 向けアプリも。",
+        "store_body": "内蔵ストアには、幅広い Android アプリと、Rokid Glasses 向けに作られた開発者アプリが並んでいます。数千件の掲載アプリから検索し、ダウンロードの管理や対応アプリの更新確認ができます。",
+        "camera_head": "いつもの景色を、少し違う一枚に。",
+        "camera_body": "見慣れた街角も、静かな田園も、海辺の風景も。Manager のカメラで Matrix、Cyber Glitch、Prism を選んで、自分らしい一枚にしてみませんか。",
+        "camera_link": "フィルターと使い方を見る",
+        "daily_head": "日々の使いやすさも、大切に。",
+        "daily_body": "Wi-Fi でのファイル転送、フォルダーの閲覧、音量調整、端末設定へのアクセス。よく使う機能は、ランチャーにショートカットを追加できます。",
+        "updates_head": "アップデートで、何が変わった？",
+        "updates_body": "2.5.9 以降の新機能や修正内容を、バージョンごとにまとめています。まずは 2.6.3 の更新内容からご覧ください。",
+        "metrics": [
+          [
+            "3",
+            "カメラフィルター"
+          ],
+          [
+            "10",
+            "アプリの表示言語"
+          ],
+          [
+            "数千件",
+            "Android アプリの掲載"
+          ]
+        ],
+        "identity": "Bruce が個人で開発する、眼鏡本体にインストールして使うアプリです。Rokid 公式のスマートフォン用アプリとは別の製品です。",
+        "h1_lines": [
+          "Rokid Glasses で、",
+          "できることをもっと。"
+        ]
       }
     },
     "app-store": {
@@ -239,6 +383,59 @@
             ]
           }
         ]
+      },
+      "ja": {
+        "title": "Rokid Glasses で Android アプリを探す | AI Glasses Manager のアプリストア",
+        "description": "数千件の Android アプリと Rokid 向け開発者アプリを眼鏡で検索。ダウンロード管理、対応 APK のインストール、アプリの更新確認ができます。",
+        "eyebrow": "内蔵アプリストア",
+        "h1": "眼鏡で使えるアプリを、もっと探そう。",
+        "lede": "普段使いの Android アプリから、Rokid 向けの個性的なプロジェクトまで。",
+        "sections": [
+          {
+            "id": "catalogue",
+            "title": "幅広い Android アプリをひとつのストアで",
+            "paragraphs": [
+              "Manager のストアには、厳選アプリや開発者アプリに加え、グローバル向け、中国で利用しやすいアプリなどのコレクションがあります。一般的な Android アプリも、眼鏡ならではのツールも探せます。",
+              "名前で検索したり、カテゴリーから探したり、詳細を確認してからインストールできます。掲載数は数千件規模ですが、提供元の状況によって内容は変わります。"
+            ],
+            "bullets": [
+              "アプリ、ユーティリティ、メディア関連ツールを探せます。",
+              "グローバル向けや中国で利用しやすいアプリのコレクションを閲覧できます。",
+              "アプリの詳細と利用できるダウンロード方法を確認できます。"
+            ],
+            "image": "app-store.png",
+            "alt": "Rokid Glasses 上で表示した AI Glasses Manager のアプリストア"
+          },
+          {
+            "id": "developer",
+            "title": "Rokid 向け開発者アプリのコレクション",
+            "paragraphs": [
+              "開発者アプリのコレクションでは、Rokid Glasses 向けに作られたコミュニティのアプリを紹介しています。幅広い Android アプリを扱うストアの、一部を構成するコレクションです。",
+              "ストアに掲載されているアプリを、すべて Manager が開発しているわけではありません。各アプリの権利や開発は、それぞれの提供者に帰属します。"
+            ]
+          },
+          {
+            "id": "downloads",
+            "title": "ダウンロードを自分のペースで",
+            "paragraphs": [
+              "ダウンロードは一時停止、再開、キャンセルができます。ストアを閉じてもバックグラウンドで続けられ、対応する APK のダウンロードが終わったら、眼鏡上でインストールに進めます。"
+            ],
+            "bullets": [
+              "いったん止めて、あとで再開できます。",
+              "不要になったダウンロードをキャンセルできます。",
+              "ダウンロード済みの対応 APK をインストールできます。",
+              "対応するインストール済みアプリの更新を確認できます。"
+            ]
+          },
+          {
+            "id": "offline",
+            "title": "読み込み済みの情報は、オフラインでも",
+            "paragraphs": [
+              "接続が切れても、読み込み済みのアプリ情報は引き続き閲覧できます。オフライン時や接続に問題があるときには、その状況を画面で案内します。",
+              "提供元やダウンロード方法は変わることがあります。一部のアプリは外部ストアからの導入が必要です。また、眼鏡にないハードウェアや操作方法を前提とした機能は利用できない場合があります。"
+            ]
+          }
+        ]
       }
     },
     "camera-filters": {
@@ -310,7 +507,16 @@
             "alt": "AI Glasses Manager Album with photo and video categories"
           }
         ],
-        "examples_note": "Open any photo to see the full image."
+        "examples_note": "Open any photo to see the full image.",
+        "how_to": {
+          "title": "How to use the filters",
+          "steps": [
+            "Open Camera in Manager.",
+            "Open the filter picker and choose the look you want.",
+            "Close the filter picker to return to the camera preview.",
+            "Press Manager’s shutter button to take your photo."
+          ]
+        }
       },
       "zh": {
         "title": "Rokid 眼镜 Matrix、Cyber Glitch 与 Prism 滤镜 | AI Glasses Manager",
@@ -380,7 +586,95 @@
             "alt": "AI Glasses Manager 图库中的照片和视频分类"
           }
         ],
-        "examples_note": "点击任意照片，即可查看完整图片。"
+        "examples_note": "点击任意照片，即可查看完整图片。",
+        "how_to": {
+          "title": "如何使用滤镜",
+          "steps": [
+            "打开管理器的相机。",
+            "打开滤镜选择面板，选择喜欢的风格。",
+            "关闭滤镜选择面板，回到相机取景画面。",
+            "点击管理器的快门按钮拍照。"
+          ]
+        }
+      },
+      "ja": {
+        "title": "Matrix・Cyber Glitch・Prism | Rokid Glasses のカメラフィルター",
+        "description": "AI Glasses Manager 2.6.3 のカメラフィルターを作例とともに紹介。Matrix、Cyber Glitch、Prism の使い方や、撮影・ズーム・アルバム機能をご案内します。",
+        "eyebrow": "カメラフィルター・2.6.3 で追加",
+        "h1": "いつもの景色に、自分らしい表情を。",
+        "lede": "Manager のカメラで Matrix、Cyber Glitch、Prism を選んで、見慣れた風景を少し違う一枚に。下の作例で、それぞれの雰囲気をご覧いただけます。",
+        "filters": [
+          {
+            "name": "Matrix",
+            "description": "景色に緑のコードを重ねて、Matrix の世界観を楽しめます。",
+            "alt": "Matrix フィルターの作例。海辺の木や岩、青空に緑のコードが重なっています。",
+            "image": "filters/matrix.webp",
+            "preview": "filters/matrix-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          },
+          {
+            "name": "Cyber Glitch",
+            "description": "見慣れた風景に、カラフルなブロックやデジタルな歪みを加えます。",
+            "alt": "Cyber Glitch フィルターの作例。曲線的な白い建物に、色付きのブロックや色ずれが現れています。",
+            "image": "filters/cyber-glitch.webp",
+            "preview": "filters/cyber-glitch-480.webp",
+            "width": 855,
+            "height": 1502,
+            "preview_width": 480
+          },
+          {
+            "name": "Prism",
+            "description": "景色を曲げたり渦巻かせたりして、少し不思議な眺めに。",
+            "alt": "Prism フィルターの作例。田畑と集落の周囲で、空や風景が渦を巻くように伸びています。",
+            "image": "filters/prism.webp",
+            "preview": "filters/prism-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          }
+        ],
+        "examples_note": "写真を選ぶと、全体を大きく表示できます。",
+        "how_to": {
+          "title": "フィルターの使い方",
+          "steps": [
+            "Manager からカメラを開きます。",
+            "フィルター選択画面を開き、好きなフィルターを選びます。",
+            "フィルター選択画面を閉じて、カメラのプレビューに戻ります。",
+            "Manager のシャッターボタンを押して撮影します。"
+          ]
+        },
+        "sections": [
+          {
+            "id": "styles",
+            "title": "ひとつのカメラで、3 つのスタイル",
+            "paragraphs": [
+              "2.6.3 では Matrix、Cyber Glitch、Prism を追加しました。別の編集アプリを開かなくても、カメラでスタイルを選べます。",
+              "フィルターの見え方は、撮影するものや光の状態によって変わります。いろいろな被写体で試して、お気に入りの組み合わせを見つけてください。"
+            ]
+          },
+          {
+            "id": "capture",
+            "title": "写真も動画も、眼鏡で撮影",
+            "paragraphs": [
+              "撮影モードの切り替え、ズームや画角の調整、グリッドの表示切り替えができます。カメラ設定では、シャッター音や録画時の音も調整できます。",
+              "撮影が成功したかどうかは、画面上のフィードバックで確認できます。"
+            ],
+            "image": "camera-photo.png",
+            "alt": "AI Glasses Manager のカメラプレビューと写真撮影の操作画面"
+          },
+          {
+            "id": "gallery",
+            "title": "撮ったあとも、そのまま眼鏡で",
+            "paragraphs": [
+              "アルバムでは写真や動画を種類ごとに閲覧し、写真の表示、動画の再生、不要なファイルの削除ができます。眼鏡の画面に合わせた表示と操作で、撮影後もそのまま使えます。",
+              "Manager ショートカットを有効にすると、Rokid のランチャーからカメラやアルバムを直接開けます。"
+            ],
+            "image": "gallery.png",
+            "alt": "AI Glasses Manager のアルバムにある写真と動画のカテゴリー"
+          }
+        ]
       }
     },
     "files": {
@@ -472,6 +766,52 @@
             "title": "传输界面也更新了",
             "paragraphs": [
               "2.6.3 重新设计了 Wi-Fi Drop 浏览器界面，并改进了传输可靠性。版本记录会区分这些更新与之前已经加入的功能。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "Rokid Glasses のファイル転送と APK 導入 | Wi-Fi Drop",
+        "description": "眼鏡上でファイルを閲覧し、Wi-Fi Drop でスマートフォンやパソコンから転送。APK をアップロードしてファイルエクスプローラーからインストールできます。",
+        "eyebrow": "ファイルと Wi-Fi Drop",
+        "h1": "ファイルを送って、眼鏡で開く。",
+        "lede": "眼鏡にあるファイルはファイルエクスプローラーで。スマートフォンやパソコンにあるファイルは Wi-Fi Drop で転送できます。",
+        "sections": [
+          {
+            "id": "browse",
+            "title": "眼鏡の中のファイルを探す",
+            "paragraphs": [
+              "眼鏡上でフォルダーを開き、ストレージ内のファイルを閲覧できます。一般的な形式のファイルを開いたり、関連するストレージ設定や Android のシステム機能にアクセスしたりできます。",
+              "カメラやアルバムと合わせて、できるだけ眼鏡だけで作業を進められます。"
+            ]
+          },
+          {
+            "id": "transfer",
+            "title": "Wi-Fi でファイルを送る",
+            "paragraphs": [
+              "Wi-Fi Drop では、対応するスマートフォンやパソコンのブラウザーからファイルを転送できます。Manager に表示される接続方法に従い、ブラウザーの転送画面を開いてください。",
+              "接続を設定すれば、ファイルを送るたびに ADB でつなぐ必要はありません。"
+            ]
+          },
+          {
+            "id": "apk",
+            "title": "APK を送って、眼鏡上でインストール",
+            "paragraphs": [
+              "2.6.3 では Wi-Fi Drop からの APK アップロードに対応しました。ブラウザーで APK を送り、眼鏡のファイルエクスプローラーから開くとインストールに進めます。",
+              "内蔵アプリストアからも、対応するアプリを探してインストールできます。"
+            ],
+            "bullets": [
+              "Manager で Wi-Fi Drop を開き、接続の案内に従います。",
+              "ブラウザーの転送画面から APK をアップロードします。",
+              "眼鏡のファイルエクスプローラーで、転送した APK を探します。",
+              "APK を開き、Android の画面に従ってインストールします。"
+            ]
+          },
+          {
+            "id": "updates",
+            "title": "転送画面も使いやすく",
+            "paragraphs": [
+              "2.6.3 では Wi-Fi Drop のブラウザー画面を刷新し、転送の安定性も改善しました。各バージョンで加わった機能は、更新情報のページで確認できます。"
             ]
           }
         ]
@@ -685,6 +1025,110 @@
             ]
           }
         ]
+      },
+      "ja": {
+        "title": "AI Glasses Manager の全機能 | カメラ・アプリ・ファイル・各種設定",
+        "description": "アプリストア、カメラフィルター、アルバム、Wi-Fi Drop、ファイル管理、音量調整、端末設定、AI 操作、IMU、ショートカットなどの機能をご紹介します。",
+        "eyebrow": "機能ガイド",
+        "h1": "Manager でできること。",
+        "lede": "現在公開中の 2.6.3 をもとに、眼鏡で使える機能をまとめました。",
+        "sections": [
+          {
+            "id": "store",
+            "title": "アプリストアとアプリの管理",
+            "paragraphs": [
+              "厳選アプリ、開発者アプリ、グローバル向け、中国で利用しやすいアプリなど、数千件の Android アプリを閲覧できます。検索や詳細の確認、ダウンロード管理、対応 APK のインストールができます。"
+            ],
+            "bullets": [
+              "ダウンロードの一時停止、再開、キャンセル。",
+              "ストアを離れてもバックグラウンドでダウンロード。",
+              "対応するインストール済みアプリの更新確認。",
+              "オフライン時も読み込み済みの情報を閲覧。"
+            ]
+          },
+          {
+            "id": "camera",
+            "title": "カメラと 3 つのフィルター",
+            "paragraphs": [
+              "Manager のカメラで写真や動画を撮影できます。2.6.3 で追加した Matrix、Cyber Glitch、Prism からスタイルを選べます。"
+            ],
+            "bullets": [
+              "撮影モード、画角、ズームの調整。",
+              "グリッドの表示切り替え。",
+              "シャッター音や録画時の音の設定。",
+              "撮影の成功・失敗を画面で確認。"
+            ]
+          },
+          {
+            "id": "gallery",
+            "title": "アルバムで写真や動画を見る",
+            "paragraphs": [
+              "写真や動画を種類ごとに閲覧し、写真の表示、保存した動画の再生、不要なファイルの削除ができます。",
+              "アルバムを開くとメディア一覧が更新されます。表示や操作は、眼鏡の画面に合わせて設計しています。"
+            ]
+          },
+          {
+            "id": "files",
+            "title": "ファイルエクスプローラーと Wi-Fi Drop",
+            "paragraphs": [
+              "眼鏡のフォルダーを閲覧し、一般的な形式のファイルを開けます。Wi-Fi Drop のブラウザー画面を使えば、対応するスマートフォンやパソコンとファイルをやり取りできます。",
+              "Wi-Fi Drop でアップロードした APK は、ファイルエクスプローラーから開いてインストールできます。"
+            ]
+          },
+          {
+            "id": "settings",
+            "title": "端末と入力の設定",
+            "paragraphs": [
+              "統一されたメニューから、Rokid や Android の設定にアクセスできます。Wi-Fi、Bluetooth、キーボード、インストール済みアプリ、ストレージ、バッテリー関連の機能を開けます。",
+              "利用できるシステム操作は、眼鏡のファームウェアや Android のバージョンによって異なります。"
+            ]
+          },
+          {
+            "id": "sound",
+            "title": "音量とスワイプ時のフィードバック",
+            "paragraphs": [
+              "システム音量と眼鏡の音量を個別に調整できます。音量ロックで眼鏡の音量を一定に保ったり、スワイプ時のフィードバックを設定したりできます。"
+            ],
+            "image": "sound-controls.png",
+            "alt": "個別の音量調整と音量ロックを備えた Manager のサウンド設定"
+          },
+          {
+            "id": "tools",
+            "title": "Cleaner と Live IMU",
+            "paragraphs": [
+              "Cleaner ではワンタップのメンテナンスや、実行中アプリの確認ができます。",
+              "Live IMU ではコンパス、加速度、ジャイロ、ピッチ、ロールの情報を表示します。動きや向きを確認するときに、キャリブレーションやゼロ点調整も行えます。"
+            ],
+            "image": "live-imu.png",
+            "alt": "AI Glasses Manager の Live IMU に表示された姿勢とセンサー情報"
+          },
+          {
+            "id": "ai",
+            "title": "必要に応じて使える AI・音声操作",
+            "paragraphs": [
+              "ハンズフリーで使いたいときは、Manager 設定から AI マイクの表示を有効にできます。内蔵のコマンドガイドには、対応する英語と中国語の使用例を載せています。",
+              "AI を使わないときは、ホームからマイクの表示を隠せます。アプリの表示言語と、音声コマンドの対応言語は異なります。"
+            ]
+          },
+          {
+            "id": "shortcuts",
+            "title": "Manager ショートカット",
+            "paragraphs": [
+              "Rokid のランチャーに、カメラ、アルバム、アプリストア、ファイルエクスプローラーのショートカットを追加できます。それぞれの機能を直接開けます。",
+              "追加や削除は Manager 設定から行えます。"
+            ],
+            "image": "manager-shortcuts.png",
+            "alt": "カメラ、アルバム、ストア、ファイルを直接開ける Manager ショートカット"
+          },
+          {
+            "id": "interface",
+            "title": "画面表示・言語・アップデート",
+            "paragraphs": [
+              "AR モードや見やすいフォーカス表示など、眼鏡で使いやすい画面を目指しています。Manager 自体の更新は、Manager 設定の「アプリの更新」から確認できます。",
+              "公開中の 2.6.3 は、英語、簡体字中国語、繁体字中国語、広東語（香港）、日本語、韓国語、ロシア語、フランス語、ドイツ語、スペイン語の表示に対応しています。"
+            ]
+          }
+        ]
       }
     },
     "help": {
@@ -821,6 +1265,73 @@
             ]
           }
         ]
+      },
+      "ja": {
+        "title": "AI Glasses Manager のインストールと有効化 | Rokid Glasses 向けガイド",
+        "description": "眼鏡へのインストール、端末ごとのライセンス有効化、公式ダウンロード、更新方法、サポートについてご案内します。",
+        "eyebrow": "導入とサポート",
+        "h1": "まずは、眼鏡にインストール。",
+        "lede": "Manager は Rokid Glasses 上で使うアプリです。スマートフォンはインストールや支払いの補助に使えますが、アプリ本体は利用する眼鏡にインストールしてください。",
+        "faq": [
+          [
+            "AI Glasses Manager とは？",
+            "Bruce が Rokid Glasses 向けに個人で開発しているアプリです。旧名称は Rokid Manager です。アプリストア、カメラ、アルバム、ファイル管理、端末設定などを眼鏡上でまとめて使えます。"
+          ],
+          [
+            "Rokid 公式のスマートフォン用アプリですか？",
+            "いいえ。Manager は個人開発のアプリで、眼鏡上で動作します。Rokid 公式のスマートフォン用コンパニオンアプリとは別の製品です。"
+          ],
+          [
+            "オープンソースですか？ awesome-rokid の派生版ですか？",
+            "Manager はプロプライエタリソフトウェアで、アプリのソースコードは非公開です。公開 GitHub リポジトリでは APK、更新情報、スクリーンショット、使い方を配布しています。awesome-rokid などのコミュニティ一覧で紹介されていても、その派生版やオープンソースという意味ではありません。"
+          ],
+          [
+            "どこにインストールすればよいですか？",
+            "APK は Rokid Glasses にインストールしてください。初回は Android のパッケージインストーラーや、接続したパソコンから導入できます。その後、Rokid のランチャーから Manager を開きます。"
+          ],
+          [
+            "どこからダウンロードできますか？",
+            "公式 GitHub リリース、またはリポジトリの manager-update.json に記載された公式ミラーをご利用ください。このサイトのダウンロードリンクは、公式リリースページを開きます。"
+          ],
+          [
+            "料金はいくらですか？",
+            "3 日間無料で試せます。その後は、端末 1 台につき 1.99 米ドルの買い切りです。定期課金はありません。国際決済には Stripe を利用します。有効化はアプリ内の有効化画面から行い、この案内サイトでは支払いを受け付けていません。"
+          ],
+          [
+            "支払いページはスマートフォンで開けますか？",
+            "はい。眼鏡の有効化画面に対応する支払いページを、スマートフォンで開けます。ライセンスは有効化した端末に紐づきます。スマートフォンに別途インストールした Manager を有効化しても、眼鏡が同時に有効になるわけではありません。"
+          ],
+          [
+            "再インストールや初期化をした場合は？",
+            "通常、同じ端末への再インストールでは有効化が復元されます。工場出荷時の状態に初期化した場合は、個別の確認が必要になることがあります。購入記録を用意して Bruce へ個別にご連絡ください。領収書や有効化に関する情報は、公開の Issue に投稿しないでください。"
+          ],
+          [
+            "Manager はどうやって更新しますか？",
+            "初回インストール後は、Manager 設定の「アプリの更新」から新しいバージョンを確認できます。このサイトの更新情報では、公開済みの各バージョンの変更点を紹介しています。"
+          ],
+          [
+            "すべての Android アプリが動きますか？",
+            "ストアには幅広いアプリがありますが、動作するかどうかはアプリと眼鏡によって異なります。タッチ操作、スマートフォン向けサービス、眼鏡にないハードウェアが必要なアプリもあります。一部の掲載アプリは外部ストアからの導入が必要です。"
+          ],
+          [
+            "対応する眼鏡や言語を教えてください。",
+            "Manager は Rokid Glasses 向けに設計・検証しており、Android 8.0 以降が必要です。システム操作はファームウェアによって異なります。公開中のアプリは 10 言語の表示に対応しています。詳しくは機能ガイドをご覧ください。"
+          ],
+          [
+            "不具合はどこに報告すればよいですか？",
+            "公式リポジトリの Issue に、Manager のバージョン、眼鏡の機種とファームウェア、発生時の操作、再現手順を添えてご報告ください。スクリーンショットから個人ファイル、ネットワーク情報、端末識別情報を除いてください。購入や有効化に関する内容は Bruce へ個別にご連絡ください。"
+          ]
+        ],
+        "sections": [
+          {
+            "id": "install",
+            "title": "パソコンからインストールする",
+            "paragraphs": [
+              "公式リリースページから APK をダウンロードし、Android アプリをインストールできるよう設定したパソコンに眼鏡を接続します。ADB を使う場合は、次のコマンドでインストールできます。",
+              "通常の Android パッケージインストーラーを使う方法もあります。次回以降の Manager の更新は、アプリ内から確認できます。"
+            ]
+          }
+        ]
       }
     },
     "updates": {
@@ -837,6 +1348,13 @@
         "eyebrow": "Bruce 的更新记录",
         "h1": "每个版本，都说清楚。",
         "lede": "这里整理 2.5.9 起各版本的新功能、日常改进和修复内容，并附上对应的原始 GitHub 更新说明。"
+      },
+      "ja": {
+        "title": "AI Glasses Manager 更新情報 | バージョンごとの新機能と修正",
+        "description": "音量調整やダウンロード管理、ショートカット、アプリストア、2.6.3 のカメラフィルターまで。Manager の新機能と修正内容をバージョンごとに紹介します。",
+        "eyebrow": "Bruce からの更新情報",
+        "h1": "アップデートの内容を、ひとつずつ。",
+        "lede": "2.5.9 以降の新機能、使い勝手の改善、不具合修正をまとめています。それぞれのページから、GitHub の元のリリースノートも確認できます。"
       }
     }
   },
@@ -897,6 +1415,33 @@
             ]
           ]
         ]
+      },
+      "ja": {
+        "title": "3 つのカメラフィルターと、より手軽な APK 転送",
+        "summary": "カメラに Matrix、Cyber Glitch、Prism を追加。Wi-Fi Drop で APK をアップロードし、眼鏡のファイルエクスプローラーからインストールできるようになりました。",
+        "items": [
+          [
+            "カメラフィルター",
+            [
+              "Matrix、Cyber Glitch、Prism からスタイルを選べます。",
+              "Manager のカメラで、いつもの撮影に違う雰囲気を加えられます。"
+            ]
+          ],
+          [
+            "APK の転送とインストール",
+            [
+              "Wi-Fi Drop のブラウザー画面から APK をアップロードできます。",
+              "転送した APK はファイルエクスプローラーから、対応アプリはアプリストアからインストールできます。"
+            ]
+          ],
+          [
+            "Wi-Fi Drop とカメラの改善",
+            [
+              "Wi-Fi Drop のブラウザー画面を刷新し、転送の安定性を改善しました。",
+              "カメラ画面の見やすさを改善しました。"
+            ]
+          ]
+        ]
       }
     },
     {
@@ -951,6 +1496,31 @@
             ]
           ]
         ]
+      },
+      "ja": {
+        "title": "ストアの安定性と撮影時のわかりやすさを改善",
+        "summary": "ストアの復旧処理や接続案内を改善し、カメラ設定を追加。ファイル、アルバム、ホームの使い勝手も見直しました。",
+        "items": [
+          [
+            "アプリストア",
+            [
+              "安定性、オフラインからの復旧、接続に関する案内を改善しました。"
+            ]
+          ],
+          [
+            "カメラ",
+            [
+              "カメラ設定やシャッター音の調整を追加し、撮影結果を確認しやすくしました。"
+            ]
+          ],
+          [
+            "日々の使い勝手",
+            [
+              "ファイルの閲覧を改善し、アルバムのメニューが表示を妨げにくくなりました。",
+              "Manager の更新に気づきやすくし、ホームアイコンのバランスも調整しました。"
+            ]
+          ]
+        ]
       }
     },
     {
@@ -992,6 +1562,26 @@
               "扩充开发者、全球及中国区友好应用。",
               "新增受支持的已安装应用更新检测。",
               "改善加载体验并更新管理器图标。"
+            ]
+          ]
+        ]
+      },
+      "ja": {
+        "title": "Manager ショートカットとアプリの更新検出",
+        "summary": "Rokid のランチャーからよく使う機能を直接開けるように。ストアのアプリを拡充し、対応するインストール済みアプリの更新確認を追加しました。",
+        "items": [
+          [
+            "Manager ショートカット",
+            [
+              "カメラ、アルバム、アプリストア、ファイルエクスプローラーのショートカットを追加しました。"
+            ]
+          ],
+          [
+            "アプリストア",
+            [
+              "開発者アプリ、グローバル向け、中国で利用しやすいアプリの選択肢を拡充しました。",
+              "対応するインストール済みアプリの更新検出を追加しました。",
+              "読み込みを改善し、Manager のアイコンを刷新しました。"
             ]
           ]
         ]
@@ -1051,6 +1641,32 @@
             ]
           ]
         ]
+      },
+      "ja": {
+        "title": "ダウンロード操作と再インストール時の復元",
+        "summary": "ストアのダウンロードを一時停止・キャンセルできるように。ストア設定を刷新し、有効化やアルバムの動作も改善しました。",
+        "items": [
+          [
+            "ダウンロードとストア設定",
+            [
+              "ダウンロードの一時停止とキャンセルを追加しました。",
+              "ストア設定の画面を刷新しました。"
+            ]
+          ],
+          [
+            "復元とメディア",
+            [
+              "再インストール後の有効化の復元と言語ごとの案内を改善しました。",
+              "アルバムを開いたときにメディア一覧が更新されるようになりました。"
+            ]
+          ],
+          [
+            "画面表示",
+            [
+              "ナビゲーション音の項目名をスワイプ時のフィードバックに変更し、翻訳を見直しました。"
+            ]
+          ]
+        ]
       }
     },
     {
@@ -1090,6 +1706,25 @@
             [
               "更新商店图标和浏览体验。",
               "优化受支持语言的翻译。"
+            ]
+          ]
+        ]
+      },
+      "ja": {
+        "title": "眼鏡の音量を個別に調整",
+        "summary": "眼鏡の個別音量、音量ロック、スワイプ音の設定を追加。ストアの閲覧画面も改善しました。",
+        "items": [
+          [
+            "サウンド",
+            [
+              "眼鏡の個別音量、音量ロック、ナビゲーション音のオン・オフを追加しました。"
+            ]
+          ],
+          [
+            "ストアと言語",
+            [
+              "ストアのアイコンと閲覧時の使い勝手を改善しました。",
+              "対応言語の翻訳を改善しました。"
             ]
           ]
         ]

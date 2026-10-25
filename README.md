@@ -8,6 +8,8 @@
     <a href="https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest">Download 2.6.3</a>
     &nbsp;•&nbsp;
     <a href="https://phantom-not.github.io/ai-glasses-manager-releases/zh/">简体中文</a>
+    &nbsp;•&nbsp;
+    <a href="https://phantom-not.github.io/ai-glasses-manager-releases/ja/">日本語</a>
   </p>
 </div>
 
@@ -114,4 +116,4 @@ I’m working on easier language switching, more camera features and further sta
 
 [Open an issue](https://github.com/Phantom-Not/ai-glasses-manager-releases/issues) with your Manager version, glasses model and firmware, what you were doing, and the steps to reproduce the problem. Remove personal files, network details and device identifiers from screenshots. Contact Bruce privately for purchase or activation details.
 
-[English product guide](https://phantom-not.github.io/ai-glasses-manager-releases/) · [中文功能说明](https://phantom-not.github.io/ai-glasses-manager-releases/zh/) · [Version history](https://phantom-not.github.io/ai-glasses-manager-releases/updates/) · [Update feed](https://phantom-not.github.io/ai-glasses-manager-releases/updates/feed.xml)
+[English product guide](https://phantom-not.github.io/ai-glasses-manager-releases/) · [中文功能说明](https://phantom-not.github.io/ai-glasses-manager-releases/zh/) · [日本語ガイド](https://phantom-not.github.io/ai-glasses-manager-releases/ja/) · [Version history](https://phantom-not.github.io/ai-glasses-manager-releases/updates/) · [Update feed](https://phantom-not.github.io/ai-glasses-manager-releases/updates/feed.xml)
