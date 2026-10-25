@@ -46,7 +46,7 @@ def layout(slug,lang,page,body,kind='page',release=None):
     nav=''.join('<a href="'+path(key,lang)+'"'+(' aria-current="page"' if (key==slug or key=='updates' and slug.startswith('updates/')) else '')+'>'+e(loc['nav'][key])+'</a>' for key in NAV)
     langlinks=''.join('<a class="language-link" href="'+path(slug,key)+'" lang="'+item['lang']+'" hreflang="'+item['lang']+'"'+(' aria-current="page"' if key==lang else '')+'>'+e(item['label'])+'</a>' for key,item in DATA['locales'].items())
     globe='<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 7h14M5 17h14"/></svg>'
-    langmenu='<details class="language-menu"><summary aria-label="'+e(ui['choose_language'])+'">'+globe+'<span>'+e(loc['short_label'])+'</span><span class="language-chevron" aria-hidden="true">⌄</span></summary><nav aria-label="'+e(ui['choose_language'])+'">'+langlinks+'</nav></details>'
+    langmenu='<details class="language-menu"><summary aria-label="'+e(ui['choose_language'])+'">'+globe+'<span>'+e(loc['short_label'])+'</span></summary><nav aria-label="'+e(ui['choose_language'])+'">'+langlinks+'</nav></details>'
     alternates=''.join('<link rel="alternate" hreflang="'+item['lang']+'" href="'+url(slug,key)+'">' for key,item in DATA['locales'].items())+'<link rel="alternate" hreflang="x-default" href="'+url(slug,'en')+'">'
     graph=[{'@type':'WebPage','@id':pageurl+'#page','url':pageurl,'name':page['title'],'description':page['description'],'inLanguage':loc['lang'],'isPartOf':{'@id':BASE+'/#website'},'about':{'@id':BASE+'/#app'}}]
     if slug=='home':
