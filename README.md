@@ -1,171 +1,117 @@
 <div align="center">
-  <h1>AI Glasses Manager</h1>
-  <p><strong>Formerly Rokid Manager</strong></p>
-  <p><strong>Apps, photos, files, and settings, all on your Rokid Glasses.</strong></p>
+  <h1>AI Glasses Manager for Rokid Glasses</h1>
+  <p><strong>Formerly Rokid Manager. Independently developed by Bruce.</strong></p>
+  <p>Android apps, camera filters, Gallery, files and device controls. Right on your glasses.</p>
   <p>
-    <a href="https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest">Download the latest release</a>
-    &nbsp;&nbsp;•&nbsp;&nbsp;
-    <a href="https://github.com/Phantom-Not/ai-glasses-manager-releases/issues">Report an issue</a>
+    <a href="https://phantom-not.github.io/ai-glasses-manager-releases/">Explore the product guide</a>
+    &nbsp;•&nbsp;
+    <a href="https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest">Download 2.6.3</a>
+    &nbsp;•&nbsp;
+    <a href="https://phantom-not.github.io/ai-glasses-manager-releases/zh/">简体中文</a>
   </p>
 </div>
 
-Hi, I'm Bruce. You might know this app as **Rokid Manager**, especially the old 1.5 version shared around the community.
+Hi, I’m Bruce. You might know this app as **Rokid Manager**, especially the older 1.5 version shared around the community. It is now **AI Glasses Manager**, and I’ve kept adding features and fixing problems people report from their glasses.
 
-It's now called **AI Glasses Manager**, and I've kept working on it since then, fixing bugs and adding features like camera tools, wireless file transfers, and app updates.
+Manager runs **on Rokid Glasses**. It is an independent app, separate from Rokid’s official phone companion. This public repository provides downloads, release notes, screenshots and documentation for the proprietary app. It is not an application source-code repository or a fork of awesome-rokid.
 
-It costs **$1.99 per device, paid once**, about the price of a coffee. Payments go through Stripe, with support for international payments. See [Pricing and activation](#pricing-and-activation) for the activation terms.
+The [complete product guide](https://phantom-not.github.io/ai-glasses-manager-releases/features/) covers the current public release. Updates from 2.5.9 onward have their [own feature and release pages](https://phantom-not.github.io/ai-glasses-manager-releases/updates/).
 
 <p align="center">
-  <img src="docs/images/home.png" alt="AI Glasses Manager Home screen" width="30%">
-  <img src="docs/images/app-store.png" alt="AI Glasses Manager App Store" width="30%">
+  <img src="docs/images/home.png" alt="AI Glasses Manager Home screen on Rokid Glasses" width="30%">
+  <img src="docs/images/app-store.png" alt="The Android App Store inside AI Glasses Manager" width="30%">
   <img src="docs/images/manager-settings.png" alt="AI Glasses Manager settings" width="30%">
 </p>
-<p align="center"><sub>Home&nbsp;&nbsp;•&nbsp;&nbsp;App Store&nbsp;&nbsp;•&nbsp;&nbsp;Manager Settings</sub></p>
 
-## What's new in 2.6.3
+## What’s new in 2.6.3
 
-**Camera filters are here!** Give your captures a new look with three filter styles, including **Matrix**, right on your glasses. This is just the start, with more filters on the way.
+- **Three camera filters:** Matrix, Cyber Glitch and Prism. Capture photos and video, and choose a filter style in Camera.
+- **APK uploads and installation:** Upload APK files with Wi-Fi Drop, then open them in File Explorer on the glasses to install them. Supported apps can also be installed from the App Store.
+- **Wi-Fi Drop improvements:** A redesigned browser interface and fixes to transfer reliability.
+- **Clearer Camera controls:** Improved interface readability.
 
-- **APK uploads and installation:** Upload APKs to your glasses with Wi-Fi Drop, then open and install them directly from the File Explorer. You can also install apps from the Manager App Store.
-- **A refreshed Wi-Fi Drop:** A redesigned browser interface and transfer fixes make moving files more reliable.
-- **Clearer Camera controls:** Improved interface readability makes the Camera easier to use.
+Read the [2.6.3 feature guide](https://phantom-not.github.io/ai-glasses-manager-releases/updates/2.6.3/) or the [original GitHub release notes](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/tag/v2.6.3).
 
-See the full [2.6.3 release notes](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/tag/v2.6.3) for details.
+## A full Android App Store alongside Rokid developer apps
 
-## Why I built it
+Manager’s built-in App Store brings together **thousands of Android app listings**, with curated, developer, global and China-friendly selections. The dedicated Rokid developer collection is one part of that wider catalogue.
 
-I wanted to do more directly on the glasses without reaching for my phone every time. That started with opening settings, then grew into managing apps, moving files, viewing photos and videos, and adding other tools I found useful.
-
-I'm still working on it, and feedback from people using it helps me decide what to fix or add next.
-
-## Features
-
-### App Store and app management
-
-- Browse thousands of Android apps from a glasses-friendly catalog.
-- Explore curated, developer, global, and China-friendly selections.
-- Search by name and move through categories without leaving the main interface.
-- Review app details before downloading or installing.
+- Search for apps and browse categories.
+- Read app details and check available download options.
+- Pause, resume or cancel downloads, and let downloads continue in the background.
+- Install supported APKs on the glasses.
 - See available updates for supported installed apps.
-- Keep browsing previously loaded information when the network is unavailable.
-- Receive clear offline guidance instead of waiting on a connection that is not there.
+- Keep browsing previously loaded information when offline.
 
-### Camera and Gallery
+The selection changes with available sources. Android app compatibility depends on the app and glasses, and some listings require an external store. The [App Store guide](https://phantom-not.github.io/ai-glasses-manager-releases/app-store/) explains the options.
 
-- Take photos or record video from a purpose-built Camera interface.
-- Adjust capture mode, framing, zoom, and grid controls without leaving the viewfinder.
-- Choose whether Camera shutter and recording sounds are used.
-- Get immediate visual confirmation when a capture succeeds or fails.
-- Browse photos and videos in Album, with media viewing and video playback designed for the glasses display.
-- Delete photos and videos directly from Album when cleaning up local storage.
+## Camera filters, photo and video tools
+
+Choose from **Matrix**, **Cyber Glitch** and **Prism** camera filters. Use photo and video modes, adjust zoom and framing, show grid controls, and configure shutter or recording sounds. Visual feedback confirms capture success or failure.
+
+Album lets you browse photos and videos, view pictures, play video and delete media directly on the glasses. Read the [camera and filter guide](https://phantom-not.github.io/ai-glasses-manager-releases/camera-filters/).
 
 <p align="center">
-  <img src="docs/images/gallery.png" alt="Album picture and video categories" width="30%">
-  <img src="docs/images/camera-photo.png" alt="Camera photo controls and viewfinder" width="30%">
-  <img src="docs/images/camera-modes.png" alt="Camera photo and video mode chooser" width="30%">
+  <img src="docs/images/gallery.png" alt="Manager Album photo and video categories" width="30%">
+  <img src="docs/images/camera-photo.png" alt="Manager Camera photo controls and viewfinder" width="30%">
+  <img src="docs/images/camera-modes.png" alt="Manager photo and video mode chooser" width="30%">
 </p>
-<p align="center"><sub>Gallery&nbsp;&nbsp;•&nbsp;&nbsp;Zoom controls in the viewfinder&nbsp;&nbsp;•&nbsp;&nbsp;Photo and video mode selector</sub></p>
 
-### Files and wireless transfer
+## Files, wireless transfers and APK installation
 
-- Browse local storage and open common files directly on the glasses.
-- Move through folders without relying on a separate phone interface.
-- Use Wi-Fi Drop to transfer files between the glasses and supported phones or computers without connecting through ADB each time.
-- Reach storage information and Android's related system tools from the same Manager.
+Browse local folders and open common files in File Explorer. Use **Wi-Fi Drop** to transfer files through a browser on a supported phone or computer, without connecting through ADB each time. Upload an APK, then open it from File Explorer to install it on the glasses.
 
-### Device controls and diagnostics
+See the [files and Wi-Fi Drop guide](https://phantom-not.github.io/ai-glasses-manager-releases/files/).
 
-- Open Rokid and Android settings from a consistent glasses-first menu.
-- Reach Wi-Fi, Bluetooth, sound, keyboard, installed apps, storage, and battery tools.
-- Adjust system volume and glasses volume separately, or lock the glasses volume at a fixed level.
-- Configure swipe feedback from the Manager.
+## Device controls, sound and tools
+
+- Open Rokid and Android settings, including Wi-Fi, Bluetooth, keyboard, installed apps, storage and battery tools.
+- Adjust system volume and glasses volume separately, use volume locking and configure swipe feedback.
 - Use Cleaner for one-tap maintenance or to review running apps.
-- View live compass, accelerometer, gyroscope, pitch, and roll information in Live IMU.
-- Calibrate or zero sensor readings when working with motion and orientation.
+- View compass, accelerometer, gyroscope, pitch and roll information in Live IMU, with calibration and zeroing controls.
+- Show or hide the optional AI microphone control. The built-in command guide includes supported English and Chinese examples.
+- Add optional Camera, Album, App Store and File Explorer shortcuts to the Rokid launcher.
+- Use AR Mode and check future Manager releases from Manager Settings > App Update.
 
 <p align="center">
-  <img src="docs/images/device-settings-connectivity.png" alt="Connectivity, sound, keyboard, and app settings" width="30%">
-  <img src="docs/images/device-settings-system.png" alt="Sound, keyboard, apps, files, storage, and battery settings" width="30%">
-  <img src="docs/images/sound-controls.png" alt="Separate system and glasses volume controls" width="30%">
+  <img src="docs/images/device-settings-connectivity.png" alt="Wi-Fi, Bluetooth and input settings in Manager" width="30%">
+  <img src="docs/images/device-settings-system.png" alt="System, storage and device settings in Manager" width="30%">
+  <img src="docs/images/sound-controls.png" alt="Independent volume, volume lock and swipe feedback controls" width="30%">
 </p>
-<p align="center"><sub>Connectivity and input&nbsp;&nbsp;•&nbsp;&nbsp;System tools&nbsp;&nbsp;•&nbsp;&nbsp;Sound controls</sub></p>
-
-### AI and hands-free access
-
-- Enable an optional AI microphone control from Manager Settings.
-- Use supported voice actions when hands-free operation is more practical than the touchpad.
-- Check the built-in AI command guide for supported English and Chinese examples.
-- Keep AI access hidden from Home when it is not needed.
-
-### Manager Shortcuts
-
-Camera, Album, App Store, and File Explorer can be added as optional Manager Shortcuts in the Rokid launcher. Each shortcut opens the matching Manager feature directly, while the Manager remains the single place to enable or remove them.
-
 <p align="center">
-  <img src="docs/images/manager-shortcuts.png" alt="Optional Manager Shortcuts" width="30%">
-  <img src="docs/images/cleaner.png" alt="Cleaner tools" width="30%">
-  <img src="docs/images/live-imu.png" alt="Live IMU compass and motion readings" width="30%">
+  <img src="docs/images/manager-shortcuts.png" alt="Manager Shortcuts for Camera, Album, Store and Files" width="30%">
+  <img src="docs/images/cleaner.png" alt="Cleaner maintenance and running-app tools" width="30%">
+  <img src="docs/images/live-imu.png" alt="Live IMU sensor and orientation display" width="30%">
 </p>
-<p align="center"><sub>Manager Shortcuts&nbsp;&nbsp;•&nbsp;&nbsp;Cleaner&nbsp;&nbsp;•&nbsp;&nbsp;Live IMU</sub></p>
 
-## Designed for the glasses
+## Languages and compatibility
 
-- Clear focus states keep the selected action visible without depending on color alone.
-- AR Mode for obstructive and better viewing on the glasses display.
-- Local tools remain useful when Wi-Fi is unavailable.
-- Consistent interaction patterns carry across apps, settings, and utilities.
-- The interface supports English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German, and Spanish. 
+The current public interface supports **English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German and Spanish**. Interface language and voice-command support are different things.
 
-## Pricing and activation
+Manager is designed and tested for Rokid Glasses and requires Android 8.0 or later. Available system actions can vary with glasses firmware and Android version.
 
-This is a one-time purchase for one device, with no recurring subscription.
+## Pricing, activation and installation
 
-- Activation is normally restored automatically after uninstalling and reinstalling on the same device.
-- A factory reset may prevent automatic restoration. If that happens, contact me privately with your purchase record and current activation code so I can review restoring your access. A factory reset does not automatically mean you need to buy the app again.
+There is a **three-day free trial**. Afterwards, activation costs **$1.99 per device, paid once**, with no recurring subscription. International payments use Stripe.
 
-Please don't post purchase records or activation codes in public issues.
+Install and activate Manager on the glasses you want to use. Your phone can open the checkout associated with the glasses’ activation page. Activating a separate copy of the app installed on your phone does not also activate the glasses.
 
-If you're coming from Rokid Manager 1.5, the current version requires paid activation.
+Activation is normally restored after reinstalling on the same device. A factory reset may need a private support review. Please do not post receipts, activation details or device identifiers in public issues.
 
-## Install
+Download from the [official release page](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest) or an official mirror listed in [manager-update.json](manager-update.json). Use the Android package installer or a connected computer for the initial installation:
 
-1. Open the [latest release](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest).
-2. Download the AI Glasses Manager APK.
-3. Install it with the Android package installer, or from a connected computer with:
+```text
+adb install -r AI-Glasses-Manager-2.6.3.apk
+```
 
-   ```bash
-   adb install -r AI-Glasses-Manager-<version>.apk
-   ```
+Then open Manager from the Rokid launcher. The [installation guide and FAQ](https://phantom-not.github.io/ai-glasses-manager-releases/help/) cover device activation, updates and common questions.
 
-Once installed, open **AI Glasses Manager** from the Rokid launcher. Future Manager releases can also be checked from **Manager Settings → App Update**.
+## What’s next
 
-For safety, download Manager builds only from this repository or from an official mirror listed in [`manager-update.json`](manager-update.json).
+I’m working on easier language switching, more camera features and further stability improvements for **2.6.4**. These changes are still in development. Full details will follow when the update is released.
 
-## Compatibility
+## Feedback and support
 
-AI Glasses Manager is designed and tested for Rokid Glasses. Available system actions can vary with glasses firmware and Android version because some controls are provided by the underlying system.
+[Open an issue](https://github.com/Phantom-Not/ai-glasses-manager-releases/issues) with your Manager version, glasses model and firmware, what you were doing, and the steps to reproduce the problem. Remove personal files, network details and device identifiers from screenshots. Contact Bruce privately for purchase or activation details.
 
-The Manager requires Android 8.0 (API 26) or later. Features that use the camera, microphone, storage, nearby devices, or network request the corresponding Android permission when needed.
-
-## More to come
-
-I'll keep fixing bugs and adding features as they're ready. Check the release notes to see what's new.
-
-## Feedback and issue reports
-
-Real-hardware feedback is what moves the project forward. If something does not behave correctly on your glasses, [open an issue](https://github.com/Phantom-Not/ai-glasses-manager-releases/issues) with:
-
-- your Manager version;
-- glasses model and firmware version;
-- the feature you were using;
-- the steps that reproduce the problem;
-- a screenshot, if it does not contain personal information.
-
-Please remove device identifiers, network names, activation details, and personal files before posting.
-
-## About this repository
-
-This repository hosts official AI Glasses Manager release metadata, APK downloads, screenshots, and public documentation. It is not the application source repository.
-
-AI Glasses Manager is an independent project and is not affiliated with or endorsed by Rokid.
-
+[English product guide](https://phantom-not.github.io/ai-glasses-manager-releases/) · [中文功能说明](https://phantom-not.github.io/ai-glasses-manager-releases/zh/) · [Version history](https://phantom-not.github.io/ai-glasses-manager-releases/updates/) · [Update feed](https://phantom-not.github.io/ai-glasses-manager-releases/updates/feed.xml)
