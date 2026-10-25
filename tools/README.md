@@ -48,6 +48,33 @@ Keep titles and descriptions useful to readers. Do not invent reviews, ratings, 
 
 ## Photo viewer and update feeds
 
-Filter examples on Home and Camera use a small local script with a native dialog. Keep full-image links as the fallback and verify close-button, Escape, backdrop, focus restoration and mobile sizing when changing it. The checker allows only this deferred local script on those six localized pages.
+Filter examples on Home and Camera use a small local script with a native dialog. Keep full-image links as the fallback and verify close-button, Escape, backdrop, focus restoration and mobile sizing when changing it. The checker allows the deferred viewer script only on those six localized pages, plus the local appearance script in each page head.
 
 The footer Atom link opens the readable Updates page at `#feed`, which provides a copyable feed address. Preserve the actual `updates/feed.xml` addresses and timestamps for feed-reader subscriptions.
+
+## Appearance
+
+Every localized page offers System, Light and Dark beside the language picker. System is the default. An explicit choice is saved only in the visitor's browser under `ai-glasses-manager:appearance`; selecting System removes it. The synchronous local `assets/theme.js` sets the appearance before CSS loads, updates browser chrome, follows system changes, and synchronizes choices between tabs. Storage failures still allow a choice for the current page. Without JavaScript, CSS follows the system setting and hides the nonfunctional picker. Print uses light colors. Original photos and app screenshots are never recolored.
+
+Run `node tools/test_theme.cjs` for preference, denied-storage, system-change, cross-tab and menu behavior fixtures. Check dark and light on desktop and narrow mobile layouts, localized menus, the photo dialog, feed field, links, buttons and keyboard focus. Keep theme scripts local and preserve the checker's exact script allowlist.
+
+## Ownership files and robots scope
+
+`content/search-verification.json` stores only Google's public verification filename and body downloaded from the authenticated Search Console property. The builder validates both before generating anything and emits the file unchanged. Keep the file after verification so ownership can be checked again. Never add account credentials, OAuth tokens or private keys here.
+
+The builder creates `docs/robots.txt` with the requested allow-all group and the existing sitemap address. On this project site it is served at:
+
+<https://phantom-not.github.io/ai-glasses-manager-releases/robots.txt>
+
+Crawlers use robots rules from the **host root**, <https://phantom-not.github.io/robots.txt>, not the project subdirectory. A missing host-root robots file does not itself block crawling. This project file is not a substitute for sitemap submission or ownership verification. Do not modify another repository's root policy as part of this site's routine maintenance.
+
+After Google verification, submit the existing full sitemap URL in Search Console, then inspect and request indexing for these URLs:
+
+- <https://phantom-not.github.io/ai-glasses-manager-releases/>
+- <https://phantom-not.github.io/ai-glasses-manager-releases/features/>
+- <https://phantom-not.github.io/ai-glasses-manager-releases/camera-filters/>
+- <https://phantom-not.github.io/ai-glasses-manager-releases/updates/2.6.3/>
+
+Import the verified property and its sitemap into Bing Webmaster Tools using the owner account, or verify directly if import is unavailable. A successful request confirms submission, not indexing. Review Coverage/Pages and Performance in the consoles after data is available. Avoid duplicate metadata/JSON-LD, near-duplicate keyword pages and claims of guaranteed rankings. Existing App Store, camera and file-transfer guides already cover the corresponding checklist subjects. Dedicated social artwork and third-party listings are optional editorial work, not requirements for crawling.
+
+Primary references: [Google robots placement](https://developers.google.com/crawling/docs/robots-txt/create-robots-txt), [Google ownership verification](https://support.google.com/webmasters/answer/9008080), [Bing site verification/import](https://www2.bing.com/webmasters/help/add-and-verify-site-12184f8b).

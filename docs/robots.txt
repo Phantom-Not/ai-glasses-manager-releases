@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://phantom-not.github.io/ai-glasses-manager-releases/sitemap.xml

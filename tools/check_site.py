@@ -29,7 +29,8 @@ class Page(HTMLParser):
             if a.get('type')=='application/ld+json':
                 self.in_json=True;self.script=''
             else:
-                assert a.get('src')==PREFIX+'/assets/photo-viewer.js' and set(a)=={'src','defer'},'Only the local deferred photo viewer is allowed'
+                allowed={PREFIX+'/assets/photo-viewer.js':{'src','defer'},PREFIX+'/assets/theme.js':{'src'}}
+                assert a.get('src') in allowed and set(a)==allowed[a['src']],'Only the exact local theme and photo viewer scripts are allowed'
                 self.links.append(a['src']);self.executable_scripts.append(a['src'])
         assert tag!='form','No checkout, login or tracking forms are expected'
     def handle_endtag(self,tag):
@@ -72,7 +73,11 @@ def check():
         if generated.resolve().parent!=ROOT.resolve() or not generated.name.startswith('.site-check-'):
             raise ValueError('Refusing cleanup outside the temporary output directory')
         shutil.rmtree(generated)
-    pages={p.resolve():Page(p.read_text(encoding='utf-8')) for p in DOCS.rglob('*.html') if p.name!='404.html'}
+    verification=json.loads((ROOT/'content/search-verification.json').read_text(encoding='utf-8'))
+    for filename,body in verification.items():
+        assert re.fullmatch(r'google[0-9a-f]+\.html',filename) and body.strip()=='google-site-verification: '+filename,'Invalid verification file'
+        assert (DOCS/filename).read_bytes()==body.encode('utf-8'),'Verification file changed'
+    pages={p.resolve():Page(p.read_text(encoding='utf-8')) for p in DOCS.rglob('*.html') if p.name!='404.html' and p.relative_to(DOCS).as_posix() not in verification}
     expected=(len(DATA['pages'])+len(DATA['releases']))*len(DATA['locales'])
     assert len(pages)==expected,(len(pages),expected)
     titles=set();descriptions=set();addresses=set()
@@ -111,9 +116,14 @@ def check():
                 target,_=local_target(source,file);assert target and target.is_file(),('Missing responsive image',file,source)
         viewer_pages={('' if key=='en' else key+'/')+suffix for key in DATA['locales'] for suffix in ['index.html','camera-filters/index.html']}
         expects_viewer=file.relative_to(DOCS.resolve()).as_posix() in viewer_pages
-        assert page.executable_scripts==([PREFIX+'/assets/photo-viewer.js'] if expects_viewer else []),('Photo viewer script missing or unexpected',file)
+        assert page.executable_scripts==[PREFIX+'/assets/theme.js']+([PREFIX+'/assets/photo-viewer.js'] if expects_viewer else []),('Photo viewer script missing or unexpected',file)
         if expects_viewer:assert {'photo-viewer-title','photo-viewer-caption','photo-viewer-image'}.issubset(page.ids),('Photo viewer markup missing',file)
         else:assert 'photo-viewer-title' not in page.ids,('Photo viewer on an unexpected page',file)
+        assert page.meta.get('color-scheme')=='light dark',('Missing color scheme',file)
+        assert text.index('name="theme-color"')<text.index('/assets/theme.js')<text.index('/assets/site.css'),('Theme must apply before CSS',file)
+        assert text.count('data-theme-choice=')==3 and 'class="theme-menu" hidden' in text,('Missing appearance control',file)
+        for choice in ('system','light','dark'):
+            assert DATA['locales'][key]['ui']['theme_'+choice] in text,('Unlocalized appearance choice',file)
         assert len(page.json_scripts)==1,file
         graph=page.json_scripts[0]['@graph'];assert graph[0]['url']==page.canonical[0],file
         for item in graph:
@@ -122,6 +132,7 @@ def check():
                 assert item['softwareVersion']==DATA['current_version']
                 assert any(price in text for price in ['$1.99','1.99 美元','1.99 米ドル']),'Offer must match visible pricing'
         assert not re.search(r'\b(VHS|Temporal Lights|Arabic)\b',text,re.I),('Unreleased specific feature',file)
+    assert (DOCS/'robots.txt').read_bytes()==('User-agent: *\nAllow: /\n\nSitemap: '+BASE+'/sitemap.xml\n').encode('utf-8'),'robots.txt must match the requested UTF-8 content'
     sitemap=ET.parse(DOCS/'sitemap.xml').getroot();listed={row.text for row in sitemap.findall('{*}url/{*}loc')}
     assert listed==addresses,('Sitemap mismatch',listed^addresses)
     dates={row.find('{*}loc').text:row.find('{*}lastmod').text for row in sitemap}

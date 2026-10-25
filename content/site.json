@@ -28,7 +28,7 @@
       "support": "Get support",
       "source": "Official release repository",
       "feed": "Atom feed",
-      "privacy": "This documentation site uses no analytics, advertising cookies or sign-in forms. Downloads and support open GitHub.",
+      "privacy": "This documentation site uses no analytics, advertising cookies or sign-in forms. Your appearance choice is saved in your browser. Downloads and support open GitHub.",
       "preview_title": "A look ahead at 2.6.4",
       "preview": "I’m working on easier language switching, more camera features and further stability improvements. These changes are still in development. I’ll share the full details when 2.6.4 is released.",
       "preview_badge": "In development",
@@ -62,7 +62,11 @@
         "viewer_close": "Close photo",
         "viewer_hint": "Tap outside the viewer or use the close button to return.",
         "viewer_loading": "Loading photo…",
-        "viewer_error": "The photo could not be loaded. Close the viewer and try again."
+        "viewer_error": "The photo could not be loaded. Close the viewer and try again.",
+        "theme_label": "Appearance",
+        "theme_system": "System",
+        "theme_light": "Light",
+        "theme_dark": "Dark"
       },
       "short_label": "EN",
       "og_locale": "en_US"
@@ -90,7 +94,7 @@
       "support": "获取帮助",
       "source": "官方发布仓库",
       "feed": "Atom 订阅源",
-      "privacy": "本站不使用流量分析、广告 Cookie 或登录表单。下载和问题反馈会打开 GitHub。",
+      "privacy": "本站不使用流量分析、广告 Cookie 或登录表单。外观偏好仅保存在您的浏览器中。下载和问题反馈会打开 GitHub。",
       "preview_title": "正在准备的 2.6.4",
       "preview": "我正在改进语言切换、增加相机功能，并继续改善稳定性。这些内容仍在开发中，完整说明会在 2.6.4 发布时公布。",
       "preview_badge": "开发中",
@@ -124,7 +128,11 @@
         "viewer_close": "关闭照片",
         "viewer_hint": "点击查看器外部或关闭按钮，即可返回。",
         "viewer_loading": "正在加载照片…",
-        "viewer_error": "照片加载失败，请关闭后重试。"
+        "viewer_error": "照片加载失败，请关闭后重试。",
+        "theme_label": "外观",
+        "theme_system": "跟随系统",
+        "theme_light": "浅色",
+        "theme_dark": "深色"
       },
       "short_label": "中文",
       "og_locale": "zh_CN"
@@ -154,7 +162,7 @@
       "support": "サポート",
       "source": "公式配布リポジトリ",
       "feed": "Atom フィード",
-      "privacy": "このサイトではアクセス解析、広告 Cookie、ログインフォームを使用していません。ダウンロードや不具合の報告には GitHub を利用します。",
+      "privacy": "このサイトではアクセス解析、広告 Cookie、ログインフォームを使用していません。表示モードの設定はお使いのブラウザーに保存されます。ダウンロードや不具合の報告には GitHub を利用します。",
       "preview_title": "次のバージョン、2.6.4 に向けて",
       "preview": "言語の切り替えを使いやすくし、カメラ機能の追加や安定性の改善を進めています。現在開発中のため、詳しい内容は 2.6.4 の公開時にお知らせします。",
       "preview_badge": "開発中",
@@ -188,7 +196,11 @@
         "viewer_close": "写真を閉じる",
         "viewer_hint": "表示枠の外か、閉じるボタンを押すと戻れます。",
         "viewer_loading": "写真を読み込んでいます…",
-        "viewer_error": "写真を読み込めませんでした。いったん閉じて、もう一度お試しください。"
+        "viewer_error": "写真を読み込めませんでした。いったん閉じて、もう一度お試しください。",
+        "theme_label": "表示モード",
+        "theme_system": "端末に合わせる",
+        "theme_light": "ライト",
+        "theme_dark": "ダーク"
       }
     }
   },
