@@ -66,7 +66,8 @@
         "theme_label": "Appearance",
         "theme_system": "System",
         "theme_light": "Light",
-        "theme_dark": "Dark"
+        "theme_dark": "Dark",
+        "activate_link": "How to pay and activate"
       },
       "short_label": "EN",
       "og_locale": "en_US"
@@ -132,7 +133,8 @@
         "theme_label": "外观",
         "theme_system": "跟随系统",
         "theme_light": "浅色",
-        "theme_dark": "深色"
+        "theme_dark": "深色",
+        "activate_link": "如何付款和激活"
       },
       "short_label": "中文",
       "og_locale": "zh_CN"
@@ -200,7 +202,8 @@
         "theme_label": "表示モード",
         "theme_system": "端末に合わせる",
         "theme_light": "ライト",
-        "theme_dark": "ダーク"
+        "theme_dark": "ダーク",
+        "activate_link": "購入・有効化の手順"
       }
     }
   },
@@ -240,7 +243,8 @@
         "camera_link": "Filters & how to use them",
         "h1_lines": [
           "More from your Rokid Glasses."
-        ]
+        ],
+        "updated": "2026-11-03"
       },
       "zh": {
         "title": "AI Glasses Manager 管理器 | Rokid 眼镜应用商店、相机滤镜与工具",
@@ -276,7 +280,8 @@
         "camera_link": "查看滤镜与使用方法",
         "h1_lines": [
           "让 Rokid 眼镜做更多事。"
-        ]
+        ],
+        "updated": "2026-11-03"
       },
       "ja": {
         "title": "AI Glasses Manager | Rokid Glasses のアプリストア・カメラ・便利機能",
@@ -313,7 +318,8 @@
         "h1_lines": [
           "Rokid Glasses で、",
           "できることをもっと。"
-        ]
+        ],
+        "updated": "2026-11-03"
       }
     },
     "app-store": {
@@ -1229,6 +1235,25 @@
         ],
         "sections": [
           {
+            "id": "activation",
+            "title": "Pay and activate on your glasses",
+            "paragraphs": [
+              "There is no separate paid download. Install Manager on your Rokid Glasses, try it free for three days, then unlock it from the app’s Activation page. Activation is $1.99 per device, paid once."
+            ],
+            "steps": [
+              "Connect your glasses to Wi-Fi and open Manager’s Activation page.",
+              "Choose Buy, then Save QR. This saves the purchase QR code generated for these glasses.",
+              "On your phone, open the official Rokid companion app and import or sync the saved QR image from your glasses into its gallery.",
+              "Use a QR scanner on your phone that can read a saved image to open that QR code’s payment page, then complete payment on your phone.",
+              "Return to Activation on your glasses. Make sure the glasses are connected to Wi-Fi again, especially if transferring the image disconnected them, then tap Refresh."
+            ],
+            "notes": [
+              "Your phone only helps with payment. Manager does not need to be installed on it. Always use the QR code generated on the glasses you want to activate: a phone and the glasses are separate devices.",
+              "Already paid but still locked? Reconnect the glasses to Wi-Fi and tap Refresh. If that does not restore access, contact Bruce before paying again.",
+              "For activation help, email futurear_app@hotmail.com with your purchase receipt, the email used for payment and a fresh QR image from Activation on your glasses. Say whether you only reinstalled Manager or also factory reset the glasses. Keep these details out of public issues."
+            ]
+          },
+          {
             "id": "install",
             "title": "Install from a computer",
             "paragraphs": [
@@ -1236,7 +1261,8 @@
               "You can also use the normal Android package installer. Future Manager updates can be checked from inside the app."
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-03"
       },
       "zh": {
         "title": "在 Rokid 眼镜上安装和激活 AI Glasses Manager | 帮助与常见问题",
@@ -1296,6 +1322,25 @@
         ],
         "sections": [
           {
+            "id": "activation",
+            "title": "在眼镜上付款并激活",
+            "paragraphs": [
+              "无需另外下载付费版。先将管理器安装到 Rokid 眼镜上，免费试用三天后，通过应用内的激活页面解锁。每台设备一次性支付 1.99 美元。"
+            ],
+            "steps": [
+              "让眼镜连接 Wi-Fi，然后打开管理器的「激活」页面。",
+              "选择「购买」，再点「保存码」，保存这副眼镜生成的购买二维码。",
+              "在手机上打开 Rokid 官方配套应用，将眼镜里保存的二维码图片导入或同步到图库。",
+              "使用手机上支持识别相册图片的扫码工具，打开这张二维码对应的付款页面，并在手机上完成付款。",
+              "回到眼镜上的「激活」页面，确认眼镜已重新连接 Wi-Fi，再点「刷新」。传输图片后如果 Wi-Fi 断开，请先重新连接。"
+            ],
+            "notes": [
+              "手机只是协助付款，不需要在手机上安装管理器。请始终使用要激活的那副眼镜生成的二维码。手机和眼镜是两台不同的设备，激活不会互通。",
+              "已经付款但仍未解锁？先让眼镜联网，再点「刷新」。如果仍未恢复，请联系 Bruce 核对，不要重复付款。",
+              "激活问题请发邮件至 futurear_app@hotmail.com，附上购买凭证、付款时使用的邮箱和眼镜激活页面当前生成的二维码图片，并说明是仅重新安装了应用，还是也恢复过眼镜出厂设置。请勿将这些信息发到公开问题区。"
+            ]
+          },
+          {
             "id": "install",
             "title": "通过电脑安装",
             "paragraphs": [
@@ -1303,7 +1348,8 @@
               "也可以使用正常的 Android 安装器。之后可在应用内检查管理器更新。"
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-03"
       },
       "ja": {
         "title": "AI Glasses Manager のインストールと有効化 | Rokid Glasses 向けガイド",
@@ -1363,6 +1409,25 @@
         ],
         "sections": [
           {
+            "id": "activation",
+            "title": "眼鏡で購入・有効化する",
+            "paragraphs": [
+              "有料版を別にダウンロードする必要はありません。Rokid Glasses に Manager をインストールすると、3 日間無料で試せます。その後はアプリ内のアクティベーション画面から、端末 1 台につき 1.99 米ドルの買い切りで有効化できます。"
+            ],
+            "steps": [
+              "眼鏡を Wi-Fi に接続し、Manager の「アクティベーション」画面を開きます。",
+              "「購入」を選び、「QRを保存」を押します。この眼鏡の購入用 QR コードが画像として保存されます。",
+              "スマートフォンで Rokid 公式のコンパニオンアプリを開き、眼鏡に保存した QR コードの画像をギャラリーに取り込みます。",
+              "保存した画像を読み取れるスマートフォンの QR リーダーで決済ページを開き、そのまま支払いを完了します。",
+              "眼鏡のアクティベーション画面に戻り、Wi-Fi に接続されていることを確認して「更新」を押します。画像の転送後に Wi-Fi が切れていた場合は、先に接続し直してください。"
+            ],
+            "notes": [
+              "スマートフォンは支払いの補助に使うだけなので、Manager をインストールする必要はありません。必ず、有効化したい眼鏡で生成された QR コードを使ってください。スマートフォンと眼鏡は別の端末として扱われます。",
+              "支払い済みなのに使えない場合は、眼鏡を Wi-Fi に接続して「更新」を押してください。それでも復元されないときは、再度支払う前に Bruce へご連絡ください。",
+              "有効化については futurear_app@hotmail.com まで、購入の控え、支払いに使ったメールアドレス、眼鏡のアクティベーション画面に現在表示されている QR コードの画像をお送りください。アプリの再インストールだけか、眼鏡の初期化も行ったかもお知らせください。これらの情報は公開の Issue に投稿しないでください。"
+            ]
+          },
+          {
             "id": "install",
             "title": "パソコンからインストールする",
             "paragraphs": [
@@ -1370,7 +1435,8 @@
               "通常の Android パッケージインストーラーを使う方法もあります。次回以降の Manager の更新は、アプリ内から確認できます。"
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-03"
       }
     },
     "updates": {

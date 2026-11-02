@@ -29,6 +29,8 @@ def image(name,alt,cls=''):
 def section_html(section,index):
     body=''.join('<p>'+e(text)+'</p>' for text in section['paragraphs'])
     if section.get('bullets'): body+='<ul>'+''.join('<li>'+e(text)+'</li>' for text in section['bullets'])+'</ul>'
+    if section.get('steps'): body+='<ol>'+''.join('<li>'+e(text)+'</li>' for text in section['steps'])+'</ol>'
+    body+=''.join('<p>'+e(text)+'</p>' for text in section.get('notes',[]))
     visual=image(section['image'],section['alt'],'section-image') if section.get('image') else ''
     return '<section class="content-section '+('has-image' if visual else '')+'" id="'+e(section['id'])+'"><div class="section-number">'+str(index).zfill(2)+'</div><div class="section-copy"><h2>'+e(section['title'])+'</h2>'+body+'</div>'+visual+'</section>'
 def filter_cards(page):
@@ -80,7 +82,7 @@ def layout(slug,lang,page,body,kind='page',release=None):
 def home(lang,page):
     loc=DATA['locales'][lang];ui=loc['ui']
     firstimage='<div class="screenshot-stack"><figure class="shot back"><img src="'+asset('home.png')+'" alt="'+e(ui['home_alt'])+'" width="480" height="640" decoding="async"></figure><figure class="shot front"><img src="'+asset('app-store.png')+'" alt="'+e(ui['store_alt'])+'" width="480" height="640" decoding="async"></figure><span class="screen-label">'+e(ui['actual_screens'])+'</span></div>'
-    hero='<section class="hero"><div class="hero-copy"><span class="eyebrow">'+e(page['eyebrow'])+'</span><h1>'+''.join('<span>'+e(line)+'</span>' for line in page['h1_lines'])+'</h1><p class="hero-lede">'+e(page['lede'])+'</p><div class="hero-actions"><a class="button primary" href="'+REPO+'/releases/latest">'+e(loc['download'])+' <span aria-hidden="true">↗</span></a><a class="button secondary" href="'+path('features',lang)+'">'+e(page['secondary'])+'</a></div><p class="identity">'+e(page['identity'])+'</p><p class="price-note">'+e(ui['price_note'])+'</p></div>'+firstimage+'</section>'
+    hero='<section class="hero"><div class="hero-copy"><span class="eyebrow">'+e(page['eyebrow'])+'</span><h1>'+''.join('<span>'+e(line)+'</span>' for line in page['h1_lines'])+'</h1><p class="hero-lede">'+e(page['lede'])+'</p><div class="hero-actions"><a class="button primary" href="'+REPO+'/releases/latest">'+e(loc['download'])+' <span aria-hidden="true">↗</span></a><a class="button secondary" href="'+path('features',lang)+'">'+e(page['secondary'])+'</a></div><p class="identity">'+e(page['identity'])+'</p><p class="price-note">'+e(ui['price_note'])+' <a href="'+path('help#activation',lang)+'">'+e(ui['activate_link'])+'</a></p></div>'+firstimage+'</section>'
     metrics='<div class="metrics">'+''.join('<div><strong>'+e(value)+'</strong><span>'+e(label)+'</span></div>' for value,label in page['metrics'])+'</div>'
     introduction='<div class="intro-note"><span class="initial" aria-hidden="true">B</span><p>'+e(page['intro'])+'</p></div>'
     store='<section class="home-feature"><div><span class="eyebrow">'+e(loc['nav']['app-store'])+'</span><h2>'+e(page['store_head'])+'</h2><p>'+e(page['store_body'])+'</p><a class="text-link" href="'+path('app-store',lang)+'">'+e(loc['more'])+' ↗</a></div><div class="store-explainer"><div><span class="small-label">'+e(ui['android_apps'])+'</span><h3>'+e(ui['catalogue_title'])+'</h3><p>'+e(ui['catalogue_body'])+'</p></div><div><span class="small-label">'+e(ui['rokid_projects'])+'</span><h3>'+e(ui['developer_title'])+'</h3><p>'+e(ui['developer_body'])+'</p></div></div></section>'
@@ -93,15 +95,18 @@ def standard(lang,page,slug):
     head='<header class="page-heading"><span class="eyebrow">'+e(page['eyebrow'])+'</span><h1>'+e(page['h1'])+'</h1><p>'+e(page['lede'])+'</p></header>'
     if slug=='updates': return head+release_cards(lang)+feed_help(lang)+teaser(lang)
     sections=page.get('sections',[])
-    toc='<nav class="page-toc" aria-label="'+e(loc['on_this_page'])+'">'+''.join('<a href="#'+e(row['id'])+'">'+e(row['title'])+'</a>' for row in sections)+'</nav>' if len(sections)>3 else ''
+    toc='<nav class="page-toc" aria-label="'+e(loc['on_this_page'])+'">'+''.join('<a href="#'+e(row['id'])+'">'+e(row['title'])+'</a>' for row in sections)+'</nav>' if len(sections)>3 or slug=='help' else ''
     body=head+toc
     if page.get('how_to'):
         guide=page['how_to']
         body+='<section class="filter-guide" id="how-to"><h2>'+e(guide['title'])+'</h2><ol>'+''.join('<li>'+e(step)+'</li>' for step in guide['steps'])+'</ol></section>'
     if page.get('filters'):body+=filter_cards(page)
-    body+=''.join(section_html(section,i+1) for i,section in enumerate(sections))
+    for i,section in enumerate(sections):
+        body+=section_html(section,i+1)
+        if slug=='help' and section['id']=='install':
+            body+='<pre class="install-command"><code>adb install -r AI-Glasses-Manager-'+e(VERSION)+'.apk</code></pre>'
     if page.get('faq'):
-        body+='<pre class="install-command"><code>adb install -r AI-Glasses-Manager-'+e(VERSION)+'.apk</code></pre><div class="faq-list">'+''.join('<details><summary>'+e(question)+'</summary><p>'+e(answer)+'</p></details>' for question,answer in page['faq'])+'</div>'
+        body+='<div class="faq-list">'+''.join('<details><summary>'+e(question)+'</summary><p>'+e(answer)+'</p></details>' for question,answer in page['faq'])+'</div>'
     if any(row.get('image') for row in sections):body+='<p class="screen-note">'+e(loc['screen_note'])+'</p>'
     return body
 
@@ -123,8 +128,9 @@ def build():
             write(relative,layout(slug,lang,page,body,'reference-page',release));urls.append(url(slug,lang))
     ns='http://www.sitemaps.org/schemas/sitemap/0.9';ET.register_namespace('',ns);sitemap=ET.Element('{'+ns+'}urlset')
     release_dates={url('updates/'+r['version'],lang):r.get('updated',r['published']) for r in DATA['releases'] for lang in DATA['locales']}
+    page_dates={url(slug,lang):page.get('updated',DATA['updated']) for slug,translations in DATA['pages'].items() for lang,page in translations.items()}
     for address in urls:
-        entry=ET.SubElement(sitemap,'{'+ns+'}url');ET.SubElement(entry,'{'+ns+'}loc').text=address;ET.SubElement(entry,'{'+ns+'}lastmod').text=release_dates.get(address,DATA['updated'])
+        entry=ET.SubElement(sitemap,'{'+ns+'}url');ET.SubElement(entry,'{'+ns+'}loc').text=address;ET.SubElement(entry,'{'+ns+'}lastmod').text=release_dates.get(address,page_dates.get(address,DATA['updated']))
     write('sitemap.xml',ET.tostring(sitemap,encoding='unicode',xml_declaration=True))
     ns='http://www.w3.org/2005/Atom';ET.register_namespace('',ns)
     for lang in DATA['locales']:
