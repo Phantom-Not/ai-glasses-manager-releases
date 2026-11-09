@@ -1,15 +1,15 @@
 {
   "packageName": "com.bruce.rokidmanager",
-  "versionCode": 18,
-  "versionName": "2.6.3",
-  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.6.3.apk",
+  "versionCode": 20,
+  "versionName": "2.6.4",
+  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.6.4.apk",
   "mirrors": [
-    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.3/AI-Glasses-Manager-2.6.3.apk",
-    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.3/AI-Glasses-Manager-2.6.3.apk"
+    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.4/AI-Glasses-Manager-2.6.4.apk",
+    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.4/AI-Glasses-Manager-2.6.4.apk"
   ],
-  "sha256": "72786CC06951109AB3777E08176E4CD0A369B222B91B68BFF77EF082B2F4A0E7",
+  "sha256": "EE82988F99BDC0CCFB156FF5B8366F78CEAD71B7A89A6A507EC90F499E29B7DC",
   "releaseNotes": {
-    "en": "Camera Filters are here! Choose between three unique styles to customize your captures. Both File Explorer and Wi-Fi Drop now support direct APK transfers and on-device installation. The Wi-Fi Drop browser interface has been completely revamped with transfer reliability fixes, and Camera UI readability is improved.",
-    "zh": "收紧照片和视频中的 Matrix 效果覆盖范围，加快识别更新。提升 Wi-Fi Drop 文件传输的可靠性，重新设计网页界面，优化手机浏览体验，并支持全部核心语言。点击 APK 文件时会先显示操作菜单，安装完成或失败的结果也会保留显示。"
+    "en": "Added VHS Camcorder, Temporal Lights, and Predator Vision for photos and videos. Improved capture reliability and zoom, with dedicated camera-button support and optional swipe zoom. Added Arabic and an in-app language picker, refreshed the App Store, and kept Wi-Fi Drop transfers running through display sleep.",
+    "zh": "新增 VHS 复古摄像机、流光轨迹和铁血战士视觉滤镜，拍照和录像均可使用。提升拍摄稳定性和变焦流畅度，支持眼镜独立相机键和可选的滑动变焦。新增阿拉伯语和应用内语言选择，更新应用商店目录，并支持眼镜熄屏后继续传输文件。"
   }
 }
