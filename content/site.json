@@ -239,7 +239,7 @@
       },
       "zh": {
         "title": "AI Glasses Manager 管理器 | Rokid 眼镜应用商店、相机滤镜与工具",
-        "description": "AI Glasses Manager 原名 Rokid Manager，由 Bruce 独立开发。直接在 Rokid 眼镜上使用 Android 应用商店、Matrix 滤镜、图库、文件传输和设备控制。",
+        "description": "AI Glasses Manager 原名 Rokid Manager，由 Bruce 独立开发。直接在 Rokid 眼镜上使用 Android 应用商店、矩阵 滤镜、图库、文件传输和设备控制。",
         "eyebrow": "AI Glasses Manager · 原名 Rokid Manager",
         "h1": "让 Rokid 眼镜做更多事。",
         "lede": "应用、相机滤镜、照片、文件和设置，都在眼镜上完成。",
@@ -248,7 +248,7 @@
         "store_head": "Android 应用和 Rokid 社区项目，都能找到。",
         "store_body": "内置商店既有广泛的 Android 应用目录，也有专为 Rokid 眼镜整理的开发者应用。你可以浏览数千条应用信息、按名称搜索、管理下载，并检查受支持应用的更新。",
         "camera_head": "熟悉的风景，也能拍出新感觉。",
-        "camera_body": "看看六款滤镜如何改变熟悉的场景，从 Matrix 代码和 Cyber Glitch 到 VHS 磁带质感与发光轨迹。",
+        "camera_body": "看看六款滤镜如何改变熟悉的场景，从矩阵的绿色代码、赛博故障，到 VHS 的复古质感和发光轨迹。",
         "daily_head": "日常操作，也值得更顺手。",
         "daily_body": "通过 Wi-Fi 传文件、打开本地文件夹、调整音量、进入设备设置，还可以为常用工具添加管理器快捷方式。",
         "updates_head": "每次更新，具体变了什么？",
@@ -276,7 +276,7 @@
       },
       "ja": {
         "title": "AI Glasses Manager | Rokid Glasses のアプリストア・カメラ・便利機能",
-        "description": "旧 Rokid Manager。Android アプリストア、Matrix などのカメラフィルター、アルバム、ファイル転送、各種設定を Rokid Glasses 上で使えるアプリです。",
+        "description": "旧 Rokid Manager。Android アプリストア、マトリックス などのカメラフィルター、アルバム、ファイル転送、各種設定を Rokid Glasses 上で使えるアプリです。",
         "eyebrow": "AI Glasses Manager・旧 Rokid Manager",
         "h1": "Rokid Glasses で、できることをもっと。",
         "lede": "アプリも、カメラも、写真も、ファイルも。よく使う機能を、眼鏡の中にひとまとめ。",
@@ -285,7 +285,7 @@
         "store_head": "Android アプリも、Rokid 向けアプリも。",
         "store_body": "内蔵ストアには、幅広い Android アプリと、Rokid Glasses 向けに作られた開発者アプリが並んでいます。数千件の掲載アプリから検索し、ダウンロードの管理や対応アプリの更新確認ができます。",
         "camera_head": "いつもの景色を、少し違う一枚に。",
-        "camera_body": "Matrix のコードや Cyber Glitch から、VHS の質感や光の軌跡まで、6種類のフィルターの作例をご覧ください。",
+        "camera_body": "マトリックス のコードや サイバー・グリッチ から、VHS の質感や光の軌跡まで、6種類のフィルターの作例をご覧ください。",
         "camera_link": "フィルターと使い方を見る",
         "daily_head": "日々の使いやすさも、大切に。",
         "daily_body": "Wi-Fi でのファイル転送、フォルダーの閲覧、音量調整、端末設定へのアクセス。よく使う機能は、ランチャーにショートカットを追加できます。",
@@ -530,7 +530,7 @@
           },
           {
             "name": "Temporal Lights",
-            "description": "A dreamier way to capture the night.",
+            "description": "Give everyday scenes a dreamlike glow, day or night.",
             "alt": "Decorative tree lights radiate in long streaks at night.",
             "image": "filters/temporal-lights.webp",
             "preview": "filters/temporal-lights-480.webp",
@@ -601,9 +601,9 @@
         "lede": "管理器相机提供六款滤镜。点击下方任意照片可查看大图。",
         "filters": [
           {
-            "name": "Matrix",
-            "description": "在眼前的风景中叠加绿色代码，拍出 Matrix 风格。",
-            "alt": "Matrix 相机滤镜示例：绿色代码叠加在海边的树木、岩石与蓝天上。",
+            "name": "矩阵",
+            "description": "给眼前的风景叠上绿色代码，拍出矩阵风格。",
+            "alt": "矩阵 相机滤镜示例：绿色代码叠加在海边的树木、岩石与蓝天上。",
             "image": "filters/matrix.webp",
             "preview": "filters/matrix-480.webp",
             "width": 1200,
@@ -611,9 +611,9 @@
             "preview_width": 480
           },
           {
-            "name": "Cyber Glitch",
+            "name": "赛博故障",
             "description": "让熟悉的画面出现彩色方块与数字故障效果。",
-            "alt": "Cyber Glitch 相机滤镜示例：弧形白色建筑上出现彩色数字方块与色彩分离。",
+            "alt": "赛博故障 相机滤镜示例：弧形白色建筑上出现彩色数字方块与色彩分离。",
             "image": "filters/cyber-glitch.webp",
             "preview": "filters/cyber-glitch-480.webp",
             "width": 855,
@@ -621,9 +621,9 @@
             "preview_width": 480
           },
           {
-            "name": "Prism",
+            "name": "棱镜",
             "description": "让风景弯曲、旋转，呈现更超现实的视角。",
-            "alt": "Prism 相机滤镜示例：田野和村庄周围的天空与风景呈现旋转、拉伸效果。",
+            "alt": "棱镜 相机滤镜示例：田野和村庄周围的天空与风景呈现旋转、拉伸效果。",
             "image": "filters/prism.webp",
             "preview": "filters/prism-480.webp",
             "width": 1200,
@@ -642,7 +642,7 @@
           },
           {
             "name": "流光轨迹",
-            "description": "把夜色拍得更梦幻一点。",
+            "description": "无论白天还是夜晚，都能给熟悉的景色添一点梦幻感。",
             "alt": "夜间树上的装饰灯向外拉出长长的光轨。",
             "image": "filters/temporal-lights.webp",
             "preview": "filters/temporal-lights-480.webp",
@@ -666,7 +666,7 @@
             "id": "styles",
             "title": "在相机中选择拍摄风格",
             "paragraphs": [
-              "六款滤镜分别为 Matrix、Cyber Glitch、Prism、VHS 复古摄像机、流光轨迹和铁血战士视觉。",
+              "六款滤镜分别为 矩阵、赛博故障、棱镜、VHS 复古摄像机、流光轨迹和铁血战士视觉。",
               "滤镜的显示结果会随场景和光线变化。可以试试不同的拍摄对象，找到适合自己画面的风格。"
             ]
           },
@@ -713,9 +713,9 @@
         "lede": "Manager のカメラで6種類のフィルターを使えます。作例を選ぶと拡大表示できます。",
         "filters": [
           {
-            "name": "Matrix",
-            "description": "景色に緑のコードを重ねて、Matrix の世界観を楽しめます。",
-            "alt": "Matrix フィルターの作例。海辺の木や岩、青空に緑のコードが重なっています。",
+            "name": "マトリックス",
+            "description": "景色に緑のコードを重ねて、マトリックス の世界観を楽しめます。",
+            "alt": "マトリックス フィルターの作例。海辺の木や岩、青空に緑のコードが重なっています。",
             "image": "filters/matrix.webp",
             "preview": "filters/matrix-480.webp",
             "width": 1200,
@@ -723,9 +723,9 @@
             "preview_width": 480
           },
           {
-            "name": "Cyber Glitch",
+            "name": "サイバー・グリッチ",
             "description": "見慣れた風景に、カラフルなブロックやデジタルな歪みを加えます。",
-            "alt": "Cyber Glitch フィルターの作例。曲線的な白い建物に、色付きのブロックや色ずれが現れています。",
+            "alt": "サイバー・グリッチ フィルターの作例。曲線的な白い建物に、色付きのブロックや色ずれが現れています。",
             "image": "filters/cyber-glitch.webp",
             "preview": "filters/cyber-glitch-480.webp",
             "width": 855,
@@ -733,9 +733,9 @@
             "preview_width": 480
           },
           {
-            "name": "Prism",
+            "name": "プリズム",
             "description": "景色を曲げたり渦巻かせたりして、少し不思議な眺めに。",
-            "alt": "Prism フィルターの作例。田畑と集落の周囲で、空や風景が渦を巻くように伸びています。",
+            "alt": "プリズム フィルターの作例。田畑と集落の周囲で、空や風景が渦を巻くように伸びています。",
             "image": "filters/prism.webp",
             "preview": "filters/prism-480.webp",
             "width": 1200,
@@ -754,7 +754,7 @@
           },
           {
             "name": "光の軌跡",
-            "description": "夜の景色を、ちょっと幻想的に。",
+            "description": "昼も夜も、いつもの景色を少し幻想的に。",
             "alt": "夜の木を飾るイルミネーションから長い光の筋が伸びる作例。",
             "image": "filters/temporal-lights.webp",
             "preview": "filters/temporal-lights-480.webp",
@@ -788,7 +788,7 @@
             "id": "styles",
             "title": "カメラでスタイルを選ぶ",
             "paragraphs": [
-              "Matrix、Cyber Glitch、Prism、VHS カムコーダー、光の軌跡、プレデタービジョンの6種類です。",
+              "マトリックス、サイバー・グリッチ、プリズム、VHS カムコーダー、光の軌跡、プレデタービジョンの6種類です。",
               "フィルターの見え方は、撮影するものや光の状態によって変わります。いろいろな被写体で試して、お気に入りの組み合わせを見つけてください。"
             ]
           },
@@ -1096,7 +1096,7 @@
             "id": "camera",
             "title": "相机与滤镜",
             "paragraphs": [
-              "六款滤镜分别为 Matrix、Cyber Glitch、Prism、VHS 复古摄像机、流光轨迹和铁血战士视觉。",
+              "六款滤镜分别为 矩阵、赛博故障、棱镜、VHS 复古摄像机、流光轨迹和铁血战士视觉。",
               "使用屏幕上的拍摄控件或眼镜的独立相机键拍照，或开始和停止录像。",
               "可在相机设置中开启「点击后滑动变焦」，也可调整网格线和画面比例。"
             ],
@@ -1206,7 +1206,7 @@
             "id": "camera",
             "title": "カメラとフィルター",
             "paragraphs": [
-              "Matrix、Cyber Glitch、Prism、VHS カムコーダー、光の軌跡、プレデタービジョンの6種類です。",
+              "マトリックス、サイバー・グリッチ、プリズム、VHS カムコーダー、光の軌跡、プレデタービジョンの6種類です。",
               "画面の撮影ボタンまたは眼鏡の専用カメラボタンで、撮影や録画の開始・停止ができます。",
               "カメラ設定で、タップしてからスワイプするズーム操作、グリッド線、アスペクト比を設定できます。"
             ],
