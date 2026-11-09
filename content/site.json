@@ -1,7 +1,7 @@
 {
   "base_url": "https://phantom-not.github.io/ai-glasses-manager-releases",
   "repository": "https://github.com/Phantom-Not/ai-glasses-manager-releases",
-  "current_version": "2.6.3",
+  "current_version": "2.6.4",
   "updated": "2026-10-25",
   "author": "Bruce",
   "locales": {
@@ -17,7 +17,7 @@
         "updates": "Updates",
         "help": "Install & help"
       },
-      "download": "Download 2.6.3",
+      "download": "Download 2.6.4",
       "release_label": "Current release",
       "skip": "Skip to content",
       "on_this_page": "On this page",
@@ -29,9 +29,6 @@
       "source": "Official release repository",
       "feed": "Atom feed",
       "privacy": "This documentation site uses no analytics, advertising cookies or sign-in forms. Your appearance choice is saved in your browser. Downloads and support open GitHub.",
-      "preview_title": "A look ahead at 2.6.4",
-      "preview": "I’m working on easier language switching, more camera features and further stability improvements. These changes are still in development. I’ll share the full details when 2.6.4 is released.",
-      "preview_badge": "In development",
       "screen_note": "Real Manager screens. These English screenshots show the interface; appearance can vary with your glasses and version.",
       "ui": {
         "main_navigation": "Main navigation",
@@ -84,7 +81,7 @@
         "updates": "版本更新",
         "help": "安装与帮助"
       },
-      "download": "下载 2.6.3",
+      "download": "下载 2.6.4",
       "release_label": "当前版本",
       "skip": "跳转到正文",
       "on_this_page": "本页内容",
@@ -96,9 +93,6 @@
       "source": "官方发布仓库",
       "feed": "Atom 订阅源",
       "privacy": "本站不使用流量分析、广告 Cookie 或登录表单。外观偏好仅保存在您的浏览器中。下载和问题反馈会打开 GitHub。",
-      "preview_title": "正在准备的 2.6.4",
-      "preview": "我正在改进语言切换、增加相机功能，并继续改善稳定性。这些内容仍在开发中，完整说明会在 2.6.4 发布时公布。",
-      "preview_badge": "开发中",
       "screen_note": "图片为管理器的真实英文界面。显示效果可能随眼镜和应用版本而有所不同。",
       "ui": {
         "main_navigation": "主导航",
@@ -153,7 +147,7 @@
         "updates": "更新情報",
         "help": "導入とサポート"
       },
-      "download": "2.6.3 をダウンロード",
+      "download": "2.6.4 をダウンロード",
       "release_label": "公開中のバージョン",
       "skip": "本文へ移動",
       "on_this_page": "このページの内容",
@@ -165,9 +159,6 @@
       "source": "公式配布リポジトリ",
       "feed": "Atom フィード",
       "privacy": "このサイトではアクセス解析、広告 Cookie、ログインフォームを使用していません。表示モードの設定はお使いのブラウザーに保存されます。ダウンロードや不具合の報告には GitHub を利用します。",
-      "preview_title": "次のバージョン、2.6.4 に向けて",
-      "preview": "言語の切り替えを使いやすくし、カメラ機能の追加や安定性の改善を進めています。現在開発中のため、詳しい内容は 2.6.4 の公開時にお知らせします。",
-      "preview_badge": "開発中",
       "screen_note": "掲載画像は実際のアプリ画面です。スクリーンショットは英語表示のため、お使いの言語やバージョンによって見た目が異なる場合があります。",
       "ui": {
         "main_navigation": "メインナビゲーション",
@@ -220,18 +211,18 @@
         "store_head": "Android apps and Rokid projects, together.",
         "store_body": "The built-in App Store has a broad Android catalogue as well as a curated collection of apps made for Rokid Glasses. Browse thousands of listings, search by name, manage downloads and check for supported app updates.",
         "camera_head": "See the everyday differently.",
-        "camera_body": "Turn a familiar street, a quiet field or a beach view into something unexpected. Explore Matrix, Cyber Glitch and Prism, right in Manager’s Camera.",
+        "camera_body": "See how the six filters change the look of a familiar scene, from Matrix code and Cyber Glitch to VHS tape and glowing light trails.",
         "daily_head": "The everyday things matter, too.",
         "daily_body": "Move files over Wi-Fi, open local folders, adjust sound, reach device settings and add shortcuts to your most-used Manager tools.",
         "updates_head": "What changed in each update?",
-        "updates_body": "Browse the features and fixes in releases from 2.5.9 onward, written in plain language. Start with 2.6.3, then explore the earlier updates.",
+        "updates_body": "Browse the features and fixes from 2.5.9 onward, starting with 2.6.4.",
         "metrics": [
           [
-            "3",
+            "6",
             "Camera filters"
           ],
           [
-            "10",
+            "11",
             "Interface languages"
           ],
           [
@@ -244,7 +235,7 @@
         "h1_lines": [
           "More from your Rokid Glasses."
         ],
-        "updated": "2026-11-03"
+        "updated": "2026-11-09"
       },
       "zh": {
         "title": "AI Glasses Manager 管理器 | Rokid 眼镜应用商店、相机滤镜与工具",
@@ -257,18 +248,18 @@
         "store_head": "Android 应用和 Rokid 社区项目，都能找到。",
         "store_body": "内置商店既有广泛的 Android 应用目录，也有专为 Rokid 眼镜整理的开发者应用。你可以浏览数千条应用信息、按名称搜索、管理下载，并检查受支持应用的更新。",
         "camera_head": "熟悉的风景，也能拍出新感觉。",
-        "camera_body": "街角、田野或海边，都可以换一种方式记录。在管理器相机中选择 Matrix、Cyber Glitch 或 Prism，拍出属于自己的画面。",
+        "camera_body": "看看六款滤镜如何改变熟悉的场景，从 Matrix 代码和 Cyber Glitch 到 VHS 磁带质感与发光轨迹。",
         "daily_head": "日常操作，也值得更顺手。",
         "daily_body": "通过 Wi-Fi 传文件、打开本地文件夹、调整音量、进入设备设置，还可以为常用工具添加管理器快捷方式。",
         "updates_head": "每次更新，具体变了什么？",
-        "updates_body": "这里整理了 2.5.9 起各版本的新功能与修复。可以先看 2.6.3，也可以了解之前的更新。",
+        "updates_body": "查看 2.5.9 以来的新功能与修复，从 2.6.4 开始。",
         "metrics": [
           [
-            "3",
+            "6",
             "种相机滤镜"
           ],
           [
-            "10",
+            "11",
             "种界面语言"
           ],
           [
@@ -281,7 +272,7 @@
         "h1_lines": [
           "让 Rokid 眼镜做更多事。"
         ],
-        "updated": "2026-11-03"
+        "updated": "2026-11-09"
       },
       "ja": {
         "title": "AI Glasses Manager | Rokid Glasses のアプリストア・カメラ・便利機能",
@@ -294,19 +285,19 @@
         "store_head": "Android アプリも、Rokid 向けアプリも。",
         "store_body": "内蔵ストアには、幅広い Android アプリと、Rokid Glasses 向けに作られた開発者アプリが並んでいます。数千件の掲載アプリから検索し、ダウンロードの管理や対応アプリの更新確認ができます。",
         "camera_head": "いつもの景色を、少し違う一枚に。",
-        "camera_body": "見慣れた街角も、静かな田園も、海辺の風景も。Manager のカメラで Matrix、Cyber Glitch、Prism を選んで、自分らしい一枚にしてみませんか。",
+        "camera_body": "Matrix のコードや Cyber Glitch から、VHS の質感や光の軌跡まで、6種類のフィルターの作例をご覧ください。",
         "camera_link": "フィルターと使い方を見る",
         "daily_head": "日々の使いやすさも、大切に。",
         "daily_body": "Wi-Fi でのファイル転送、フォルダーの閲覧、音量調整、端末設定へのアクセス。よく使う機能は、ランチャーにショートカットを追加できます。",
         "updates_head": "アップデートで、何が変わった？",
-        "updates_body": "2.5.9 以降の新機能や修正内容を、バージョンごとにまとめています。まずは 2.6.3 の更新内容からご覧ください。",
+        "updates_body": "2.6.4 をはじめ、2.5.9 以降の新機能や修正内容を確認できます。",
         "metrics": [
           [
-            "3",
+            "6",
             "カメラフィルター"
           ],
           [
-            "10",
+            "11",
             "アプリの表示言語"
           ],
           [
@@ -319,7 +310,7 @@
           "Rokid Glasses で、",
           "できることをもっと。"
         ],
-        "updated": "2026-11-03"
+        "updated": "2026-11-09"
       }
     },
     "app-store": {
@@ -350,7 +341,8 @@
             "title": "A separate home for Rokid developers",
             "paragraphs": [
               "The curated developer collection highlights community projects made for Rokid Glasses. It is one part of the App Store, alongside the wider Android catalogue.",
-              "A community listing does not mean Manager owns or develops that app. Each project remains the work of its own publisher."
+              "A community listing does not mean Manager owns or develops that app. Each project remains the work of its own publisher.",
+              "Refreshed the catalog with 82 curated Developer Apps and improved keyboard and mouse navigation."
             ]
           },
           {
@@ -374,7 +366,8 @@
               "Sources and download options can change. Some listings use an external store, and Android app features may depend on hardware or input methods the glasses do not have."
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-09"
       },
       "zh": {
         "title": "Rokid 眼镜上的 Android 应用商店 | AI Glasses Manager",
@@ -403,7 +396,8 @@
             "title": "为 Rokid 开发者留出专门的位置",
             "paragraphs": [
               "精选开发者分类收录为 Rokid 眼镜制作的社区项目。它与更广泛的 Android 目录一起，组成管理器的应用商店。",
-              "被收录不代表这些应用由管理器开发或拥有。每个项目都属于各自的发布者。"
+              "被收录不代表这些应用由管理器开发或拥有。每个项目都属于各自的发布者。",
+              "更新应用目录，收录 82 款精选开发者应用，并改进键盘和鼠标导航。"
             ]
           },
           {
@@ -427,7 +421,8 @@
               "应用来源和下载方式可能变化。部分条目需要使用外部商店，部分 Android 应用也可能依赖眼镜不具备的硬件或输入方式。"
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-09"
       },
       "ja": {
         "title": "Rokid Glasses で Android アプリを探す | AI Glasses Manager のアプリストア",
@@ -456,7 +451,8 @@
             "title": "Rokid 向け開発者アプリのコレクション",
             "paragraphs": [
               "開発者アプリのコレクションでは、Rokid Glasses 向けに作られたコミュニティのアプリを紹介しています。幅広い Android アプリを扱うストアの、一部を構成するコレクションです。",
-              "ストアに掲載されているアプリを、すべて Manager が開発しているわけではありません。各アプリの権利や開発は、それぞれの提供者に帰属します。"
+              "ストアに掲載されているアプリを、すべて Manager が開発しているわけではありません。各アプリの権利や開発は、それぞれの提供者に帰属します。",
+              "カタログを更新し、厳選した開発者アプリ82本を収録しました。キーボードとマウスでの操作も改善しました。"
             ]
           },
           {
@@ -480,16 +476,17 @@
               "提供元やダウンロード方法は変わることがあります。一部のアプリは外部ストアからの導入が必要です。また、眼鏡にないハードウェアや操作方法を前提とした機能は利用できない場合があります。"
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-09"
       }
     },
     "camera-filters": {
       "en": {
-        "title": "Matrix, Cyber Glitch & Prism filters for Rokid Glasses | AI Glasses Manager",
-        "description": "Meet the three camera filters introduced in AI Glasses Manager 2.6.3: Matrix, Cyber Glitch and Prism. Explore photo, video, zoom, framing and Gallery tools.",
-        "eyebrow": "Camera filters · Added in 2.6.3",
+        "title": "Camera filters for photos and video on Rokid Glasses | AI Glasses Manager",
+        "description": "See all six camera filters for Rokid Glasses, including VHS Camcorder, Temporal Lights, and Predator Vision. Explore photos, video, zoom and framing.",
+        "eyebrow": "Camera filters",
         "h1": "Give your captures a different look.",
-        "lede": "Capture familiar places in a more personal way. Try Matrix, Cyber Glitch or Prism in Manager’s Camera, and explore the photo examples below.",
+        "lede": "Choose from six filters in Manager’s Camera. Open any of the photos below for a closer look.",
         "filters": [
           {
             "name": "Matrix",
@@ -520,14 +517,44 @@
             "width": 1200,
             "height": 2133,
             "preview_width": 480
+          },
+          {
+            "name": "VHS Camcorder",
+            "description": "Give photos and videos the look of an analog tape, with tracking noise, color bleed and a camcorder timestamp.",
+            "alt": "A red train at a station with VHS tracking noise and a date stamp.",
+            "image": "filters/vhs-camcorder.webp",
+            "preview": "filters/vhs-camcorder-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          },
+          {
+            "name": "Temporal Lights",
+            "description": "Turn bright points into glowing light trails while keeping the scene recognizable.",
+            "alt": "Decorative tree lights radiate in long streaks at night.",
+            "image": "filters/temporal-lights.webp",
+            "preview": "filters/temporal-lights-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          },
+          {
+            "name": "Predator Vision",
+            "description": "Recast the camera image in a high-contrast, sci-fi thermal palette.",
+            "alt": "A café facade in blue, green and orange false color.",
+            "image": "filters/predator-vision.webp",
+            "preview": "filters/predator-vision-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
           }
         ],
         "sections": [
           {
             "id": "styles",
-            "title": "Three named styles, in one Camera",
+            "title": "Choose a look in Camera",
             "paragraphs": [
-              "Version 2.6.3 introduced Matrix, Cyber Glitch and Prism. Choose the style in Camera rather than moving to a separate editing app.",
+              "The six styles are Matrix, Cyber Glitch, Prism, VHS Camcorder, Temporal Lights, and Predator Vision.",
               "The look of a filter changes with the scene and lighting. Try a few different subjects to see how each style suits your captures."
             ]
           },
@@ -535,8 +562,10 @@
             "id": "capture",
             "title": "Photo and video controls",
             "paragraphs": [
-              "Switch capture modes, use the viewfinder, adjust zoom and framing, and turn grid controls on or off. Camera settings include shutter and recording sound controls.",
-              "Visual feedback confirms when a capture succeeds or fails."
+              "Improved photo processing and capture reliability, added low-battery protection, and made zoom smoother.",
+              "Use the glasses’ dedicated camera button to take a photo or start and stop recording.",
+              "Camera Settings includes optional Tap and Swipe zoom, gridlines, and aspect ratio.",
+              "Camera Settings also includes shutter and recording sound controls. Visual feedback confirms when a capture succeeds or fails."
             ],
             "image": "camera-photo.png",
             "alt": "Real photo controls and viewfinder in AI Glasses Manager"
@@ -559,16 +588,17 @@
             "Open Camera in Manager, or use the Manager Camera shortcut.",
             "Open the filter picker and choose the look you want.",
             "Close the filter picker to return to the camera preview.",
-            "Press Manager’s shutter button to take your photo."
+            "Take a photo or start and stop recording with Manager’s on-screen control or the glasses’ dedicated camera button."
           ]
-        }
+        },
+        "updated": "2026-11-09"
       },
       "zh": {
-        "title": "Rokid 眼镜 Matrix、Cyber Glitch 与 Prism 滤镜 | AI Glasses Manager",
-        "description": "认识 AI Glasses Manager 2.6.3 新增的 Matrix、Cyber Glitch 和 Prism 相机滤镜，并了解拍照、录像、变焦、取景和图库功能。",
-        "eyebrow": "相机滤镜 · 2.6.3 新增",
+        "title": "Rokid 眼镜拍照与录像滤镜 | AI Glasses Manager",
+        "description": "查看适用于 Rokid 眼镜的六款相机滤镜，包括 VHS 复古摄像机、流光轨迹和铁血战士视觉，并了解拍摄、变焦和取景。",
+        "eyebrow": "相机滤镜",
         "h1": "给拍摄画面换一种风格。",
-        "lede": "用自己的方式记录熟悉的风景。在管理器相机中试试 Matrix、Cyber Glitch 或 Prism，并看看下面的拍摄示例。",
+        "lede": "管理器相机提供六款滤镜。点击下方任意照片可查看大图。",
         "filters": [
           {
             "name": "Matrix",
@@ -599,14 +629,44 @@
             "width": 1200,
             "height": 2133,
             "preview_width": 480
+          },
+          {
+            "name": "VHS 复古摄像机",
+            "description": "用磁带杂讯、色彩溢出和复古时间戳，还原模拟录像的质感。",
+            "alt": "站台上的红色列车，画面带有 VHS 追踪杂讯和日期时间戳。",
+            "image": "filters/vhs-camcorder.webp",
+            "preview": "filters/vhs-camcorder-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          },
+          {
+            "name": "流光轨迹",
+            "description": "让亮点拖出发光轨迹，同时保留场景的细节。",
+            "alt": "夜间树上的装饰灯向外拉出长长的光轨。",
+            "image": "filters/temporal-lights.webp",
+            "preview": "filters/temporal-lights-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          },
+          {
+            "name": "铁血战士视觉",
+            "description": "用高对比度的科幻热成像色彩重新呈现画面。",
+            "alt": "以蓝、绿和橙色呈现的咖啡馆外观。",
+            "image": "filters/predator-vision.webp",
+            "preview": "filters/predator-vision-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
           }
         ],
         "sections": [
           {
             "id": "styles",
-            "title": "三种滤镜，都在同一个相机里",
+            "title": "在相机中选择拍摄风格",
             "paragraphs": [
-              "2.6.3 新增 Matrix、Cyber Glitch 和 Prism。可以直接在相机里选择风格，不必另开图片编辑应用。",
+              "六款滤镜分别为 Matrix、Cyber Glitch、Prism、VHS 复古摄像机、流光轨迹和铁血战士视觉。",
               "滤镜的显示结果会随场景和光线变化。可以试试不同的拍摄对象，找到适合自己画面的风格。"
             ]
           },
@@ -614,8 +674,10 @@
             "id": "capture",
             "title": "拍照和录像控制",
             "paragraphs": [
-              "切换拍摄模式、使用取景画面、调整变焦和取景比例，并选择是否显示网格。相机设置中还可以控制快门和录像音效。",
-              "拍摄成功或失败时，会显示相应的视觉反馈。"
+              "改进照片处理和拍摄稳定性，新增低电量保护，变焦也更流畅。",
+              "按下眼镜上的独立相机键即可拍照，或开始和停止录像。",
+              "可在相机设置中开启「点击后滑动变焦」，也可调整网格线和画面比例。",
+              "相机设置也可调整快门音和录像提示音。拍摄成功或失败时会有画面提示。"
             ],
             "image": "camera-photo.png",
             "alt": "AI Glasses Manager 的真实拍照控制和取景界面"
@@ -638,16 +700,17 @@
             "在管理器中打开相机，或使用管理器相机快捷方式。",
             "打开滤镜选择面板，选择喜欢的风格。",
             "关闭滤镜选择面板，回到相机取景画面。",
-            "点击管理器的快门按钮拍照。"
+            "使用屏幕上的拍摄控件或眼镜的独立相机键拍照，或开始和停止录像。"
           ]
-        }
+        },
+        "updated": "2026-11-09"
       },
       "ja": {
-        "title": "Matrix・Cyber Glitch・Prism | Rokid Glasses のカメラフィルター",
-        "description": "AI Glasses Manager 2.6.3 のカメラフィルターを作例とともに紹介。Matrix、Cyber Glitch、Prism の使い方や、撮影・ズーム・アルバム機能をご案内します。",
-        "eyebrow": "カメラフィルター・2.6.3 で追加",
+        "title": "Rokid Glasses の写真・動画フィルター | AI Glasses Manager",
+        "description": "VHS カムコーダー、光の軌跡、プレデタービジョンなど、Rokid Glasses で使える6種類のフィルターを作例とともに紹介します。",
+        "eyebrow": "カメラフィルター",
         "h1": "いつもの景色に、自分らしい表情を。",
-        "lede": "Manager のカメラで Matrix、Cyber Glitch、Prism を選んで、見慣れた風景を少し違う一枚に。下の作例で、それぞれの雰囲気をご覧いただけます。",
+        "lede": "Manager のカメラで6種類のフィルターを使えます。作例を選ぶと拡大表示できます。",
         "filters": [
           {
             "name": "Matrix",
@@ -678,6 +741,36 @@
             "width": 1200,
             "height": 2133,
             "preview_width": 480
+          },
+          {
+            "name": "VHS カムコーダー",
+            "description": "トラッキングノイズ、色にじみ、日時表示で、アナログビデオの質感を再現します。",
+            "alt": "駅に停まる赤い列車に、VHS のトラッキングノイズと日時表示が重なった作例。",
+            "image": "filters/vhs-camcorder.webp",
+            "preview": "filters/vhs-camcorder-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          },
+          {
+            "name": "光の軌跡",
+            "description": "明るい光を発光する軌跡に変え、背景の風景も見分けられるように残します。",
+            "alt": "夜の木を飾るイルミネーションから長い光の筋が伸びる作例。",
+            "image": "filters/temporal-lights.webp",
+            "preview": "filters/temporal-lights-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
+          },
+          {
+            "name": "プレデタービジョン",
+            "description": "カメラ映像を、熱画像を思わせるコントラストの強い SF 風の色合いに変えます。",
+            "alt": "カフェの外観を青、緑、オレンジの疑似カラーで描いた作例。",
+            "image": "filters/predator-vision.webp",
+            "preview": "filters/predator-vision-480.webp",
+            "width": 1200,
+            "height": 2133,
+            "preview_width": 480
           }
         ],
         "examples_note": "写真を選ぶと、全体を大きく表示できます。",
@@ -687,15 +780,15 @@
             "Manager からカメラを開くか、Manager Camera のショートカットを使います。",
             "フィルター選択画面を開き、好きなフィルターを選びます。",
             "フィルター選択画面を閉じて、カメラのプレビューに戻ります。",
-            "Manager のシャッターボタンを押して撮影します。"
+            "画面の撮影ボタンまたは眼鏡の専用カメラボタンで、撮影や録画の開始・停止ができます。"
           ]
         },
         "sections": [
           {
             "id": "styles",
-            "title": "ひとつのカメラで、3 つのスタイル",
+            "title": "カメラでスタイルを選ぶ",
             "paragraphs": [
-              "2.6.3 では Matrix、Cyber Glitch、Prism を追加しました。別の編集アプリを開かなくても、カメラでスタイルを選べます。",
+              "Matrix、Cyber Glitch、Prism、VHS カムコーダー、光の軌跡、プレデタービジョンの6種類です。",
               "フィルターの見え方は、撮影するものや光の状態によって変わります。いろいろな被写体で試して、お気に入りの組み合わせを見つけてください。"
             ]
           },
@@ -703,8 +796,10 @@
             "id": "capture",
             "title": "写真も動画も、眼鏡で撮影",
             "paragraphs": [
-              "撮影モードの切り替え、ズームや画角の調整、グリッドの表示切り替えができます。カメラ設定では、シャッター音や録画時の音も調整できます。",
-              "撮影が成功したかどうかは、画面上のフィードバックで確認できます。"
+              "写真処理と撮影の安定性を改善し、バッテリー残量が少ないときの保護機能を追加しました。ズームも滑らかになりました。",
+              "眼鏡の専用カメラボタンで写真を撮影したり、録画を開始・停止したりできます。",
+              "カメラ設定で、タップしてからスワイプするズーム操作、グリッド線、アスペクト比を設定できます。",
+              "カメラ設定ではシャッター音や録画音も設定できます。撮影の成否は画面に表示されます。"
             ],
             "image": "camera-photo.png",
             "alt": "AI Glasses Manager のカメラプレビューと写真撮影の操作画面"
@@ -719,7 +814,8 @@
             "image": "gallery.png",
             "alt": "AI Glasses Manager のアルバムにある写真と動画のカテゴリー"
           }
-        ]
+        ],
+        "updated": "2026-11-09"
       }
     },
     "files": {
@@ -762,12 +858,13 @@
           },
           {
             "id": "updates",
-            "title": "A refreshed transfer interface",
+            "title": "Longer transfer sessions",
             "paragraphs": [
-              "The 2.6.3 update redesigned the Wi-Fi Drop browser interface and improved transfer reliability. The version history keeps these changes separate from features added in earlier releases."
+              "Transfers can continue when the glasses’ display sleeps. The 10-minute timer shows how long you have to start a transfer. Transfers already underway get a short window to finish."
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-09"
       },
       "zh": {
         "title": "Rokid 眼镜文件传输与 APK 安装 | AI Glasses Manager Wi-Fi Drop",
@@ -808,12 +905,13 @@
           },
           {
             "id": "updates",
-            "title": "传输界面也更新了",
+            "title": "文件传输与倒计时",
             "paragraphs": [
-              "2.6.3 重新设计了 Wi-Fi Drop 浏览器界面，并改进了传输可靠性。版本记录会区分这些更新与之前已经加入的功能。"
+              "眼镜熄屏后仍可继续传输文件。10 分钟倒计时显示还能在多久内开始新的传输。倒计时结束时，已开始的传输会有一小段时间继续完成。"
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-09"
       },
       "ja": {
         "title": "Rokid Glasses のファイル転送と APK 導入 | Wi-Fi Drop",
@@ -854,12 +952,13 @@
           },
           {
             "id": "updates",
-            "title": "転送画面も使いやすく",
+            "title": "転送セッションとタイマー",
             "paragraphs": [
-              "2.6.3 では Wi-Fi Drop のブラウザー画面を刷新し、転送の安定性も改善しました。各バージョンで加わった機能は、更新情報のページで確認できます。"
+              "眼鏡の画面が消えても転送は続きます。10分間のタイマーは、新しい転送を開始できる残り時間を表示します。開始済みの転送には、終了までの猶予があります。"
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-09"
       }
     },
     "features": {
@@ -868,7 +967,7 @@
         "description": "The complete feature guide to AI Glasses Manager: App Store, camera filters, Gallery, Wi-Fi Drop, files, volume, device settings, AI controls, IMU and shortcuts.",
         "eyebrow": "The complete feature guide",
         "h1": "What Manager can do.",
-        "lede": "A practical reference for the current public release, 2.6.3. Each section describes a tool you can use on the glasses.",
+        "lede": "A practical reference for the current public release, 2.6.4. Each section describes a tool you can use on the glasses.",
         "sections": [
           {
             "id": "store",
@@ -885,9 +984,11 @@
           },
           {
             "id": "camera",
-            "title": "Camera and three filters",
+            "title": "Camera and filters",
             "paragraphs": [
-              "Capture photos and video from Manager’s Camera. Choose from Matrix, Cyber Glitch and Prism, introduced in 2.6.3."
+              "The six styles are Matrix, Cyber Glitch, Prism, VHS Camcorder, Temporal Lights, and Predator Vision.",
+              "Take a photo or start and stop recording with Manager’s on-screen control or the glasses’ dedicated camera button.",
+              "Camera Settings includes optional Tap and Swipe zoom, gridlines, and aspect ratio."
             ],
             "bullets": [
               "Adjust mode, framing and zoom.",
@@ -962,17 +1063,19 @@
             "title": "Interface, languages and updates",
             "paragraphs": [
               "AR Mode, visible focus states and consistent layouts help make the tools usable on the glasses. Manager can check its own future releases through Manager Settings > App Update.",
-              "The public 2.6.3 interface supports English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German and Spanish."
+              "Choose Manager’s language independently of the glasses’ system language.",
+              "Arabic is new in 2.6.4. Manager supports English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German, Spanish, and Arabic."
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-09"
       },
       "zh": {
         "title": "AI Glasses Manager 全部功能 | Rokid 相机、应用、文件与控制",
         "description": "管理器完整功能说明：应用商店、相机滤镜、图库、Wi-Fi Drop、文件管理、音量、设备设置、AI 控制、IMU 与快捷方式。",
         "eyebrow": "完整功能说明",
         "h1": "管理器能做什么。",
-        "lede": "这里介绍当前公开版本 2.6.3 的实际功能，以及可以在眼镜上使用的工具。",
+        "lede": "这里介绍当前公开版本 2.6.4 的实际功能，以及可以在眼镜上使用的工具。",
         "sections": [
           {
             "id": "store",
@@ -989,9 +1092,11 @@
           },
           {
             "id": "camera",
-            "title": "相机与三种滤镜",
+            "title": "相机与滤镜",
             "paragraphs": [
-              "通过管理器相机拍照或录像。2.6.3 新增 Matrix、Cyber Glitch 和 Prism 三种相机滤镜。"
+              "六款滤镜分别为 Matrix、Cyber Glitch、Prism、VHS 复古摄像机、流光轨迹和铁血战士视觉。",
+              "使用屏幕上的拍摄控件或眼镜的独立相机键拍照，或开始和停止录像。",
+              "可在相机设置中开启「点击后滑动变焦」，也可调整网格线和画面比例。"
             ],
             "bullets": [
               "调整拍摄模式、取景和变焦。",
@@ -1066,17 +1171,19 @@
             "title": "界面、语言与管理器更新",
             "paragraphs": [
               "AR 模式、清晰的焦点状态和一致的布局，让这些工具更适合眼镜操作。未来的管理器更新可以在管理器设置的应用更新中检查。",
-              "公开版本 2.6.3 支持英语、简体中文、繁体中文、粤语（香港）、日语、韩语、俄语、法语、德语和西班牙语界面。"
+              "可单独设置管理器的显示语言，无需更改眼镜的系统语言。",
+              "2.6.4 新增阿拉伯语。现支持英语、简体中文、繁体中文、粤语（香港）、日语、韩语、俄语、法语、德语、西班牙语和阿拉伯语。"
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-09"
       },
       "ja": {
         "title": "AI Glasses Manager の全機能 | カメラ・アプリ・ファイル・各種設定",
         "description": "アプリストア、カメラフィルター、アルバム、Wi-Fi Drop、ファイル管理、音量調整、端末設定、AI 操作、IMU、ショートカットなどの機能をご紹介します。",
         "eyebrow": "機能ガイド",
         "h1": "Manager でできること。",
-        "lede": "現在公開中の 2.6.3 をもとに、眼鏡で使える機能をまとめました。",
+        "lede": "現在公開中の 2.6.4 をもとに、眼鏡で使える機能をまとめました。",
         "sections": [
           {
             "id": "store",
@@ -1093,9 +1200,11 @@
           },
           {
             "id": "camera",
-            "title": "カメラと 3 つのフィルター",
+            "title": "カメラとフィルター",
             "paragraphs": [
-              "Manager のカメラで写真や動画を撮影できます。2.6.3 で追加した Matrix、Cyber Glitch、Prism からスタイルを選べます。"
+              "Matrix、Cyber Glitch、Prism、VHS カムコーダー、光の軌跡、プレデタービジョンの6種類です。",
+              "画面の撮影ボタンまたは眼鏡の専用カメラボタンで、撮影や録画の開始・停止ができます。",
+              "カメラ設定で、タップしてからスワイプするズーム操作、グリッド線、アスペクト比を設定できます。"
             ],
             "bullets": [
               "撮影モード、画角、ズームの調整。",
@@ -1170,10 +1279,12 @@
             "title": "画面表示・言語・アップデート",
             "paragraphs": [
               "AR モードや見やすいフォーカス表示など、眼鏡で使いやすい画面を目指しています。Manager 自体の更新は、Manager 設定の「アプリの更新」から確認できます。",
-              "公開中の 2.6.3 は、英語、簡体字中国語、繁体字中国語、広東語（香港）、日本語、韓国語、ロシア語、フランス語、ドイツ語、スペイン語の表示に対応しています。"
+              "眼鏡のシステム言語とは別に、Manager の表示言語を選べます。",
+              "2.6.4 でアラビア語が加わりました。英語、簡体字中国語、繁体字中国語、広東語（香港）、日本語、韓国語、ロシア語、フランス語、ドイツ語、スペイン語、アラビア語に対応しています。"
             ]
           }
-        ]
+        ],
+        "updated": "2026-11-09"
       }
     },
     "help": {
@@ -1226,7 +1337,7 @@
           ],
           [
             "Which glasses and languages are supported?",
-            "Manager is designed and tested for Rokid Glasses and requires Android 8.0 or later. System controls depend on firmware. The current public interface supports ten languages; see the full feature guide for the list."
+            "Manager is designed and tested for Rokid Glasses and requires Android 8.0 or later. System controls depend on firmware. The interface supports 11 languages. See the full feature guide for the list."
           ],
           [
             "How do I report a problem?",
@@ -1262,7 +1373,7 @@
             ]
           }
         ],
-        "updated": "2026-11-03"
+        "updated": "2026-11-09"
       },
       "zh": {
         "title": "在 Rokid 眼镜上安装和激活 AI Glasses Manager | 帮助与常见问题",
@@ -1313,7 +1424,7 @@
           ],
           [
             "支持哪些眼镜和语言？",
-            "管理器为 Rokid 眼镜设计并测试，需要 Android 8.0 或更高版本。系统控制取决于固件。当前公开界面支持十种语言，完整列表见全部功能页面。"
+            "管理器面向 Rokid 眼镜开发和测试，需要 Android 8.0 或更高版本。部分系统功能取决于固件。界面支持 11 种语言，完整列表见功能指南。"
           ],
           [
             "怎样反馈问题？",
@@ -1349,7 +1460,7 @@
             ]
           }
         ],
-        "updated": "2026-11-03"
+        "updated": "2026-11-09"
       },
       "ja": {
         "title": "AI Glasses Manager のインストールと有効化 | Rokid Glasses 向けガイド",
@@ -1400,7 +1511,7 @@
           ],
           [
             "対応する眼鏡や言語を教えてください。",
-            "Manager は Rokid Glasses 向けに設計・検証しており、Android 8.0 以降が必要です。システム操作はファームウェアによって異なります。公開中のアプリは 10 言語の表示に対応しています。詳しくは機能ガイドをご覧ください。"
+            "Manager は Rokid Glasses 向けに開発・検証されており、Android 8.0 以降が必要です。システム操作はファームウェアによって異なります。対応する11言語は機能ガイドで確認できます。"
           ],
           [
             "不具合はどこに報告すればよいですか？",
@@ -1436,34 +1547,143 @@
             ]
           }
         ],
-        "updated": "2026-11-03"
+        "updated": "2026-11-09"
       }
     },
     "updates": {
       "en": {
         "title": "AI Glasses Manager updates & release notes | What changed in each version",
-        "description": "Follow AI Glasses Manager release notes, from independent volume and download controls to Manager Shortcuts, the Android App Store and the 2.6.3 camera filters.",
+        "description": "Three new camera filters, improved capture and zoom, Arabic support, a refreshed App Store, and Wi-Fi Drop that keeps transferring through display sleep. Browse the version history.",
         "eyebrow": "Updates from Bruce",
         "h1": "What’s new, version by version.",
-        "lede": "Features, everyday improvements and fixes from 2.5.9 onward, with the original GitHub release notes linked alongside each entry."
+        "lede": "Features, everyday improvements and fixes from 2.5.9 onward, with the original GitHub release notes linked alongside each entry.",
+        "updated": "2026-11-09"
       },
       "zh": {
         "title": "AI Glasses Manager 版本更新 | 每个版本的新功能与修复",
-        "description": "按版本查看管理器更新，从独立音量、下载控制到快捷方式、Android 应用商店和 2.6.3 相机滤镜，并查看原始 GitHub 更新记录。",
+        "description": "新增三款相机滤镜，改进拍摄和变焦，新增阿拉伯语，更新应用商店，并支持眼镜熄屏后继续传输文件。 查看各版本更新记录。",
         "eyebrow": "Bruce 的更新记录",
         "h1": "每个版本，都说清楚。",
-        "lede": "这里整理 2.5.9 起各版本的新功能、日常改进和修复内容，并附上对应的原始 GitHub 更新说明。"
+        "lede": "这里整理 2.5.9 起各版本的新功能、日常改进和修复内容，并附上对应的原始 GitHub 更新说明。",
+        "updated": "2026-11-09"
       },
       "ja": {
         "title": "AI Glasses Manager 更新情報 | バージョンごとの新機能と修正",
-        "description": "音量調整やダウンロード管理、ショートカット、アプリストア、2.6.3 のカメラフィルターまで。Manager の新機能と修正内容をバージョンごとに紹介します。",
+        "description": "カメラフィルターを3種類追加し、撮影とズームを改善しました。アラビア語への対応、アプリストアの更新、画面消灯中のファイル転送にも対応しています。 各バージョンの更新履歴をご覧ください。",
         "eyebrow": "Bruce からの更新情報",
         "h1": "アップデートの内容を、ひとつずつ。",
-        "lede": "2.5.9 以降の新機能、使い勝手の改善、不具合修正をまとめています。それぞれのページから、GitHub の元のリリースノートも確認できます。"
+        "lede": "2.5.9 以降の新機能、使い勝手の改善、不具合修正をまとめています。それぞれのページから、GitHub の元のリリースノートも確認できます。",
+        "updated": "2026-11-09"
       }
     }
   },
   "releases": [
+    {
+      "version": "2.6.4",
+      "published": "2026-11-09T14:39:32Z",
+      "en": {
+        "title": "Camera and everyday improvements",
+        "summary": "Three new camera filters, improved capture and zoom, Arabic support, a refreshed App Store, and Wi-Fi Drop that keeps transferring through display sleep.",
+        "items": [
+          [
+            "Camera",
+            [
+              "Added VHS Camcorder, Temporal Lights, and Predator Vision for photos and videos.",
+              "Improved photo processing and capture reliability, added low-battery protection, and made zoom smoother.",
+              "Use the glasses’ dedicated camera button to take a photo or start and stop recording.",
+              "Camera Settings includes optional Tap and Swipe zoom, gridlines, and aspect ratio."
+            ]
+          ],
+          [
+            "Manager Settings",
+            [
+              "Choose Manager’s language independently of the glasses’ system language.",
+              "Arabic is new in 2.6.4. Manager supports English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German, Spanish, and Arabic."
+            ]
+          ],
+          [
+            "App Store",
+            [
+              "Refreshed the catalog with 82 curated Developer Apps and improved keyboard and mouse navigation."
+            ]
+          ],
+          [
+            "Wi-Fi Drop",
+            [
+              "Transfers can continue when the glasses’ display sleeps. The 10-minute timer shows how long you have to start a transfer. Transfers already underway get a short window to finish."
+            ]
+          ]
+        ]
+      },
+      "zh": {
+        "title": "相机及日常体验改进",
+        "summary": "新增三款相机滤镜，改进拍摄和变焦，新增阿拉伯语，更新应用商店，并支持眼镜熄屏后继续传输文件。",
+        "items": [
+          [
+            "相机",
+            [
+              "新增 VHS 复古摄像机、流光轨迹和铁血战士视觉滤镜，拍照和录像均可使用。",
+              "改进照片处理和拍摄稳定性，新增低电量保护，变焦也更流畅。",
+              "按下眼镜上的独立相机键即可拍照，或开始和停止录像。",
+              "可在相机设置中开启「点击后滑动变焦」，也可调整网格线和画面比例。"
+            ]
+          ],
+          [
+            "管理器设置",
+            [
+              "可单独设置管理器的显示语言，无需更改眼镜的系统语言。",
+              "2.6.4 新增阿拉伯语。现支持英语、简体中文、繁体中文、粤语（香港）、日语、韩语、俄语、法语、德语、西班牙语和阿拉伯语。"
+            ]
+          ],
+          [
+            "应用商店",
+            [
+              "更新应用目录，收录 82 款精选开发者应用，并改进键盘和鼠标导航。"
+            ]
+          ],
+          [
+            "Wi-Fi 传输",
+            [
+              "眼镜熄屏后仍可继续传输文件。10 分钟倒计时显示还能在多久内开始新的传输。倒计时结束时，已开始的传输会有一小段时间继续完成。"
+            ]
+          ]
+        ]
+      },
+      "ja": {
+        "title": "カメラと日常機能の改善",
+        "summary": "カメラフィルターを3種類追加し、撮影とズームを改善しました。アラビア語への対応、アプリストアの更新、画面消灯中のファイル転送にも対応しています。",
+        "items": [
+          [
+            "カメラ",
+            [
+              "VHS カムコーダー、光の軌跡、プレデタービジョンを追加しました。写真と動画の両方で使えます。",
+              "写真処理と撮影の安定性を改善し、バッテリー残量が少ないときの保護機能を追加しました。ズームも滑らかになりました。",
+              "眼鏡の専用カメラボタンで写真を撮影したり、録画を開始・停止したりできます。",
+              "カメラ設定で、タップしてからスワイプするズーム操作、グリッド線、アスペクト比を設定できます。"
+            ]
+          ],
+          [
+            "Manager 設定",
+            [
+              "眼鏡のシステム言語とは別に、Manager の表示言語を選べます。",
+              "2.6.4 でアラビア語が加わりました。英語、簡体字中国語、繁体字中国語、広東語（香港）、日本語、韓国語、ロシア語、フランス語、ドイツ語、スペイン語、アラビア語に対応しています。"
+            ]
+          ],
+          [
+            "アプリストア",
+            [
+              "カタログを更新し、厳選した開発者アプリ82本を収録しました。キーボードとマウスでの操作も改善しました。"
+            ]
+          ],
+          [
+            "Wi-Fi Drop",
+            [
+              "眼鏡の画面が消えても転送は続きます。10分間のタイマーは、新しい転送を開始できる残り時間を表示します。開始済みの転送には、終了までの猶予があります。"
+            ]
+          ]
+        ]
+      }
+    },
     {
       "version": "2.6.3",
       "published": "2026-10-20T10:30:44Z",

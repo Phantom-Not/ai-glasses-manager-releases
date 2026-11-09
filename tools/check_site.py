@@ -131,7 +131,12 @@ def check():
             if item.get('@type')=='MobileApplication':
                 assert item['softwareVersion']==DATA['current_version']
                 assert any(price in text for price in ['$1.99','1.99 美元','1.99 米ドル']),'Offer must match visible pricing'
-        assert not re.search(r'\b(VHS|Temporal Lights|Arabic)\b',text,re.I),('Unreleased specific feature',file)
+        if expects_viewer:
+            filters=DATA['pages']['camera-filters'][key]['filters']
+            assert text.count('class="filter-card filter-')==len(filters),('Incomplete filter gallery',file)
+            assert all(PREFIX+'/images/'+row['image'] in page.links for row in filters),('Missing gallery photo link',file)
+        if DATA['current_version']=='2.6.4':
+            assert 'id="next"' not in text,('Outdated release teaser',file)
     assert (DOCS/'robots.txt').read_bytes()==('User-agent: *\nAllow: /\n\nSitemap: '+BASE+'/sitemap.xml\n').encode('utf-8'),'robots.txt must match the requested UTF-8 content'
     sitemap=ET.parse(DOCS/'sitemap.xml').getroot();listed={row.text for row in sitemap.findall('{*}url/{*}loc')}
     assert listed==addresses,('Sitemap mismatch',listed^addresses)
@@ -154,6 +159,13 @@ def check():
             assert set(translations[locale])==set(translations['en']),('Missing localized fields',slug,locale)
             if 'sections' in translations['en']:assert [s['id'] for s in translations['en']['sections']]==[s['id'] for s in translations[locale]['sections']],(slug,locale)
             if 'faq' in translations['en']:assert len(translations[locale]['faq'])==len(translations['en']['faq']),(slug,locale)
+    if DATA['current_version']=='2.6.4':
+        for locale in DATA['locales']:
+            filters=DATA['pages']['camera-filters'][locale]['filters']
+            assert [row['image'] for row in filters]==[
+                'filters/matrix.webp','filters/cyber-glitch.webp','filters/prism.webp',
+                'filters/vhs-camcorder.webp','filters/temporal-lights.webp','filters/predator-vision.webp',
+            ],('Missing 2.6.4 filter examples',locale)
     for locale,settings in DATA['locales'].items():
         assert set(settings['ui'])==set(DATA['locales']['en']['ui']),('Missing localized UI',locale)
     manifest=json.loads((ROOT/'manager-update.json').read_text(encoding='utf-8-sig'));assert manifest['versionName']==DATA['current_version'],'Update the website content when publishing a new public release'

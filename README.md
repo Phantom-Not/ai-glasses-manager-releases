@@ -5,7 +5,7 @@
   <p>
     <a href="https://phantom-not.github.io/ai-glasses-manager-releases/">Explore the product guide</a>
     &nbsp;•&nbsp;
-    <a href="https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest">Download 2.6.3</a>
+    <a href="https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest">Download 2.6.4</a>
     &nbsp;•&nbsp;
     <a href="https://phantom-not.github.io/ai-glasses-manager-releases/zh/">简体中文</a>
     &nbsp;•&nbsp;
@@ -25,14 +25,14 @@ The [complete product guide](https://phantom-not.github.io/ai-glasses-manager-re
   <img src="docs/images/manager-settings.png" alt="AI Glasses Manager settings" width="30%">
 </p>
 
-## What’s new in 2.6.3
+## What’s new in 2.6.4
 
-- **Three camera filters:** Matrix, Cyber Glitch and Prism. Capture photos and video, and choose a filter style in Camera.
-- **APK uploads and installation:** Upload APK files with Wi-Fi Drop, then open them in File Explorer on the glasses to install them. Supported apps can also be installed from the App Store.
-- **Wi-Fi Drop improvements:** A redesigned browser interface and fixes to transfer reliability.
-- **Clearer Camera controls:** Improved interface readability.
+- **Camera.** Added VHS Camcorder, Temporal Lights, and Predator Vision for photos and videos. Improved photo processing, capture reliability and zoom, with low-battery protection, dedicated camera-button support, and optional Tap and Swipe zoom.
+- **Manager Settings.** Choose the app’s language independently of the glasses’ system language. Arabic is new in this release.
+- **App Store.** Refreshed the catalog with 82 curated Developer Apps and improved keyboard and mouse navigation.
+- **Wi-Fi Drop.** Transfers can continue when the display sleeps. The 10-minute timer shows how long you have to start a transfer. Transfers already underway get a short window to finish.
 
-Read the [2.6.3 feature guide](https://phantom-not.github.io/ai-glasses-manager-releases/updates/2.6.3/) or the [original GitHub release notes](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/tag/v2.6.3).
+Read the [2.6.4 feature guide](https://phantom-not.github.io/ai-glasses-manager-releases/updates/2.6.4/) or the [GitHub release notes](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/tag/v2.6.4).
 
 ## A full Android App Store alongside Rokid developer apps
 
@@ -49,7 +49,7 @@ The selection changes with available sources. Android app compatibility depends 
 
 ## Camera filters, photo and video tools
 
-Choose from **Matrix**, **Cyber Glitch** and **Prism** camera filters. Use photo and video modes, adjust zoom and framing, show grid controls, and configure shutter or recording sounds. Visual feedback confirms capture success or failure.
+Choose from **Matrix**, **Cyber Glitch**, **Prism**, **VHS Camcorder**, **Temporal Lights**, and **Predator Vision**. Use the glasses’ dedicated camera button or the on-screen control to capture photos and video. Set zoom mode, gridlines, aspect ratio, and capture sounds in Camera Settings.
 
 Album lets you browse photos and videos, view pictures, play video and delete media directly on the glasses. Read the [camera and filter guide](https://phantom-not.github.io/ai-glasses-manager-releases/camera-filters/).
 
@@ -88,7 +88,7 @@ See the [files and Wi-Fi Drop guide](https://phantom-not.github.io/ai-glasses-ma
 
 ## Languages and compatibility
 
-The current public interface supports **English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German and Spanish**. Interface language and voice-command support are different things.
+The current public interface supports **English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German, Spanish, and Arabic**. Interface language and voice-command support are different things.
 
 Manager is designed and tested for Rokid Glasses and requires Android 8.0 or later. Available system actions can vary with glasses firmware and Android version.
 
@@ -103,14 +103,10 @@ Activation is normally restored after reinstalling on the same device. A factory
 Download from the [official release page](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/latest) or an official mirror listed in [manager-update.json](manager-update.json). Use the Android package installer or a connected computer for the initial installation:
 
 ```text
-adb install -r AI-Glasses-Manager-2.6.3.apk
+adb install -r AI-Glasses-Manager-2.6.4.apk
 ```
 
 Then open Manager from the Rokid launcher. The [installation guide and FAQ](https://phantom-not.github.io/ai-glasses-manager-releases/help/) cover device activation, updates and common questions.
-
-## What’s next
-
-I’m working on easier language switching, more camera features and further stability improvements for **2.6.4**. These changes are still in development. Full details will follow when the update is released.
 
 ## Feedback and support
 

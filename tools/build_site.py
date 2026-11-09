@@ -52,9 +52,6 @@ def theme_menu(lang):
 def feed_help(lang):
     ui=DATA['locales'][lang]['ui']
     return '<section class="feed-help" id="feed"><h2>'+e(ui['feed_heading'])+'</h2><p>'+e(ui['feed_intro'])+'</p><label for="feed-address">'+e(ui['feed_address'])+'</label><input id="feed-address" type="url" readonly spellcheck="false" value="'+url('updates',lang)+'feed.xml"><p class="feed-note">'+e(ui['feed_note'])+'</p></section>'
-def teaser(lang):
-    loc=DATA['locales'][lang]
-    return '<aside class="preview-note" id="next"><span class="eyebrow">'+e(loc['preview_badge'])+'</span><h2>'+e(loc['preview_title'])+'</h2><p>'+e(loc['preview'])+'</p></aside>'
 def release_cards(lang,limit=None):
     rows=DATA['releases'][:limit] if limit else DATA['releases']
     return '<div class="release-list">'+''.join('<article class="release-row"><div><span class="version">'+e(row['version'])+'</span><time datetime="'+row['published']+'">'+row['published'][:10]+'</time></div><div><h2><a href="'+path('updates/'+row['version'],lang)+'">'+e(row[lang]['title'])+'</a></h2><p>'+e(row[lang]['summary'])+'</p><a class="text-link" href="'+path('updates/'+row['version'],lang)+'">'+e(DATA['locales'][lang]['read_update'])+' <span aria-hidden="true">↗</span></a></div></article>' for row in rows)+'</div>'
@@ -70,7 +67,7 @@ def layout(slug,lang,page,body,kind='page',release=None):
     graph=[{'@type':'WebPage','@id':pageurl+'#page','url':pageurl,'name':page['title'],'description':page['description'],'inLanguage':loc['lang'],'isPartOf':{'@id':BASE+'/#website'},'about':{'@id':BASE+'/#app'}}]
     if slug=='home':
         graph += [{'@type':'WebSite','@id':BASE+'/#website','url':BASE+'/','name':'AI Glasses Manager','alternateName':'Rokid Manager','inLanguage':[item['lang'] for item in DATA['locales'].values()]},
-        {'@type':'MobileApplication','@id':BASE+'/#app','name':'AI Glasses Manager','alternateName':'Rokid Manager','url':BASE+'/','icon':BASE+'/assets/manager-icon.png','softwareVersion':VERSION,'operatingSystem':'Android 8.0 or later on Rokid Glasses','applicationCategory':'UtilitiesApplication','author':{'@type':'Person','name':'Bruce','url':'https://github.com/Phantom-Not'},'downloadUrl':REPO+'/releases/latest','releaseNotes':BASE+'/updates/'+VERSION+'/','screenshot':[BASE+'/images/home.png',BASE+'/images/app-store.png',BASE+'/images/camera-photo.png'],'featureList':['Android App Store','Matrix, Cyber Glitch and Prism camera filters','Gallery','File Explorer','Wi-Fi Drop','Device and volume controls','Live IMU','Manager Shortcuts'],'offers':{'@type':'Offer','price':'1.99','priceCurrency':'USD','description':'One-time activation for one device after a three-day free trial','url':BASE+'/help/'}}]
+        {'@type':'MobileApplication','@id':BASE+'/#app','name':'AI Glasses Manager','alternateName':'Rokid Manager','url':BASE+'/','icon':BASE+'/assets/manager-icon.png','softwareVersion':VERSION,'operatingSystem':'Android 8.0 or later on Rokid Glasses','applicationCategory':'UtilitiesApplication','author':{'@type':'Person','name':'Bruce','url':'https://github.com/Phantom-Not'},'downloadUrl':REPO+'/releases/latest','releaseNotes':BASE+'/updates/'+VERSION+'/','screenshot':[BASE+'/images/home.png',BASE+'/images/app-store.png',BASE+'/images/camera-photo.png'],'featureList':['Android App Store','Camera filters for photos and videos','Gallery','File Explorer','Wi-Fi Drop','Device and volume controls','Live IMU','Manager Shortcuts'],'offers':{'@type':'Offer','price':'1.99','priceCurrency':'USD','description':'One-time activation for one device after a three-day free trial','url':BASE+'/help/'}}]
     else:
         graph.append({'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'AI Glasses Manager','item':url('home',lang)},{'@type':'ListItem','position':2,'name':page['h1'],'item':pageurl}]})
     if release:
@@ -89,11 +86,11 @@ def home(lang,page):
     camera='<section class="home-camera"><div class="section-top"><span class="eyebrow">'+e(loc['nav']['camera-filters'])+'</span><h2>'+e(page['camera_head'])+'</h2><p>'+e(page['camera_body'])+'</p><a class="text-link" href="'+path('camera-filters#how-to',lang)+'">'+e(page['camera_link'])+' ↗</a></div>'+filter_cards(DATA['pages']['camera-filters'][lang])+'</section>'
     daily='<section class="home-feature daily"><div><span class="eyebrow">'+e(loc['nav']['features'])+'</span><h2>'+e(page['daily_head'])+'</h2><p>'+e(page['daily_body'])+'</p><a class="text-link" href="'+path('features',lang)+'">'+e(page['secondary'])+' ↗</a></div><div class="tool-links">'+''.join('<a href="'+path(target,lang)+'"><span>'+e(label)+'</span><span aria-hidden="true">↗</span></a>' for target,label in [('files',loc['nav']['files']),('features#sound',ui['sound_tools']),('features#shortcuts',ui['shortcuts']),('help',loc['nav']['help'])])+'</div></section>'
     updates='<section class="home-updates"><span class="eyebrow">'+e(loc['nav']['updates'])+'</span><h2>'+e(page['updates_head'])+'</h2><p>'+e(page['updates_body'])+'</p>'+release_cards(lang,2)+'<a class="text-link" href="'+path('updates',lang)+'">'+e(loc['all_updates'])+' ↗</a></section>'
-    return hero+metrics+introduction+store+camera+daily+updates+teaser(lang)
+    return hero+metrics+introduction+store+camera+daily+updates
 def standard(lang,page,slug):
     loc=DATA['locales'][lang]
     head='<header class="page-heading"><span class="eyebrow">'+e(page['eyebrow'])+'</span><h1>'+e(page['h1'])+'</h1><p>'+e(page['lede'])+'</p></header>'
-    if slug=='updates': return head+release_cards(lang)+feed_help(lang)+teaser(lang)
+    if slug=='updates': return head+release_cards(lang)+feed_help(lang)
     sections=page.get('sections',[])
     toc='<nav class="page-toc" aria-label="'+e(loc['on_this_page'])+'">'+''.join('<a href="#'+e(row['id'])+'">'+e(row['title'])+'</a>' for row in sections)+'</nav>' if len(sections)>3 or slug=='help' else ''
     body=head+toc
