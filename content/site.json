@@ -342,7 +342,7 @@
             "paragraphs": [
               "The curated developer collection highlights community projects made for Rokid Glasses. It is one part of the App Store, alongside the wider Android catalogue.",
               "A community listing does not mean Manager owns or develops that app. Each project remains the work of its own publisher.",
-              "Refreshed the catalog with 82 curated Developer Apps and improved keyboard and mouse navigation."
+              "Updated the catalog and improved keyboard and mouse navigation."
             ]
           },
           {
@@ -397,7 +397,7 @@
             "paragraphs": [
               "精选开发者分类收录为 Rokid 眼镜制作的社区项目。它与更广泛的 Android 目录一起，组成管理器的应用商店。",
               "被收录不代表这些应用由管理器开发或拥有。每个项目都属于各自的发布者。",
-              "更新应用目录，收录 82 款精选开发者应用，并改进键盘和鼠标导航。"
+              "更新应用目录，并改进键盘和鼠标导航。"
             ]
           },
           {
@@ -452,7 +452,7 @@
             "paragraphs": [
               "開発者アプリのコレクションでは、Rokid Glasses 向けに作られたコミュニティのアプリを紹介しています。幅広い Android アプリを扱うストアの、一部を構成するコレクションです。",
               "ストアに掲載されているアプリを、すべて Manager が開発しているわけではありません。各アプリの権利や開発は、それぞれの提供者に帰属します。",
-              "カタログを更新し、厳選した開発者アプリ82本を収録しました。キーボードとマウスでの操作も改善しました。"
+              "カタログを更新し、キーボードとマウスでの操作を改善しました。"
             ]
           },
           {
@@ -1605,12 +1605,16 @@
             [
               "Choose Manager’s language independently of the glasses’ system language.",
               "Arabic is new in 2.6.4. Manager supports English, Simplified Chinese, Traditional Chinese, Cantonese (Hong Kong), Japanese, Korean, Russian, French, German, Spanish, and Arabic."
-            ]
+            ],
+            {
+              "image": "manager-language-picker.png",
+              "alt": "Manager 2.6.4 language picker on Rokid Glasses, with Korean selected."
+            }
           ],
           [
             "App Store",
             [
-              "Refreshed the catalog with 82 curated Developer Apps and improved keyboard and mouse navigation."
+              "Updated the catalog and improved keyboard and mouse navigation."
             ]
           ],
           [
@@ -1639,12 +1643,16 @@
             [
               "可单独设置管理器的显示语言，无需更改眼镜的系统语言。",
               "2.6.4 新增阿拉伯语。现支持英语、简体中文、繁体中文、粤语（香港）、日语、韩语、俄语、法语、德语、西班牙语和阿拉伯语。"
-            ]
+            ],
+            {
+              "image": "manager-language-picker.png",
+              "alt": "Rokid 眼镜上的管理器 2.6.4 语言选择界面，当前显示韩语选项。"
+            }
           ],
           [
             "应用商店",
             [
-              "更新应用目录，收录 82 款精选开发者应用，并改进键盘和鼠标导航。"
+              "更新应用目录，并改进键盘和鼠标导航。"
             ]
           ],
           [
@@ -1673,12 +1681,16 @@
             [
               "眼鏡のシステム言語とは別に、Manager の表示言語を選べます。",
               "2.6.4 でアラビア語が加わりました。英語、簡体字中国語、繁体字中国語、広東語（香港）、日本語、韓国語、ロシア語、フランス語、ドイツ語、スペイン語、アラビア語に対応しています。"
-            ]
+            ],
+            {
+              "image": "manager-language-picker.png",
+              "alt": "Rokid Glasses 上の Manager 2.6.4 の言語選択画面。韓国語が選択されています。"
+            }
           ],
           [
             "アプリストア",
             [
-              "カタログを更新し、厳選した開発者アプリ82本を収録しました。キーボードとマウスでの操作も改善しました。"
+              "カタログを更新し、キーボードとマウスでの操作を改善しました。"
             ]
           ],
           [

@@ -29,7 +29,7 @@ The [complete product guide](https://phantom-not.github.io/ai-glasses-manager-re
 
 - **Camera.** Added VHS Camcorder, Temporal Lights, and Predator Vision for photos and videos. Improved photo processing, capture reliability and zoom, with low-battery protection, dedicated camera-button support, and optional Tap and Swipe zoom.
 - **Manager Settings.** Choose the app’s language independently of the glasses’ system language. Arabic is new in this release.
-- **App Store.** Refreshed the catalog with 82 curated Developer Apps and improved keyboard and mouse navigation.
+- **App Store.** Updated the catalog and improved keyboard and mouse navigation.
 - **Wi-Fi Drop.** Transfers can continue when the display sleeps. The 10-minute timer shows how long you have to start a transfer. Transfers already underway get a short window to finish.
 
 Read the [2.6.4 feature guide](https://phantom-not.github.io/ai-glasses-manager-releases/updates/2.6.4/) or the [GitHub release notes](https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/tag/v2.6.4).

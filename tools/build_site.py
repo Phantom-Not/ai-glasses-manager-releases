@@ -119,7 +119,13 @@ def build():
             version=release['version'];localized=release[lang];slug='updates/'+version
             page={'title':'AI Glasses Manager '+version+' | '+localized['title'],'description':localized['summary'],'h1':'AI Glasses Manager '+version}
             headings='<header class="page-heading release-heading"><a class="text-link" href="'+path('updates',lang)+'">'+e(DATA['locales'][lang]['all_updates'])+'</a><p class="eyebrow"><time datetime="'+release['published']+'">'+release['published'][:10]+'</time></p><h1>'+e(page['h1'])+'</h1><h2>'+e(localized['title'])+'</h2><p>'+e(localized['summary'])+'</p></header>'
-            body=headings+''.join(section_html({'id':'change-'+str(i),'title':title,'paragraphs':[],'bullets':items},i+1) for i,(title,items) in enumerate(localized['items']))
+            body=headings
+            for i,item in enumerate(localized['items']):
+                title,items=item[:2]
+                section={'id':'change-'+str(i),'title':title,'paragraphs':[],'bullets':items}
+                if len(item)==3:
+                    section.update(item[2])
+                body+=section_html(section,i+1)
             body+='<div class="release-source"><p>'+e(DATA['locales'][lang]['ui']['release_source'])+'</p><a class="button secondary" href="'+REPO+'/releases/tag/v'+version+'">'+e(DATA['locales'][lang]['ui']['original_release'])+' ↗</a></div>'
             relative='/'.join(filter(None,[(lang if lang!='en' else ''),'updates',version,'index.html']))
             write(relative,layout(slug,lang,page,body,'reference-page',release));urls.append(url(slug,lang))
