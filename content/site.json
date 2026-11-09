@@ -520,7 +520,7 @@
           },
           {
             "name": "VHS Camcorder",
-            "description": "Give photos and videos the look of an analog tape, with tracking noise, color bleed and a camcorder timestamp.",
+            "description": "A little ’90s nostalgia for everyday moments.",
             "alt": "A red train at a station with VHS tracking noise and a date stamp.",
             "image": "filters/vhs-camcorder.webp",
             "preview": "filters/vhs-camcorder-480.webp",
@@ -530,7 +530,7 @@
           },
           {
             "name": "Temporal Lights",
-            "description": "Turn bright points into glowing light trails while keeping the scene recognizable.",
+            "description": "A dreamier way to capture the night.",
             "alt": "Decorative tree lights radiate in long streaks at night.",
             "image": "filters/temporal-lights.webp",
             "preview": "filters/temporal-lights-480.webp",
@@ -540,7 +540,7 @@
           },
           {
             "name": "Predator Vision",
-            "description": "Recast the camera image in a high-contrast, sci-fi thermal palette.",
+            "description": "A bold sci-fi look for familiar places.",
             "alt": "A café facade in blue, green and orange false color.",
             "image": "filters/predator-vision.webp",
             "preview": "filters/predator-vision-480.webp",
@@ -632,7 +632,7 @@
           },
           {
             "name": "VHS 复古摄像机",
-            "description": "用磁带杂讯、色彩溢出和复古时间戳，还原模拟录像的质感。",
+            "description": "给日常片段添一点九十年代的怀旧感。",
             "alt": "站台上的红色列车，画面带有 VHS 追踪杂讯和日期时间戳。",
             "image": "filters/vhs-camcorder.webp",
             "preview": "filters/vhs-camcorder-480.webp",
@@ -642,7 +642,7 @@
           },
           {
             "name": "流光轨迹",
-            "description": "让亮点拖出发光轨迹，同时保留场景的细节。",
+            "description": "把夜色拍得更梦幻一点。",
             "alt": "夜间树上的装饰灯向外拉出长长的光轨。",
             "image": "filters/temporal-lights.webp",
             "preview": "filters/temporal-lights-480.webp",
@@ -652,7 +652,7 @@
           },
           {
             "name": "铁血战士视觉",
-            "description": "用高对比度的科幻热成像色彩重新呈现画面。",
+            "description": "给熟悉的地方换上一副科幻模样。",
             "alt": "以蓝、绿和橙色呈现的咖啡馆外观。",
             "image": "filters/predator-vision.webp",
             "preview": "filters/predator-vision-480.webp",
@@ -744,7 +744,7 @@
           },
           {
             "name": "VHS カムコーダー",
-            "description": "トラッキングノイズ、色にじみ、日時表示で、アナログビデオの質感を再現します。",
+            "description": "何気ない日常を、少し懐かしい90年代の雰囲気で。",
             "alt": "駅に停まる赤い列車に、VHS のトラッキングノイズと日時表示が重なった作例。",
             "image": "filters/vhs-camcorder.webp",
             "preview": "filters/vhs-camcorder-480.webp",
@@ -754,7 +754,7 @@
           },
           {
             "name": "光の軌跡",
-            "description": "明るい光を発光する軌跡に変え、背景の風景も見分けられるように残します。",
+            "description": "夜の景色を、ちょっと幻想的に。",
             "alt": "夜の木を飾るイルミネーションから長い光の筋が伸びる作例。",
             "image": "filters/temporal-lights.webp",
             "preview": "filters/temporal-lights-480.webp",
@@ -764,7 +764,7 @@
           },
           {
             "name": "プレデタービジョン",
-            "description": "カメラ映像を、熱画像を思わせるコントラストの強い SF 風の色合いに変えます。",
+            "description": "見慣れた場所が、SF映画のワンシーンに。",
             "alt": "カフェの外観を青、緑、オレンジの疑似カラーで描いた作例。",
             "image": "filters/predator-vision.webp",
             "preview": "filters/predator-vision-480.webp",
