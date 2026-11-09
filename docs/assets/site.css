@@ -43,4 +43,7 @@ html.photo-viewer-open{overflow:hidden;scrollbar-gutter:stable}.photo-viewer{--v
 .section-copy ol{padding-left:1.5em;line-height:1.8;margin:0 0 1.4em}.section-copy ol li{padding-left:.35em;margin-bottom:1em}
 
 .filter-3 .filter-dot{background:#b99167}.filter-4 .filter-dot{background:#6ab7c3}.filter-5 .filter-dot{background:#df8c52}
-.filter-3 .filter-photo a,.filter-4 .filter-photo a,.filter-5 .filter-photo a{border-radius:22px}
+/* Keep the VHS on-screen text clear in the top-left and bottom-right. */
+.filter-3 .filter-photo a{border-radius:16px 65px 16px 65px;transform:rotate(2deg)}
+.filter-4 .filter-photo a{border-radius:100px 100px 24px 24px;transform:rotate(-3deg)}
+.filter-5 .filter-photo a{border-radius:75px 25px 75px 25px;transform:rotate(-2deg)}
