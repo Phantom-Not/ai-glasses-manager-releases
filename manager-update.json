@@ -1,15 +1,21 @@
 {
   "packageName": "com.bruce.rokidmanager",
-  "versionCode": 20,
-  "versionName": "2.6.4",
-  "apkUrl": "https://annian.online/ota/AI-Glasses-Manager-2.6.4.apk",
-  "mirrors": [
-    "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.4/AI-Glasses-Manager-2.6.4.apk",
-    "https://mirror.ghproxy.com/https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.4/AI-Glasses-Manager-2.6.4.apk"
-  ],
-  "sha256": "EE82988F99BDC0CCFB156FF5B8366F78CEAD71B7A89A6A507EC90F499E29B7DC",
+  "versionCode": 21,
+  "versionName": "2.6.5",
+  "apkUrl": "https://github.com/Phantom-Not/ai-glasses-manager-releases/releases/download/v2.6.5/AI-Glasses-Manager-2.6.5.apk",
+  "mirrors": [],
+  "sha256": "2bfc21d1e14797dbcbc4083acf29410ca4cc490b75349f887e4280ae10bb0db9",
   "releaseNotes": {
-    "en": "Added VHS Camcorder, Temporal Lights, and Predator Vision for photos and videos. Improved capture reliability and zoom, with dedicated camera-button support and optional swipe zoom. Added Arabic and an in-app language picker, refreshed the App Store, and kept Wi-Fi Drop transfers running through display sleep.",
-    "zh": "新增 VHS 复古摄像机、流光轨迹和铁血战士视觉滤镜，拍照和录像均可使用。提升拍摄稳定性和变焦流畅度，支持眼镜独立相机键和可选的滑动变焦。新增阿拉伯语和应用内语言选择，更新应用商店目录，并支持眼镜熄屏后继续传输文件。"
+    "en": "Bug fixes and quality-of-life improvements.",
+    "zh": "修复问题，优化日常使用体验。",
+    "zh-Hant": "修正問題，改善日常使用體驗。",
+    "yue": "修正問題，改善日常使用體驗。",
+    "ko": "버그 수정 및 사용성 개선.",
+    "ru": "Исправления ошибок и улучшения удобства использования.",
+    "ja": "不具合の修正と使い勝手の改善。",
+    "fr": "Corrections de bugs et améliorations du confort d’utilisation.",
+    "de": "Fehlerbehebungen und Verbesserungen der Bedienung.",
+    "es": "Correcciones de errores y mejoras de uso.",
+    "ar": "إصلاح الأخطاء وتحسين تجربة الاستخدام."
   }
 }

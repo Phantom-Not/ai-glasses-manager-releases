@@ -1,8 +1,8 @@
 {
   "base_url": "https://phantom-not.github.io/ai-glasses-manager-releases",
   "repository": "https://github.com/Phantom-Not/ai-glasses-manager-releases",
-  "current_version": "2.6.4",
-  "updated": "2026-10-25",
+  "current_version": "2.6.5",
+  "updated": "2026-11-23",
   "author": "Bruce",
   "locales": {
     "en": {
@@ -17,7 +17,7 @@
         "updates": "Updates",
         "help": "Install & help"
       },
-      "download": "Download 2.6.4",
+      "download": "Download 2.6.5",
       "release_label": "Current release",
       "skip": "Skip to content",
       "on_this_page": "On this page",
@@ -81,7 +81,7 @@
         "updates": "版本更新",
         "help": "安装与帮助"
       },
-      "download": "下载 2.6.4",
+      "download": "下载 2.6.5",
       "release_label": "当前版本",
       "skip": "跳转到正文",
       "on_this_page": "本页内容",
@@ -147,7 +147,7 @@
         "updates": "更新情報",
         "help": "導入とサポート"
       },
-      "download": "2.6.4 をダウンロード",
+      "download": "2.6.5 をダウンロード",
       "release_label": "公開中のバージョン",
       "skip": "本文へ移動",
       "on_this_page": "このページの内容",
@@ -215,7 +215,7 @@
         "daily_head": "The everyday things matter, too.",
         "daily_body": "Move files over Wi-Fi, open local folders, adjust sound, reach device settings and add shortcuts to your most-used Manager tools.",
         "updates_head": "What changed in each update?",
-        "updates_body": "Browse the features and fixes from 2.5.9 onward, starting with 2.6.4.",
+        "updates_body": "Browse the features and fixes from 2.5.9 onward, starting with 2.6.5.",
         "metrics": [
           [
             "6",
@@ -235,7 +235,7 @@
         "h1_lines": [
           "More from your Rokid Glasses."
         ],
-        "updated": "2026-11-09"
+        "updated": "2026-11-23"
       },
       "zh": {
         "title": "AI Glasses Manager 管理器 | Rokid 眼镜应用商店、相机滤镜与工具",
@@ -252,7 +252,7 @@
         "daily_head": "日常操作，也值得更顺手。",
         "daily_body": "通过 Wi-Fi 传文件、打开本地文件夹、调整音量、进入设备设置，还可以为常用工具添加管理器快捷方式。",
         "updates_head": "每次更新，具体变了什么？",
-        "updates_body": "查看 2.5.9 以来的新功能与修复，从 2.6.4 开始。",
+        "updates_body": "查看 2.5.9 以来的新功能与修复，从 2.6.5 开始。",
         "metrics": [
           [
             "6",
@@ -272,7 +272,7 @@
         "h1_lines": [
           "让 Rokid 眼镜做更多事。"
         ],
-        "updated": "2026-11-09"
+        "updated": "2026-11-23"
       },
       "ja": {
         "title": "AI Glasses Manager | Rokid Glasses のアプリストア・カメラ・便利機能",
@@ -290,7 +290,7 @@
         "daily_head": "日々の使いやすさも、大切に。",
         "daily_body": "Wi-Fi でのファイル転送、フォルダーの閲覧、音量調整、端末設定へのアクセス。よく使う機能は、ランチャーにショートカットを追加できます。",
         "updates_head": "アップデートで、何が変わった？",
-        "updates_body": "2.6.4 をはじめ、2.5.9 以降の新機能や修正内容を確認できます。",
+        "updates_body": "2.6.5 をはじめ、2.5.9 以降の新機能や修正内容を確認できます。",
         "metrics": [
           [
             "6",
@@ -310,7 +310,7 @@
           "Rokid Glasses で、",
           "できることをもっと。"
         ],
-        "updated": "2026-11-09"
+        "updated": "2026-11-23"
       }
     },
     "app-store": {
@@ -1559,31 +1559,50 @@
     "updates": {
       "en": {
         "title": "AI Glasses Manager updates & release notes | What changed in each version",
-        "description": "Three new camera filters, improved capture and zoom, Arabic support, a refreshed App Store, and Wi-Fi Drop that keeps transferring through display sleep. Browse the version history.",
+        "description": "AI Glasses Manager release notes and version history, including version 2.6.5.",
         "eyebrow": "Updates from Bruce",
         "h1": "What’s new, version by version.",
         "lede": "Features, everyday improvements and fixes from 2.5.9 onward, with the original GitHub release notes linked alongside each entry.",
-        "updated": "2026-11-09"
+        "updated": "2026-11-23"
       },
       "zh": {
         "title": "AI Glasses Manager 版本更新 | 每个版本的新功能与修复",
-        "description": "新增三款相机滤镜，改进拍摄和变焦，新增阿拉伯语，更新应用商店，并支持眼镜熄屏后继续传输文件。 查看各版本更新记录。",
+        "description": "AI Glasses Manager 的更新记录与版本历史，包含 2.6.5 版本。",
         "eyebrow": "Bruce 的更新记录",
         "h1": "每个版本，都说清楚。",
         "lede": "这里整理 2.5.9 起各版本的新功能、日常改进和修复内容，并附上对应的原始 GitHub 更新说明。",
-        "updated": "2026-11-09"
+        "updated": "2026-11-23"
       },
       "ja": {
         "title": "AI Glasses Manager 更新情報 | バージョンごとの新機能と修正",
-        "description": "カメラフィルターを3種類追加し、撮影とズームを改善しました。アラビア語への対応、アプリストアの更新、画面消灯中のファイル転送にも対応しています。 各バージョンの更新履歴をご覧ください。",
+        "description": "AI Glasses Manager の更新履歴とリリースノート。バージョン 2.6.5 を掲載しています。",
         "eyebrow": "Bruce からの更新情報",
         "h1": "アップデートの内容を、ひとつずつ。",
         "lede": "2.5.9 以降の新機能、使い勝手の改善、不具合修正をまとめています。それぞれのページから、GitHub の元のリリースノートも確認できます。",
-        "updated": "2026-11-09"
+        "updated": "2026-11-23"
       }
     }
   },
   "releases": [
+    {
+      "version": "2.6.5",
+      "published": "2026-11-23T02:14:25Z",
+      "en": {
+        "title": "Bug fixes and QoL",
+        "summary": "Bug fixes and quality-of-life improvements.",
+        "items": []
+      },
+      "zh": {
+        "title": "问题修复与体验优化",
+        "summary": "修复问题，优化日常使用体验。",
+        "items": []
+      },
+      "ja": {
+        "title": "不具合修正と使い勝手の改善",
+        "summary": "不具合の修正と使い勝手の改善。",
+        "items": []
+      }
+    },
     {
       "version": "2.6.4",
       "published": "2026-11-09T14:39:32Z",
